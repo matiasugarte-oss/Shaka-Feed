@@ -1,5 +1,5 @@
 {
-  "generado": "2026-11-18T21:10:05.120779+00:00",
+  "generado": "2026-11-18T22:07:16.335078+00:00",
   "total": 532,
   "productos": [
     {
@@ -2859,13 +2859,13 @@
       ]
     },
     {
-      "product_id": "378329886",
+      "product_id": "336492347",
       "url": "https://sh-aka.com.ar/productos/black-cap-1e8h0/",
-      "nombre": "<3 CAP - (rosa)",
+      "nombre": "TERRY BEANIE (rosa)",
       "marca": "Shaka Cmmnty",
-      "descripcion": "Comprá online",
+      "descripcion": "Beanie TERRY BEANIE rosa, tejido terry chenille, ancho 20cm, largo 19cm. Hecho en Argentina. ¡Sumalo a tu look hoy!",
       "imagenes": [
-        "https://acdn-us.mitiendanube.com/stores/001/708/518/products/artboard-7-6b32939bd379b6e54617935765861219-480-0.webp"
+        "https://acdn-us.mitiendanube.com/stores/001/708/518/products/artboard-14-24229cb4fd14f0c3ff17762824699364-480-0.webp"
       ],
       "variantes": [
         {
@@ -2874,7 +2874,7 @@
           "opciones": "TALLE UNICO / 1000",
           "precio": 65000,
           "precio_tachado": null,
-          "stock": 4,
+          "stock": 3,
           "disponible": true,
           "imagen": "//acdn-us.mitiendanube.com/stores/001/708/518/products/artboard-1-0784ee9d98a7b2dcb917915032531931-1024-1024.webp"
         }
@@ -23125,13 +23125,13 @@
       ]
     },
     {
-      "product_id": "246192751",
+      "product_id": "246190973",
       "url": "https://sh-aka.com.ar/productos/the-vntg-boardshort-rojo-j5zk3/",
-      "nombre": "THE OCEAN SHORT (verde oscuro)",
+      "nombre": "THE OCEAN SHORT (negro)",
       "marca": null,
-      "descripcion": "Comprá online THE OCEAN SHORT (verde oscuro) por $75.000. Hacé tu pedido y pagalo online.",
+      "descripcion": "Comprá online THE OCEAN SHORT (negro) por $75.000. Hacé tu pedido y pagalo online.",
       "imagenes": [
-        "https://acdn-us.mitiendanube.com/stores/001/708/518/products/nhgbfv-36a6a95331ede26aca17337847597909-480-0.webp"
+        "https://acdn-us.mitiendanube.com/stores/001/708/518/products/uygfgbnm-b07b3cdf995a1c766e17337848514250-480-0.webp"
       ],
       "variantes": [
         {
@@ -23150,7 +23150,7 @@
           "opciones": "M / 3000 PUNTOS",
           "precio": 95000,
           "precio_tachado": null,
-          "stock": 21,
+          "stock": 20,
           "disponible": true,
           "imagen": "//acdn-us.mitiendanube.com/stores/001/708/518/products/artboard-62-edddefe2129a6b765917915024145318-1024-1024.webp"
         },
