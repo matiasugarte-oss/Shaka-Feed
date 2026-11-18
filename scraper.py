@@ -17,6 +17,7 @@ import json
 import re
 import sys
 import time
+from concurrent.futures import ThreadPoolExecutor
 from datetime import datetime, timezone
 from urllib.parse import urljoin, urlparse
 
@@ -24,8 +25,10 @@ import requests
 from bs4 import BeautifulSoup
 
 BASE = "https://sh-aka.com.ar"
-DELAY = 0.8          # segundos entre requests (ser amable con el servidor)
-TIMEOUT = 20
+DELAY = 0.5          # pausa de cada worker entre requests (ser amable con el servidor)
+WORKERS = 4          # requests en paralelo
+TIMEOUT = 15
+TIEMPO_MAX = 10 * 60  # corta a los 10 min y guarda lo que tenga, para no pasarse del límite de GitHub
 MAX_LIST_PAGES = 50  # tope de seguridad para el fallback de listado
 
 session = requests.Session()
@@ -35,23 +38,34 @@ session.headers.update({
 })
 
 
-def get(url, retries=3):
+ESTADOS = {}
+
+
+def get(url, retries=2):
     for intento in range(retries):
         try:
             r = session.get(url, timeout=TIMEOUT)
+            ESTADOS[r.status_code] = ESTADOS.get(r.status_code, 0) + 1
             if r.status_code == 200:
                 return r
-            if r.status_code == 404:
+            if r.status_code in (403, 404, 429):
+                if r.status_code != 404:
+                    print(f"  HTTP {r.status_code} en {url}", flush=True)
                 return None
         except requests.RequestException as e:
-            print(f"  error {e} en {url}", file=sys.stderr)
+            ESTADOS["error"] = ESTADOS.get("error", 0) + 1
+            print(f"  error {type(e).__name__} en {url}", flush=True)
         time.sleep(2 * (intento + 1))
     return None
 
 
 def es_producto(url):
-    path = urlparse(url).path
-    return "/productos/" in path and path.rstrip("/") != "/productos"
+    """Solo productos de la tienda principal (Argentina), sin las versiones /cl/, /cr/, etc."""
+    u = urlparse(url)
+    if u.netloc and u.netloc.replace("www.", "") != urlparse(BASE).netloc:
+        return False
+    partes = [x for x in u.path.split("/") if x]
+    return len(partes) == 2 and partes[0] == "productos"
 
 
 # ---------- 1. Descubrir URLs de productos ----------
@@ -366,19 +380,28 @@ def generar_google_xml(productos, ruta):
 
 def main():
     inicio = time.time()
+    r = get(BASE)
+    print(f"Home: {'OK' if r else 'FALLÓ'} | estados HTTP: {ESTADOS}", flush=True)
     urls = urls_desde_sitemap()
-    print(f"Sitemap: {len(urls)} productos")
+    print(f"Sitemap: {len(urls)} productos", flush=True)
     if not urls:
         urls = urls_desde_listado()
-        print(f"Listado (fallback): {len(urls)} productos")
+        print(f"Listado (fallback): {len(urls)} productos", flush=True)
+
+    def tarea(url):
+        if time.time() - inicio > TIEMPO_MAX:
+            return None
+        p = parsear_producto(url)
+        time.sleep(DELAY)
+        return p
 
     productos = []
-    for i, url in enumerate(sorted(urls), 1):
-        p = parsear_producto(url)
-        if p:
-            productos.append(p)
-        print(f"[{i}/{len(urls)}] {url}")
-        time.sleep(DELAY)
+    with ThreadPoolExecutor(max_workers=WORKERS) as pool:
+        for i, p in enumerate(pool.map(tarea, sorted(urls)), 1):
+            if p:
+                productos.append(p)
+            if i % 25 == 0:
+                print(f"  {i}/{len(urls)} procesados ({time.time() - inicio:.0f}s)")
 
     generado = datetime.now(timezone.utc).isoformat()
     with open("feed.json", "w", encoding="utf-8") as f:
@@ -401,7 +424,10 @@ def main():
 
     generar_google_xml(productos, "feed.xml")
 
-    print(f"Listo: {len(productos)} productos en {time.time() - inicio:.0f}s")
+    if time.time() - inicio > TIEMPO_MAX:
+        print("AVISO: se alcanzó el tiempo máximo, el feed quedó parcial", flush=True)
+    print(f"Estados HTTP: {ESTADOS}", flush=True)
+    print(f"Listo: {len(productos)} productos en {time.time() - inicio:.0f}s", flush=True)
 
 
 if __name__ == "__main__":
