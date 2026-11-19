@@ -1,5 +1,5 @@
 {
-  "generado": "2026-11-19T17:27:00.578307+00:00",
+  "generado": "2026-11-19T18:33:56.780335+00:00",
   "total": 532,
   "productos": [
     {
@@ -5470,7 +5470,7 @@
           "opciones": "L",
           "precio": 150000,
           "precio_tachado": null,
-          "stock": 14,
+          "stock": 13,
           "disponible": true,
           "imagen": "//acdn-us.mitiendanube.com/stores/001/708/518/products/artboard-4-39a319ff4d0e35d19917760436932630-1024-1024.webp"
         },
@@ -17459,9 +17459,9 @@
         {
           "variant_id": 1073285381,
           "sku": null,
-          "talle": null,
+          "talle": "S",
           "color": null,
-          "opciones": "",
+          "opciones": "S",
           "precio": 15000,
           "precio_tachado": 30000,
           "stock": 0,
@@ -17471,9 +17471,9 @@
         {
           "variant_id": 1073285382,
           "sku": "371",
-          "talle": null,
+          "talle": "M",
           "color": null,
-          "opciones": "",
+          "opciones": "M",
           "precio": 15000,
           "precio_tachado": 30000,
           "stock": 4,
@@ -17483,9 +17483,9 @@
         {
           "variant_id": 1073285384,
           "sku": "372",
-          "talle": null,
+          "talle": "L",
           "color": null,
-          "opciones": "",
+          "opciones": "L",
           "precio": 15000,
           "precio_tachado": 30000,
           "stock": 33,
@@ -18976,9 +18976,9 @@
         {
           "variant_id": 822744299,
           "sku": "747",
-          "talle": null,
+          "talle": "S",
           "color": null,
-          "opciones": "",
+          "opciones": "S",
           "precio": 15000,
           "precio_tachado": 30000,
           "stock": 0,
@@ -18988,9 +18988,9 @@
         {
           "variant_id": 822744303,
           "sku": "748",
-          "talle": null,
+          "talle": "M",
           "color": null,
-          "opciones": "",
+          "opciones": "M",
           "precio": 15000,
           "precio_tachado": 30000,
           "stock": 0,
@@ -19000,9 +19000,9 @@
         {
           "variant_id": 822744306,
           "sku": "749",
-          "talle": null,
+          "talle": "L",
           "color": null,
-          "opciones": "",
+          "opciones": "L",
           "precio": 15000,
           "precio_tachado": 30000,
           "stock": 10,
@@ -20258,7 +20258,7 @@
           "opciones": "S",
           "precio": 70000,
           "precio_tachado": null,
-          "stock": 43,
+          "stock": 42,
           "disponible": true,
           "imagen": "//acdn-us.mitiendanube.com/stores/001/708/518/products/artboard-12-918b5222a3364fb96a17914994862433-1024-1024.webp"
         },
@@ -29146,7 +29146,7 @@
           "opciones": "S",
           "precio": 95000,
           "precio_tachado": null,
-          "stock": 25,
+          "stock": 24,
           "disponible": true,
           "imagen": "//acdn-us.mitiendanube.com/stores/001/708/518/products/artboard-64-a9b980c69ef5a6cdaf17915023886181-1024-1024.webp"
         },
@@ -29158,7 +29158,7 @@
           "opciones": "M",
           "precio": 95000,
           "precio_tachado": null,
-          "stock": 79,
+          "stock": 78,
           "disponible": true,
           "imagen": "//acdn-us.mitiendanube.com/stores/001/708/518/products/artboard-64-a9b980c69ef5a6cdaf17915023886181-1024-1024.webp"
         },
@@ -29359,7 +29359,7 @@
           "opciones": "L",
           "precio": 95000,
           "precio_tachado": null,
-          "stock": 20,
+          "stock": 19,
           "disponible": true,
           "imagen": "//acdn-us.mitiendanube.com/stores/001/708/518/products/artboard-62-edddefe2129a6b765917915024145318-1024-1024.webp"
         },
@@ -29529,9 +29529,9 @@
         {
           "variant_id": 1073285773,
           "sku": null,
-          "talle": null,
+          "talle": "S",
           "color": null,
-          "opciones": "",
+          "opciones": "S",
           "precio": 15000,
           "precio_tachado": 30000,
           "stock": 0,
@@ -29541,9 +29541,9 @@
         {
           "variant_id": 1073285775,
           "sku": "368",
-          "talle": null,
+          "talle": "M",
           "color": null,
-          "opciones": "",
+          "opciones": "M",
           "precio": 15000,
           "precio_tachado": 30000,
           "stock": 0,
@@ -29553,9 +29553,9 @@
         {
           "variant_id": 1073285776,
           "sku": "369",
-          "talle": null,
+          "talle": "L",
           "color": null,
-          "opciones": "",
+          "opciones": "L",
           "precio": 15000,
           "precio_tachado": 30000,
           "stock": 0,
@@ -29921,7 +29921,7 @@
           "opciones": "L",
           "precio": 95000,
           "precio_tachado": null,
-          "stock": 20,
+          "stock": 19,
           "disponible": true,
           "imagen": "//acdn-us.mitiendanube.com/stores/001/708/518/products/polo-azul-marino-hombre-1-e2adeae6e1d928b7ef17935738778961-1024-1024.webp"
         },
@@ -30376,7 +30376,7 @@
           "opciones": "L",
           "precio": 112500,
           "precio_tachado": 125000,
-          "stock": 7,
+          "stock": 6,
           "disponible": true,
           "imagen": "//acdn-us.mitiendanube.com/stores/001/708/518/products/artboard-67-fe381fe709dab0b86117901157234075-1024-1024.webp"
         },
