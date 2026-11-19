@@ -232,8 +232,8 @@ MARCA = "Shaka Cmmnty"
 GENERO = "male"        # male / female / unisex: ajustalo según el público de la marca
 EDAD = "adult"
 MONEDA = "ARS"
-INCLUIR_SIN_STOCK = False   # False: se omiten los productos con TODAS las variantes agotadas
-                            # (los talles agotados de un producto con stock sí se publican como out_of_stock)
+INCLUIR_SIN_STOCK = False   # solo afecta a feed_google.xml: False = se omiten los productos con TODAS las
+                            # variantes agotadas. feed.xml siempre incluye el catálogo completo.
 
 # (palabras clave en el nombre, tipo singular para el título, product_type, categoría de Google)
 CATEGORIAS = [
@@ -371,10 +371,12 @@ def generar_google_xml(productos, ruta):
         imagenes = [url_absoluta(i) for i in p["imagenes"] if i]
 
         variantes = [v for v in p["variantes"] if v.get("precio")]
-        if not INCLUIR_SIN_STOCK and all(disponibilidad_variante(v, False) == "out_of_stock"
-                                         for v in variantes):
+        # Producto con TODAS las variantes agotadas: va en feed.xml (catálogo completo)
+        # pero se omite de feed_google.xml (salvo INCLUIR_SIN_STOCK = True)
+        agotado_total = all(disponibilidad_variante(v, False) == "out_of_stock" for v in variantes)
+        publicar_google = INCLUIR_SIN_STOCK or not agotado_total
+        if not publicar_google:
             omitidos += 1
-            continue
 
         for v in variantes:
             precio_actual, tachado = v["precio"], v.get("precio_tachado")
@@ -425,7 +427,8 @@ def generar_google_xml(productos, ruta):
             else:
                 campos[i] = ("g:price", precio_fmt(precio_actual))
 
-            items.append(item_xml(campos))
+            if publicar_google:
+                items.append(item_xml(campos))
 
             # Feed "referencia": MISMA composición que el feed de Uniwork (13 campos, mismo orden)
             ref = [
