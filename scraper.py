@@ -331,7 +331,8 @@ def esc(texto):
     return escape(CTRL.sub("", str(texto)))
 
 
-UTM = "utm_source=Google%20Shopping&utm_campaign=feed%20shaka&utm_medium=cpc"
+# Mismos 4 parámetros UTM, en el mismo orden, que el feed de referencia (Uniwork)
+UTM = "utm_source=Google%20Shopping&utm_campaign=feed%20torem&utm_medium=cpc&utm_term=adtribes"
 
 
 def linea_xml(k, val):
@@ -347,7 +348,7 @@ def disponibilidad_variante(v, preorder):
 
 
 def generar_google_xml(productos, ruta):
-    items, omitidos = [], 0
+    items, items_ref, omitidos = [], [], 0
     ahora = datetime.now()
     for p in productos:
         nombre_orig = p["nombre"] or ""
@@ -386,7 +387,8 @@ def generar_google_xml(productos, ruta):
             titulo = f"{nombre} {talle}".strip() if talle else nombre
 
             # Link a la variante concreta + UTM (igual que el feed de referencia)
-            link = f"{p['url']}?variant={v['variant_id']}&{UTM}" if v.get("variant_id") else f"{p['url']}?{UTM}"
+            link_variante = f"{p['url']}?variant={v['variant_id']}" if v.get("variant_id") else p["url"]
+            link = f"{link_variante}&{UTM}" if v.get("variant_id") else f"{p['url']}?{UTM}"
 
             imagen = url_absoluta(v.get("imagen")) or (imagenes[0] if imagenes else None)
             if not imagen:
@@ -423,9 +425,38 @@ def generar_google_xml(productos, ruta):
             else:
                 campos[i] = ("g:price", precio_fmt(precio_actual))
 
-            lineas = [linea_xml(k, val) for k, val in campos if val]
-            items.append("    <item>\n" + "\n".join(lineas) + "\n    </item>")
+            items.append(item_xml(campos))
 
+            # Feed "referencia": MISMA composición que el feed de Uniwork (13 campos, mismo orden)
+            ref = [
+                ("g:id", v.get("variant_id") or f"{p['product_id']}-{talle}"),
+                ("g:title", titulo[:150]),
+                ("g:description", desc[:5000]),
+                ("g:link", link),
+                ("g:image_link", imagen),
+                ("g:checkout_link_template", link_variante),
+                ("g:availability", "out_of_stock" if disp == "out_of_stock" else "in_stock"),
+                ("g:price", precio_fmt(precio_actual)),   # precio final que paga el cliente
+                ("g:google_product_category", categoria),
+                ("g:product_type", f"Home > {tipo}"),
+                ("g:condition", "new"),
+                ("g:item_group_id", p["product_id"]),
+                ("g:identifier_exists", "no"),
+            ]
+            items_ref.append(item_xml(ref))
+
+    escribir_rss(items_ref, ruta)                                  # feed.xml = formato Uniwork
+    escribir_rss(items, ruta.replace(".xml", "_google.xml"))      # feed_google.xml = completo para Google
+    print(f"{ruta}: {len(items_ref)} items | {ruta.replace('.xml', '_google.xml')}: {len(items)} items "
+          f"({omitidos} productos agotados omitidos)")
+
+
+def item_xml(campos):
+    lineas = [linea_xml(k, val) for k, val in campos if val]
+    return "    <item>\n" + "\n".join(lineas) + "\n    </item>"
+
+
+def escribir_rss(items, ruta):
     xml = (
         '<?xml version="1.0" encoding="UTF-8"?>\n'
         '<rss version="2.0" xmlns:g="http://base.google.com/ns/1.0">\n'
@@ -438,7 +469,6 @@ def generar_google_xml(productos, ruta):
     )
     with open(ruta, "w", encoding="utf-8") as f:
         f.write(xml)
-    print(f"feed.xml: {len(items)} items ({omitidos} productos agotados omitidos)")
 
 
 # ---------- 4. Escribir los feeds ----------
