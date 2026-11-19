@@ -1,5 +1,5 @@
 {
-  "generado": "2026-11-19T01:33:29.479538+00:00",
+  "generado": "2026-11-19T02:34:07.050380+00:00",
   "total": 532,
   "productos": [
     {
@@ -2659,13 +2659,13 @@
       ]
     },
     {
-      "product_id": "244270930",
+      "product_id": "244270903",
       "url": "https://sh-aka.com.ar/productos/bigger-cmmnty-knit-crudo-1v6y4/",
-      "nombre": "THE STRIPES KNIT (beige)",
+      "nombre": "THE STRIPES KNIT (verde)",
       "marca": "Shaka Cmmnty",
-      "descripcion": "Sweater THE STRIPES KNIT 100% algodón, hilado premium y oversize fit. Hecho en Argentina. ¡Sumalo a tu look cómodo y elegante hoy!",
+      "descripcion": "Sweater THE STRIPES KNIT verde, 100% algodón premium, oversize fit y costuras dobles. Hecho en Argentina. ¡Sumalo a tu look hoy!",
       "imagenes": [
-        "https://acdn-us.mitiendanube.com/stores/001/708/518/products/artboard-38-4519203aca0454a64017915009335620-480-0.webp"
+        "https://acdn-us.mitiendanube.com/stores/001/708/518/products/artboard-35-04529cc46167719d0b17915008861303-480-0.webp"
       ],
       "variantes": [
         {
@@ -2684,7 +2684,7 @@
           "opciones": "M / 4000 PUNTOS",
           "precio": 135000,
           "precio_tachado": null,
-          "stock": 5,
+          "stock": 4,
           "disponible": true,
           "imagen": "//acdn-us.mitiendanube.com/stores/001/708/518/products/artboard-48-3d6482efb68b21507717784588404042-1024-1024.webp"
         },
