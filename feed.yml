@@ -2,7 +2,7 @@ name: Actualizar feed
 
 on:
   schedule:
-    - cron: "7,47 * * * *"   # minutos :07 y :47 de cada hora (UTC) -> ~cada 40 min; evita el :00, que es cuando GitHub más se atrasa
+    - cron: "17 * * * *"   # una vez por hora, al minuto :17 (UTC); evita el :00, cuando GitHub más se atrasa
   workflow_dispatch:          # permite correrlo a mano desde la pestaña Actions
 
 permissions:

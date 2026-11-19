@@ -25,8 +25,8 @@ import requests
 from bs4 import BeautifulSoup
 
 BASE = "https://sh-aka.com.ar"
-DELAY = 0.5          # pausa de cada worker entre requests (ser amable con el servidor)
-WORKERS = 6          # requests en paralelo
+DELAY = 1.0          # pausa de cada worker entre requests (ser amable con el servidor)
+WORKERS = 3          # requests en paralelo
 TIMEOUT = 15
 TIEMPO_MAX = 13 * 60  # corta a los 10 min y guarda lo que tenga, para no pasarse del límite de GitHub
 MAX_LIST_PAGES = 50  # tope de seguridad para el fallback de listado
@@ -41,17 +41,31 @@ session.headers.update({
 ESTADOS = {}
 
 
-def get(url, retries=2):
+INICIO = time.time()
+FRENO = {"hasta": 0.0}   # si la tienda responde 429, TODOS los workers esperan hasta este instante
+
+
+def get(url, retries=6):
+    """GET con reintentos. Ante 429/503 (límite de consultas) espera con backoff y respeta Retry-After."""
     for intento in range(retries):
+        if time.time() - INICIO > TIEMPO_MAX + 90:
+            return None                                  # fuera de presupuesto de tiempo
+        espera = FRENO["hasta"] - time.time()
+        if espera > 0:
+            time.sleep(espera)
         try:
             r = session.get(url, timeout=TIMEOUT)
             ESTADOS[r.status_code] = ESTADOS.get(r.status_code, 0) + 1
             if r.status_code == 200:
                 return r
-            if r.status_code in (403, 404, 429):
-                if r.status_code != 404:
-                    print(f"  HTTP {r.status_code} en {url}", flush=True)
+            if r.status_code == 404:
                 return None
+            if r.status_code in (429, 403, 503):
+                ra = r.headers.get("Retry-After", "")
+                pausa = min(int(ra) if ra.isdigit() else 8 * (intento + 1), 60)
+                FRENO["hasta"] = max(FRENO["hasta"], time.time() + pausa)
+                print(f"  HTTP {r.status_code} en {url} -> pausa {pausa}s (intento {intento + 1}/{retries})", flush=True)
+                continue
         except requests.RequestException as e:
             ESTADOS["error"] = ESTADOS.get("error", 0) + 1
             print(f"  error {type(e).__name__} en {url}", flush=True)
@@ -477,7 +491,7 @@ def escribir_rss(items, ruta):
 # ---------- 4. Escribir los feeds ----------
 
 def main():
-    inicio = time.time()
+    inicio = INICIO
     r = get(BASE)
     print(f"Home: {'OK' if r else 'FALLÓ'} | estados HTTP: {ESTADOS}", flush=True)
     urls = urls_desde_sitemap()
