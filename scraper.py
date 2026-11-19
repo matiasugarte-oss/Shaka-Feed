@@ -26,9 +26,9 @@ from bs4 import BeautifulSoup
 
 BASE = "https://sh-aka.com.ar"
 DELAY = 0.5          # pausa de cada worker entre requests (ser amable con el servidor)
-WORKERS = 4          # requests en paralelo
+WORKERS = 6          # requests en paralelo
 TIMEOUT = 15
-TIEMPO_MAX = 10 * 60  # corta a los 10 min y guarda lo que tenga, para no pasarse del límite de GitHub
+TIEMPO_MAX = 13 * 60  # corta a los 10 min y guarda lo que tenga, para no pasarse del límite de GitHub
 MAX_LIST_PAGES = 50  # tope de seguridad para el fallback de listado
 
 session = requests.Session()
@@ -500,6 +500,19 @@ def main():
                 productos.append(p)
             if i % 25 == 0:
                 print(f"  {i}/{len(urls)} procesados ({time.time() - inicio:.0f}s)")
+
+    # Si la corrida se cortó por tiempo o alguna página falló, NO perdemos esos productos:
+    # se reutilizan los datos de la corrida anterior (feed.json) para que el feed siempre quede completo.
+    try:
+        with open("feed.json", encoding="utf-8") as f:
+            previos = {p["url"]: p for p in json.load(f)["productos"]}
+    except (OSError, ValueError, KeyError):
+        previos = {}
+    obtenidos = {p["url"] for p in productos}
+    reutilizados = [previos[u] for u in sorted(urls) if u not in obtenidos and u in previos]
+    if reutilizados:
+        print(f"AVISO: {len(reutilizados)} productos no se pudieron leer ahora; se reutilizan los datos anteriores", flush=True)
+        productos += reutilizados
 
     generado = datetime.now(timezone.utc).isoformat()
     with open("feed.json", "w", encoding="utf-8") as f:
