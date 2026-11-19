@@ -111,27 +111,59 @@ def urls_desde_listado():
 
 # ---------- 2. Parsear cada producto ----------
 
-def leer_json_ld(soup):
-    for tag in soup.find_all("script", type="application/ld+json"):
-        try:
-            data = json.loads(tag.string or "")
-        except (json.JSONDecodeError, TypeError):
-            continue
-        items = data if isinstance(data, list) else data.get("@graph", [data])
-        for it in items:
-            if isinstance(it, dict) and it.get("@type") in ("Product", ["Product"]):
-                return it
-    return {}
+SIZE_RE = re.compile(r"^(XXS|XS|S|M|L|XL|XXL|XXXL|\d{1,3}|TALLE\s+(UNICO|ÚNICO)|UNICO|ÚNICO)$", re.I)
 
 
-def leer_variantes(soup):
-    nodo = soup.find(attrs={"data-variants": True})
-    if not nodo:
+def contenedor_producto(soup):
+    """Bloque del producto PRINCIPAL (no el de los carruseles de 'relacionados')."""
+    return (soup.select_one('[data-store="product-detail"][data-variants]')
+            or soup.select_one("#single-product[data-variants]")
+            or soup.find(attrs={"data-variants": True}))
+
+
+def leer_variantes(cont):
+    if cont is None:
         return []
     try:
-        return json.loads(html.unescape(nodo["data-variants"]))
-    except json.JSONDecodeError:
+        return json.loads(html.unescape(cont["data-variants"]))
+    except (json.JSONDecodeError, KeyError):
         return []
+
+
+def nombres_opciones(soup):
+    """{0: 'talle', 1: 'puntos', ...} leído de las etiquetas de cada grupo de variantes."""
+    res = {}
+    for g in soup.select(".js-product-variants-group"):
+        idx, lab = g.get("data-variation-id"), g.select_one("label")
+        if idx and idx.isdigit() and lab:
+            res[int(idx)] = lab.get_text(strip=True).lower()
+    return res
+
+
+def meta(soup, prop):
+    t = soup.find("meta", attrs={"property": prop}) or soup.find("meta", attrs={"name": prop})
+    return (t.get("content") or "").strip() if t else ""
+
+
+def separar_opciones(v, nombres):
+    """Devuelve (talle, color) ignorando la opción 'Puntos' (programa Rewards, no es una variante real)."""
+    talle = color = None
+    for i in range(3):
+        val = v.get(f"option{i}")
+        if not val:
+            continue
+        val, nom = str(val).strip(), nombres.get(i, "")
+        if "puntos" in nom or "PUNTOS" in val.upper():
+            continue
+        if "talle" in nom or "size" in nom or "tamaño" in nom:
+            talle = val
+        elif "color" in nom:
+            color = val
+        elif talle is None and SIZE_RE.match(val):
+            talle = val
+        elif color is None and not nom:
+            color = val
+    return talle, color
 
 
 def parsear_producto(url):
@@ -139,53 +171,56 @@ def parsear_producto(url):
     if not r:
         return None
     soup = BeautifulSoup(r.text, "lxml")
-    ld = leer_json_ld(soup)
-    variantes = leer_variantes(soup)
+    cont = contenedor_producto(soup)
+    variantes = leer_variantes(cont)
+    nombres = nombres_opciones(soup)
 
-    nombre = ld.get("name") or (soup.find("h1").get_text(strip=True) if soup.find("h1") else "")
-    imagenes = ld.get("image") or []
-    if isinstance(imagenes, str):
-        imagenes = [imagenes]
-    marca = ld.get("brand", {})
-    marca = marca.get("name") if isinstance(marca, dict) else marca
+    # IMPORTANTE: no usar el JSON-LD ni el primer data-product-id de la página: ahí aparecen
+    # los productos del carrusel de "relacionados" y se terminaba guardando OTRO producto.
+    h1 = soup.select_one("h1.js-product-name") or soup.find("h1")
+    nombre = (h1.get_text(strip=True) if h1 else "") or meta(soup, "og:title")
 
-    pid = None
-    nodo_id = soup.find(attrs={"data-product-id": True})
-    if nodo_id:
-        pid = nodo_id["data-product-id"]
+    pid = next((v.get("product_id") for v in variantes if v.get("product_id")), None)
+    if pid is None:
+        mid = re.search(r"LS\.product\s*=\s*\{[^}]*?\"id\":\s*(\d+)", r.text)
+        pid = int(mid.group(1)) if mid else None
+
+    desc_nodo = soup.select_one("#product-description") or soup.select_one(".product-description")
+    descripcion = desc_nodo.get_text(" ", strip=True) if desc_nodo else meta(soup, "og:description")
+
+    imagenes = []
+    for a in soup.select("a.js-product-slide-link[href]"):
+        u = a["href"]
+        if u not in imagenes:
+            imagenes.append(u)
+    if not imagenes:
+        og = meta(soup, "og:image:secure_url") or meta(soup, "og:image")
+        imagenes = [og] if og else []
 
     vars_limpias = []
     for v in variantes:
-        opciones = [v.get(f"option{i}") for i in range(3) if v.get(f"option{i}")]
+        if v.get("is_visible") is False:
+            continue
+        talle, color = separar_opciones(v, nombres)
         vars_limpias.append({
             "variant_id": v.get("id"),
             "sku": v.get("sku"),
-            "opciones": " / ".join(map(str, opciones)),
+            "talle": talle,
+            "color": color,
+            "opciones": " / ".join(x for x in (talle, color) if x),
             "precio": v.get("price_number"),
             "precio_tachado": v.get("compare_at_price_number"),
-            "stock": v.get("stock"),            # None suele significar stock ilimitado
+            "stock": v.get("stock"),            # None = stock ilimitado
             "disponible": v.get("available"),
             "imagen": v.get("image_url"),
-        })
-
-    # Si no hubo data-variants, usamos el precio del JSON-LD
-    if not vars_limpias:
-        offers = ld.get("offers", {})
-        offers = offers[0] if isinstance(offers, list) and offers else offers
-        vars_limpias.append({
-            "variant_id": None, "sku": ld.get("sku"), "opciones": "",
-            "precio": offers.get("price") if isinstance(offers, dict) else None,
-            "precio_tachado": None, "stock": None,
-            "disponible": "InStock" in str(offers.get("availability", "")) if isinstance(offers, dict) else None,
-            "imagen": None,
         })
 
     return {
         "product_id": pid,
         "url": url,
         "nombre": nombre,
-        "marca": marca,
-        "descripcion": (ld.get("description") or "").strip(),
+        "marca": MARCA,
+        "descripcion": descripcion,
         "imagenes": imagenes,
         "variantes": vars_limpias,
     }
@@ -197,6 +232,8 @@ MARCA = "Shaka Cmmnty"
 GENERO = "male"        # male / female / unisex: ajustalo según el público de la marca
 EDAD = "adult"
 MONEDA = "ARS"
+INCLUIR_SIN_STOCK = False   # False: se omiten los productos con TODAS las variantes agotadas
+                            # (los talles agotados de un producto con stock sí se publican como out_of_stock)
 
 # (palabras clave en el nombre, tipo singular para el título, product_type, categoría de Google)
 CATEGORIAS = [
@@ -263,6 +300,7 @@ def extraer_color(nombre):
 
 
 def fecha_preventa(nombre):
+    """Fecha de entrega indicada en el nombre ('a partir del 30/11') como datetime, o None."""
     m = re.search(r"a partir del?\s*(\d{1,2})/(\d{1,2})", nombre, flags=re.I)
     if not m:
         return None
@@ -270,7 +308,7 @@ def fecha_preventa(nombre):
     dia, mes = int(m.group(1)), int(m.group(2))
     anio = hoy.year + (1 if (mes, dia) < (hoy.month, hoy.day) and hoy.month - mes > 6 else 0)
     try:
-        return datetime(anio, mes, dia).strftime("%Y-%m-%dT00:00-03:00")
+        return datetime(anio, mes, dia)
     except ValueError:
         return None
 
@@ -285,50 +323,66 @@ def precio_fmt(n):
     return f"{float(n):.2f} {MONEDA}"
 
 
-def generar_google_xml(productos, ruta):
-    from xml.sax.saxutils import escape
+CTRL = re.compile(r"[\x00-\x08\x0b\x0c\x0e-\x1f]")
 
-    items = []
+
+def esc(texto):
+    from xml.sax.saxutils import escape
+    return escape(CTRL.sub("", str(texto)))
+
+
+def disponibilidad_variante(v, preorder):
+    if v.get("disponible") is False or v.get("stock") == 0:
+        return "out_of_stock"
+    return "preorder" if preorder else "in_stock"
+
+
+def generar_google_xml(productos, ruta):
+    items, omitidos = [], 0
+    ahora = datetime.now()
     for p in productos:
         nombre_orig = p["nombre"] or ""
         if not nombre_orig or "GIFT" in nombre_orig.upper():
             continue  # las gift cards no se pueden publicitar en Shopping
         nombre = limpiar_nombre(nombre_orig)
         singular, tipo, categoria = clasificar(nombre_orig)
-        color = extraer_color(nombre)
-        preventa = bool(re.search(r"PRE-?VENTA", nombre_orig, flags=re.I))
-        fecha_disp = fecha_preventa(nombre_orig) if preventa else None
+        color_nombre = extraer_color(nombre)
 
-        desc = BeautifulSoup(p["descripcion"] or "", "lxml").get_text(" ", strip=True)
-        if not desc:
+        # Preventa: solo es 'preorder' si la fecha de entrega todavía no pasó
+        # (Google rechaza preorder con availability_date en el pasado)
+        es_preventa = bool(re.search(r"PRE-?VENTA", nombre_orig, flags=re.I))
+        f = fecha_preventa(nombre_orig) if es_preventa else None
+        preorder = bool(f and f > ahora)
+        fecha_disp = f.strftime("%Y-%m-%dT00:00-03:00") if preorder else None
+
+        desc = (p["descripcion"] or "").strip()
+        if not desc or desc.startswith("Comprá online"):
             desc = f"{nombre}. {singular} de {MARCA}."
         imagenes = [url_absoluta(i) for i in p["imagenes"] if i]
 
-        for v in p["variantes"]:
-            precio_actual = v.get("precio")
-            if not precio_actual:
-                continue
-            tachado = v.get("precio_tachado")
-            talle = (v.get("opciones") or "").split(" / ")[0].strip()
+        variantes = [v for v in p["variantes"] if v.get("precio")]
+        if not INCLUIR_SIN_STOCK and all(disponibilidad_variante(v, False) == "out_of_stock"
+                                         for v in variantes):
+            omitidos += 1
+            continue
+
+        for v in variantes:
+            precio_actual, tachado = v["precio"], v.get("precio_tachado")
+            talle = (v.get("talle") or "").strip()
             if talle.upper() in ("TALLE UNICO", "TALLE ÚNICO", "UNICO", "ÚNICO"):
                 talle = "Único"
+            color = (v.get("color") or "").strip().capitalize() or color_nombre
 
             titulo = f"{nombre} | {singular} {MARCA}"
             if talle and talle != "Único":
                 titulo += f" - Talle {talle}"
-
-            if preventa:
-                disponibilidad = "preorder"
-            elif v.get("disponible") is False or v.get("stock") == 0:
-                disponibilidad = "out_of_stock"
-            else:
-                disponibilidad = "in_stock"
 
             imagen = url_absoluta(v.get("imagen")) or (imagenes[0] if imagenes else None)
             if not imagen:
                 continue  # Google rechaza productos sin imagen
             extras = [i for i in imagenes if i != imagen][:10]
 
+            disp = disponibilidad_variante(v, preorder)
             campos = [
                 ("g:id", v.get("variant_id") or f"{p['product_id']}-{talle}"),
                 ("g:item_group_id", p["product_id"]),
@@ -337,8 +391,8 @@ def generar_google_xml(productos, ruta):
                 ("g:link", p["url"]),
                 ("g:image_link", imagen),
                 *[("g:additional_image_link", i) for i in extras],
-                ("g:availability", disponibilidad),
-                ("g:availability_date", fecha_disp),
+                ("g:availability", disp),
+                ("g:availability_date", fecha_disp if disp == "preorder" else None),
                 ("g:condition", "new"),
                 ("g:brand", MARCA),
                 ("g:google_product_category", categoria),
@@ -353,27 +407,26 @@ def generar_google_xml(productos, ruta):
                            ("g:sale_price", precio_fmt(precio_actual))]
             else:
                 campos.append(("g:price", precio_fmt(precio_actual)))
-            if v.get("sku"):
-                campos.append(("g:mpn", v["sku"]))
-            else:
-                campos.append(("g:identifier_exists", "no"))
+            # Los SKU de Tiendanube son números cortos que se repiten entre productos:
+            # no sirven como MPN y Google los marca como inválidos.
+            campos.append(("g:identifier_exists", "no"))
 
-            lineas = [f"      <{k}>{escape(str(val))}</{k}>" for k, val in campos if val]
+            lineas = [f"      <{k}>{esc(val)}</{k}>" for k, val in campos if val]
             items.append("    <item>\n" + "\n".join(lineas) + "\n    </item>")
 
     xml = (
         '<?xml version="1.0" encoding="UTF-8"?>\n'
         '<rss version="2.0" xmlns:g="http://base.google.com/ns/1.0">\n'
         "  <channel>\n"
-        f"    <title>{escape(MARCA)}</title>\n"
+        f"    <title>{esc(MARCA)}</title>\n"
         f"    <link>{BASE}</link>\n"
-        f"    <description>Feed de productos de {escape(MARCA)}</description>\n"
+        f"    <description>Feed de productos de {esc(MARCA)}</description>\n"
         + "\n".join(items) +
         "\n  </channel>\n</rss>\n"
     )
     with open(ruta, "w", encoding="utf-8") as f:
         f.write(xml)
-    print(f"feed.xml: {len(items)} items")
+    print(f"feed.xml: {len(items)} items ({omitidos} productos agotados omitidos)")
 
 
 # ---------- 4. Escribir los feeds ----------
@@ -419,7 +472,7 @@ def main():
                     "product_id": p["product_id"], "nombre": p["nombre"], "url": p["url"],
                     **{k: v[k] for k in ("variant_id", "sku", "opciones", "precio",
                                          "precio_tachado", "stock", "disponible")},
-                    "imagen": v["imagen"] or (p["imagenes"][0] if p["imagenes"] else ""),
+                    "imagen": url_absoluta(v["imagen"] or (p["imagenes"][0] if p["imagenes"] else "")) or "",
                 })
 
     generar_google_xml(productos, "feed.xml")
