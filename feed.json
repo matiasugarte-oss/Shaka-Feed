@@ -1,6 +1,6 @@
 {
-  "generado": "2026-11-19T00:05:15.737521+00:00",
-  "total": 479,
+  "generado": "2026-11-19T01:33:29.479538+00:00",
+  "total": 532,
   "productos": [
     {
       "product_id": "342756991",
@@ -661,13 +661,13 @@
       ]
     },
     {
-      "product_id": "342756774",
+      "product_id": "342756991",
       "url": "https://sh-aka.com.ar/productos/3-longsleeve/",
-      "nombre": "EASY TEE (mushroom)",
+      "nombre": "EASY TEE (black)",
       "marca": "Shaka Cmmnty",
-      "descripcion": "Remera EASY TEE oversize, 100% algodón, estampa en serigrafía y suavizado. Hecha en Argentina. ¡Sumala a tu look hoy!",
+      "descripcion": "Remera EASY TEE negra, oversize 100% algodón peinado, estampa serigrafiada. Suavidad y estilo argentino. ¡Sumala a tu look hoy!",
       "imagenes": [
-        "https://acdn-us.mitiendanube.com/stores/001/708/518/products/artboard-52-1295c21523df8a1eca17784590670604-480-0.webp"
+        "https://acdn-us.mitiendanube.com/stores/001/708/518/products/artboard-83-d065c882e4217e440517784590202204-480-0.webp"
       ],
       "variantes": [
         {
@@ -1687,6 +1687,184 @@
       ]
     },
     {
+      "product_id": "312237382",
+      "url": "https://sh-aka.com.ar/productos/batik-longsleeve-1rh13/",
+      "nombre": "YIN YANG TEE (marron)",
+      "marca": "Shaka Cmmnty",
+      "descripcion": "Remera YIN YANG TEE marrón, 100% algodón pesado, oversize y estampa en serigrafía. ¡Sumala a tu look argentino hoy!",
+      "imagenes": [
+        "https://acdn-us.mitiendanube.com/stores/001/708/518/products/artboard-15-ae1bfc33c7c439866f17654021771221-480-0.webp"
+      ],
+      "variantes": [
+        {
+          "variant_id": 1475161080,
+          "sku": "185",
+          "opciones": "S / 3000 PUNTOS",
+          "precio": 63000,
+          "precio_tachado": 70000,
+          "stock": 0,
+          "disponible": false,
+          "imagen": "//acdn-us.mitiendanube.com/stores/001/708/518/products/artboard-7-286ab6d599706e007217736842415343-1024-1024.webp"
+        },
+        {
+          "variant_id": 1475161082,
+          "sku": "186",
+          "opciones": "M / 3000 PUNTOS",
+          "precio": 63000,
+          "precio_tachado": 70000,
+          "stock": 0,
+          "disponible": false,
+          "imagen": "//acdn-us.mitiendanube.com/stores/001/708/518/products/artboard-7-286ab6d599706e007217736842415343-1024-1024.webp"
+        },
+        {
+          "variant_id": 1475161084,
+          "sku": "187",
+          "opciones": "L / 3000 PUNTOS",
+          "precio": 63000,
+          "precio_tachado": 70000,
+          "stock": 0,
+          "disponible": false,
+          "imagen": "//acdn-us.mitiendanube.com/stores/001/708/518/products/artboard-7-286ab6d599706e007217736842415343-1024-1024.webp"
+        },
+        {
+          "variant_id": 1475161087,
+          "sku": "188",
+          "opciones": "XL / 3000 PUNTOS",
+          "precio": 63000,
+          "precio_tachado": 70000,
+          "stock": 0,
+          "disponible": false,
+          "imagen": "//acdn-us.mitiendanube.com/stores/001/708/518/products/artboard-7-286ab6d599706e007217736842415343-1024-1024.webp"
+        }
+      ]
+    },
+    {
+      "product_id": "369090885",
+      "url": "https://sh-aka.com.ar/productos/batik-tank-celeste-1c8ya/",
+      "nombre": "SHK RIPPED TANK",
+      "marca": null,
+      "descripcion": "Comprá online SHK RIPPED TANK por $27.500. Hacé tu pedido y pagalo online.",
+      "imagenes": [
+        "https://acdn-us.mitiendanube.com/stores/001/708/518/products/artboard-62-f020638cad5504f07e17901153169679-480-0.webp"
+      ],
+      "variantes": [
+        {
+          "variant_id": 1602837524,
+          "sku": "283",
+          "opciones": "S / 1500 PUNTOS",
+          "precio": 25000,
+          "precio_tachado": 50000,
+          "stock": 6,
+          "disponible": true,
+          "imagen": "//acdn-us.mitiendanube.com/stores/001/708/518/products/artboard-55-b4b5a8c593cb1ec81e17901156023680-1024-1024.webp"
+        },
+        {
+          "variant_id": 1602837525,
+          "sku": "284",
+          "opciones": "M / 1500 PUNTOS",
+          "precio": 25000,
+          "precio_tachado": 50000,
+          "stock": 18,
+          "disponible": true,
+          "imagen": "//acdn-us.mitiendanube.com/stores/001/708/518/products/artboard-55-b4b5a8c593cb1ec81e17901156023680-1024-1024.webp"
+        },
+        {
+          "variant_id": 1602837526,
+          "sku": "285",
+          "opciones": "L / 1500 PUNTOS",
+          "precio": 25000,
+          "precio_tachado": 50000,
+          "stock": 18,
+          "disponible": true,
+          "imagen": "//acdn-us.mitiendanube.com/stores/001/708/518/products/artboard-55-b4b5a8c593cb1ec81e17901156023680-1024-1024.webp"
+        },
+        {
+          "variant_id": 1602837527,
+          "sku": "286",
+          "opciones": "XL / 1500 PUNTOS",
+          "precio": 25000,
+          "precio_tachado": 50000,
+          "stock": 4,
+          "disponible": true,
+          "imagen": "//acdn-us.mitiendanube.com/stores/001/708/518/products/artboard-55-b4b5a8c593cb1ec81e17901156023680-1024-1024.webp"
+        }
+      ]
+    },
+    {
+      "product_id": "369090885",
+      "url": "https://sh-aka.com.ar/productos/batik-tank-tierra-dh69l/",
+      "nombre": "SHK RIPPED TANK",
+      "marca": null,
+      "descripcion": "Comprá online SHK RIPPED TANK por $27.500. Hacé tu pedido y pagalo online.",
+      "imagenes": [
+        "https://acdn-us.mitiendanube.com/stores/001/708/518/products/artboard-62-f020638cad5504f07e17901153169679-480-0.webp"
+      ],
+      "variantes": [
+        {
+          "variant_id": 1602841058,
+          "sku": "283",
+          "opciones": "S / 1500 PUNTOS",
+          "precio": 25000,
+          "precio_tachado": 50000,
+          "stock": 6,
+          "disponible": true,
+          "imagen": "//acdn-us.mitiendanube.com/stores/001/708/518/products/artboard-57-cc0728c4afce453c3017901155117414-1024-1024.webp"
+        },
+        {
+          "variant_id": 1602841059,
+          "sku": "284",
+          "opciones": "M / 1500 PUNTOS",
+          "precio": 25000,
+          "precio_tachado": 50000,
+          "stock": 21,
+          "disponible": true,
+          "imagen": "//acdn-us.mitiendanube.com/stores/001/708/518/products/artboard-57-cc0728c4afce453c3017901155117414-1024-1024.webp"
+        },
+        {
+          "variant_id": 1602841061,
+          "sku": "285",
+          "opciones": "L / 1500 PUNTOS",
+          "precio": 25000,
+          "precio_tachado": 50000,
+          "stock": 19,
+          "disponible": true,
+          "imagen": "//acdn-us.mitiendanube.com/stores/001/708/518/products/artboard-57-cc0728c4afce453c3017901155117414-1024-1024.webp"
+        },
+        {
+          "variant_id": 1602841062,
+          "sku": "286",
+          "opciones": "XL / 1500 PUNTOS",
+          "precio": 25000,
+          "precio_tachado": 50000,
+          "stock": 10,
+          "disponible": true,
+          "imagen": "//acdn-us.mitiendanube.com/stores/001/708/518/products/artboard-57-cc0728c4afce453c3017901155117414-1024-1024.webp"
+        }
+      ]
+    },
+    {
+      "product_id": "373048998",
+      "url": "https://sh-aka.com.ar/productos/beach-handkerchief/",
+      "nombre": "VNTG BELT (yin yang)",
+      "marca": "Shaka Cmmnty",
+      "descripcion": "Comprá online VNTG BELT (yin yang) por $60.000. Hacé tu pedido y pagalo online.",
+      "imagenes": [
+        "https://acdn-us.mitiendanube.com/stores/001/708/518/products/artboard-3-aa7602a2744d0db37217915048531976-480-0.webp"
+      ],
+      "variantes": [
+        {
+          "variant_id": 1034521306,
+          "sku": "469",
+          "opciones": "TALLE UNICO / 1000",
+          "precio": 10000,
+          "precio_tachado": 20000,
+          "stock": 0,
+          "disponible": false,
+          "imagen": "//acdn-us.mitiendanube.com/stores/001/708/518/products/iuejsbx-f77ee05d0abf74578c17283280835580-1024-1024.webp"
+        }
+      ]
+    },
+    {
       "product_id": "373029489",
       "url": "https://sh-aka.com.ar/productos/beige-carpenter-short/",
       "nombre": "THE VNTG BOARDSHORT (gris) - PRE-VENTA (entrega a partir del 30/11)",
@@ -2269,6 +2447,58 @@
           "stock": 0,
           "disponible": false,
           "imagen": "//acdn-us.mitiendanube.com/stores/001/708/518/products/artboard-9-0eeeffc81c9f53474b17736845386540-1024-1024.webp"
+        }
+      ]
+    },
+    {
+      "product_id": "378330468",
+      "url": "https://sh-aka.com.ar/productos/big-pocket-jort-mf6b5/",
+      "nombre": "BIG CAMO JORT - PRE-VENTA (entrega a partir del 30/11)",
+      "marca": "Shaka Cmmnty",
+      "descripcion": "Comprá online BIG CAMO JORT - PRE-VENTA (entrega a partir del 30/11) por $125.000. Hacé tu pedido y pagalo online.",
+      "imagenes": [
+        "https://acdn-us.mitiendanube.com/stores/001/708/518/products/jort-camuflado-hombre-2-36b60e6f4d119f417c17935742822659-480-0.webp"
+      ],
+      "variantes": [
+        {
+          "variant_id": 1367944672,
+          "sku": "434",
+          "opciones": "S / 3000 PUNTOS",
+          "precio": 84000,
+          "precio_tachado": 120000,
+          "stock": 0,
+          "disponible": false,
+          "imagen": "//acdn-us.mitiendanube.com/stores/001/708/518/products/artboard-31-001925cf73b6cbb0b817636699637443-1024-1024.webp"
+        },
+        {
+          "variant_id": 1367944678,
+          "sku": "435",
+          "opciones": "M / 3000 PUNTOS",
+          "precio": 84000,
+          "precio_tachado": 120000,
+          "stock": 0,
+          "disponible": false,
+          "imagen": "//acdn-us.mitiendanube.com/stores/001/708/518/products/artboard-31-001925cf73b6cbb0b817636699637443-1024-1024.webp"
+        },
+        {
+          "variant_id": 1367944681,
+          "sku": "436",
+          "opciones": "L / 3000 PUNTOS",
+          "precio": 84000,
+          "precio_tachado": 120000,
+          "stock": 0,
+          "disponible": false,
+          "imagen": "//acdn-us.mitiendanube.com/stores/001/708/518/products/artboard-31-001925cf73b6cbb0b817636699637443-1024-1024.webp"
+        },
+        {
+          "variant_id": 1367944684,
+          "sku": "437",
+          "opciones": "XL / 3000 PUNTOS",
+          "precio": 84000,
+          "precio_tachado": 120000,
+          "stock": 0,
+          "disponible": false,
+          "imagen": "//acdn-us.mitiendanube.com/stores/001/708/518/products/artboard-31-001925cf73b6cbb0b817636699637443-1024-1024.webp"
         }
       ]
     },
@@ -2959,6 +3189,58 @@
           "stock": 0,
           "disponible": false,
           "imagen": "//acdn-us.mitiendanube.com/stores/001/708/518/products/artboard-25-c3ddb7cdc0c0affe8b17598730769382-1024-1024.webp"
+        }
+      ]
+    },
+    {
+      "product_id": "369099398",
+      "url": "https://sh-aka.com.ar/productos/brand-crewneck-beige/",
+      "nombre": "EL RANCHO LONGSLEEVE TEE - PRE-VENTA (entrega a partir del 05/12)",
+      "marca": "Shaka Cmmnty",
+      "descripcion": "Remera EL RANCHO 100% algodón, oversize fit, estampa icónica sublimada. Hecha en Argentina. ¡Sumala a tu estilo hoy!",
+      "imagenes": [
+        "https://acdn-us.mitiendanube.com/stores/001/708/518/products/artboard-22-607706fceea8cfb81817901138381236-480-0.webp"
+      ],
+      "variantes": [
+        {
+          "variant_id": 1332723593,
+          "sku": "189",
+          "opciones": "S / 3000 PUNTOS",
+          "precio": 47500,
+          "precio_tachado": 95000,
+          "stock": 0,
+          "disponible": false,
+          "imagen": "//acdn-us.mitiendanube.com/stores/001/708/518/products/artboard-27-f8b65a9a3420c7f49417598729075025-1024-1024.webp"
+        },
+        {
+          "variant_id": 1332723597,
+          "sku": "190",
+          "opciones": "M / 3000 PUNTOS",
+          "precio": 47500,
+          "precio_tachado": 95000,
+          "stock": 0,
+          "disponible": false,
+          "imagen": "//acdn-us.mitiendanube.com/stores/001/708/518/products/artboard-27-f8b65a9a3420c7f49417598729075025-1024-1024.webp"
+        },
+        {
+          "variant_id": 1332723599,
+          "sku": "191",
+          "opciones": "L / 3000 PUNTOS",
+          "precio": 47500,
+          "precio_tachado": 95000,
+          "stock": 0,
+          "disponible": false,
+          "imagen": "//acdn-us.mitiendanube.com/stores/001/708/518/products/artboard-27-f8b65a9a3420c7f49417598729075025-1024-1024.webp"
+        },
+        {
+          "variant_id": 1332723602,
+          "sku": "192",
+          "opciones": "XL / 3000 PUNTOS",
+          "precio": 47500,
+          "precio_tachado": 95000,
+          "stock": 0,
+          "disponible": false,
+          "imagen": "//acdn-us.mitiendanube.com/stores/001/708/518/products/artboard-27-f8b65a9a3420c7f49417598729075025-1024-1024.webp"
         }
       ]
     },
@@ -3883,6 +4165,28 @@
       ]
     },
     {
+      "product_id": "280055884",
+      "url": "https://sh-aka.com.ar/productos/corderoy-cap-crudo-1r8ki/",
+      "nombre": "<3 CAP (marron)",
+      "marca": "Shaka Cmmnty",
+      "descripcion": "Gorra",
+      "imagenes": [
+        "https://acdn-us.mitiendanube.com/stores/001/708/518/products/3-cap-marron-mockup-v2-c53e333aab0b88a05517936507578333-480-0.webp"
+      ],
+      "variantes": [
+        {
+          "variant_id": 1520295256,
+          "sku": "398",
+          "opciones": "TALLE UNICO / 1000",
+          "precio": 38500,
+          "precio_tachado": 55000,
+          "stock": 0,
+          "disponible": false,
+          "imagen": "//acdn-us.mitiendanube.com/stores/001/708/518/products/artboard-38-563d92bc41b8104b5017784591239560-1024-1024.webp"
+        }
+      ]
+    },
+    {
       "product_id": "378329886",
       "url": "https://sh-aka.com.ar/productos/corderoy-cap-gris-o201a/",
       "nombre": "<3 CAP - (rosa)",
@@ -4195,6 +4499,204 @@
           "stock": 0,
           "disponible": false,
           "imagen": "//acdn-us.mitiendanube.com/stores/001/708/518/products/artboard-9-efda64d5f1debfd5c817621984030493-1024-1024.webp"
+        }
+      ]
+    },
+    {
+      "product_id": "346858527",
+      "url": "https://sh-aka.com.ar/productos/crocodile-leather-jacket-g9lhk/",
+      "nombre": "SK8 WINDBREAKER JACKET",
+      "marca": "Shaka Cmmnty",
+      "descripcion": "Disfrutá la campera SK8 rompevientos con tela repelente al agua, ajuste personalizado y bolsillos. ¡Ideal para cualquier clima! Comprá la tuya hoy.",
+      "imagenes": [
+        "https://acdn-us.mitiendanube.com/stores/001/708/518/products/artboard-54-d7df2ec449242fda7617810440153558-480-0.webp"
+      ],
+      "variantes": [
+        {
+          "variant_id": 1313721271,
+          "sku": "1",
+          "opciones": "M / 5000 PUNTOS",
+          "precio": 220000,
+          "precio_tachado": null,
+          "stock": 0,
+          "disponible": false,
+          "imagen": "//acdn-us.mitiendanube.com/stores/001/708/518/products/artboard-22-bcbf7934813b21d65617579585757019-1024-1024.webp"
+        },
+        {
+          "variant_id": 1313721273,
+          "sku": "2",
+          "opciones": "L / 5000 PUNTOS",
+          "precio": 220000,
+          "precio_tachado": null,
+          "stock": 0,
+          "disponible": false,
+          "imagen": "//acdn-us.mitiendanube.com/stores/001/708/518/products/artboard-22-bcbf7934813b21d65617579585757019-1024-1024.webp"
+        },
+        {
+          "variant_id": 1313721276,
+          "sku": "3",
+          "opciones": "XL / 5000 PUNTOS",
+          "precio": 220000,
+          "precio_tachado": null,
+          "stock": 0,
+          "disponible": false,
+          "imagen": "//acdn-us.mitiendanube.com/stores/001/708/518/products/artboard-22-bcbf7934813b21d65617579585757019-1024-1024.webp"
+        }
+      ]
+    },
+    {
+      "product_id": "355790029",
+      "url": "https://sh-aka.com.ar/productos/d4-vuelta-crewneck-crudo/",
+      "nombre": "MALVINAS HOOD",
+      "marca": "Shaka Cmmnty",
+      "descripcion": "Descubrí Malvinas Hood, buzo de frisa invisible, corte único y estampa DTG. Hecho en Argentina. ¡Elegí tu talle y destacate!",
+      "imagenes": [
+        "https://acdn-us.mitiendanube.com/stores/001/708/518/products/artboard-2-71931828666ebb152817841506861892-480-0.webp"
+      ],
+      "variantes": [
+        {
+          "variant_id": 1129088785,
+          "sku": "107",
+          "opciones": "S / 3000 PUNTOS",
+          "precio": 85000,
+          "precio_tachado": null,
+          "stock": 0,
+          "disponible": false,
+          "imagen": "//acdn-us.mitiendanube.com/stores/001/708/518/products/mjyhntgrb-56539c45b7ecd5b0d017398324899823-1024-1024.webp"
+        },
+        {
+          "variant_id": 1129088791,
+          "sku": "108",
+          "opciones": "M / 3000 PUNTOS",
+          "precio": 85000,
+          "precio_tachado": null,
+          "stock": 0,
+          "disponible": false,
+          "imagen": "//acdn-us.mitiendanube.com/stores/001/708/518/products/mjyhntgrb-56539c45b7ecd5b0d017398324899823-1024-1024.webp"
+        },
+        {
+          "variant_id": 1129088797,
+          "sku": "109",
+          "opciones": "L / 3000 PUNTOS",
+          "precio": 85000,
+          "precio_tachado": null,
+          "stock": 0,
+          "disponible": false,
+          "imagen": "//acdn-us.mitiendanube.com/stores/001/708/518/products/mjyhntgrb-56539c45b7ecd5b0d017398324899823-1024-1024.webp"
+        },
+        {
+          "variant_id": 1129088810,
+          "sku": "110",
+          "opciones": "XL / 3000 PUNTOS",
+          "precio": 85000,
+          "precio_tachado": null,
+          "stock": 0,
+          "disponible": false,
+          "imagen": "//acdn-us.mitiendanube.com/stores/001/708/518/products/mjyhntgrb-56539c45b7ecd5b0d017398324899823-1024-1024.webp"
+        }
+      ]
+    },
+    {
+      "product_id": "355790029",
+      "url": "https://sh-aka.com.ar/productos/d4-vuelta-crewneck-rojo/",
+      "nombre": "MALVINAS HOOD",
+      "marca": "Shaka Cmmnty",
+      "descripcion": "Descubrí Malvinas Hood, buzo de frisa invisible, corte único y estampa DTG. Hecho en Argentina. ¡Elegí tu talle y destacate!",
+      "imagenes": [
+        "https://acdn-us.mitiendanube.com/stores/001/708/518/products/artboard-2-71931828666ebb152817841506861892-480-0.webp"
+      ],
+      "variantes": [
+        {
+          "variant_id": 1129089837,
+          "sku": "103",
+          "opciones": "S / 3000 PUNTOS",
+          "precio": 85000,
+          "precio_tachado": null,
+          "stock": 0,
+          "disponible": false,
+          "imagen": "//acdn-us.mitiendanube.com/stores/001/708/518/products/mjynhtbgrd-228a4e6c46c5a8810c17398324550347-1024-1024.webp"
+        },
+        {
+          "variant_id": 1129089842,
+          "sku": "104",
+          "opciones": "M / 3000 PUNTOS",
+          "precio": 85000,
+          "precio_tachado": null,
+          "stock": 0,
+          "disponible": false,
+          "imagen": "//acdn-us.mitiendanube.com/stores/001/708/518/products/mjynhtbgrd-228a4e6c46c5a8810c17398324550347-1024-1024.webp"
+        },
+        {
+          "variant_id": 1129089849,
+          "sku": "105",
+          "opciones": "L / 3000 PUNTOS",
+          "precio": 85000,
+          "precio_tachado": null,
+          "stock": 0,
+          "disponible": false,
+          "imagen": "//acdn-us.mitiendanube.com/stores/001/708/518/products/mjynhtbgrd-228a4e6c46c5a8810c17398324550347-1024-1024.webp"
+        },
+        {
+          "variant_id": 1129089854,
+          "sku": "106",
+          "opciones": "XL / 3000 PUNTOS",
+          "precio": 85000,
+          "precio_tachado": null,
+          "stock": 0,
+          "disponible": false,
+          "imagen": "//acdn-us.mitiendanube.com/stores/001/708/518/products/mjynhtbgrd-228a4e6c46c5a8810c17398324550347-1024-1024.webp"
+        }
+      ]
+    },
+    {
+      "product_id": "307804152",
+      "url": "https://sh-aka.com.ar/productos/denim-jort/",
+      "nombre": "THE VNTG BOARDSHORT (azul) - PRE-VENTA (entrega a partir del 30/11)",
+      "marca": "Shaka Cmmnty",
+      "descripcion": "Boardshort azul de microfibra con spandex, vivos blancos y parche SHK. Secado rápido y fit 3/4. ¡Elegí estilo argentino para tus días de playa!",
+      "imagenes": [
+        "https://acdn-us.mitiendanube.com/stores/001/708/518/products/artboard-64-a9b980c69ef5a6cdaf17915023886181-480-0.webp"
+      ],
+      "variantes": [
+        {
+          "variant_id": 1034537311,
+          "sku": "434",
+          "opciones": "S / 3000 PUNTOS",
+          "precio": 90000,
+          "precio_tachado": null,
+          "stock": 0,
+          "disponible": false,
+          "imagen": "//acdn-us.mitiendanube.com/stores/001/708/518/products/iysfgh-f5ce6e36e4444119ff17283272201737-1024-1024.webp"
+        },
+        {
+          "variant_id": 1034537317,
+          "sku": "435",
+          "opciones": "M / 3000 PUNTOS",
+          "precio": 90000,
+          "precio_tachado": null,
+          "stock": 0,
+          "disponible": false,
+          "imagen": "//acdn-us.mitiendanube.com/stores/001/708/518/products/iysfgh-f5ce6e36e4444119ff17283272201737-1024-1024.webp"
+        },
+        {
+          "variant_id": 1034537321,
+          "sku": "436",
+          "opciones": "L / 3000 PUNTOS",
+          "precio": 90000,
+          "precio_tachado": null,
+          "stock": 0,
+          "disponible": false,
+          "imagen": "//acdn-us.mitiendanube.com/stores/001/708/518/products/iysfgh-f5ce6e36e4444119ff17283272201737-1024-1024.webp"
+        },
+        {
+          "variant_id": 1034537324,
+          "sku": "437",
+          "opciones": "XL / 3000 PUNTOS",
+          "precio": 90000,
+          "precio_tachado": null,
+          "stock": 0,
+          "disponible": false,
+          "imagen": "//acdn-us.mitiendanube.com/stores/001/708/518/products/iysfgh-f5ce6e36e4444119ff17283272201737-1024-1024.webp"
         }
       ]
     },
@@ -4911,6 +5413,58 @@
       ]
     },
     {
+      "product_id": "365282885",
+      "url": "https://sh-aka.com.ar/productos/est-2020-hood-gris-melange-1afkf/",
+      "nombre": "SAMOT LONGSLEEVE TEE - PRE-VENTA (entrega a partir del 05/12)",
+      "marca": "Shaka Cmmnty",
+      "descripcion": "Comprá online SAMOT LONGSLEEVE TEE - PRE-VENTA (entrega a partir del 05/12) por $85.500. Hacé tu pedido y pagalo online.",
+      "imagenes": [
+        "https://acdn-us.mitiendanube.com/stores/001/708/518/products/artboard-1-18d9423f347855c2b517884670798582-480-0.webp"
+      ],
+      "variantes": [
+        {
+          "variant_id": 1440932811,
+          "sku": "638",
+          "opciones": "S / 3000 PUNTOS",
+          "precio": 120000,
+          "precio_tachado": null,
+          "stock": 0,
+          "disponible": false,
+          "imagen": "//acdn-us.mitiendanube.com/stores/001/708/518/products/axeldodds-tv-8319-04acc5a20a9c6ec3e817709384867157-1024-1024.webp"
+        },
+        {
+          "variant_id": 1440932814,
+          "sku": "639",
+          "opciones": "M / 3000 PUNTOS",
+          "precio": 120000,
+          "precio_tachado": null,
+          "stock": 0,
+          "disponible": false,
+          "imagen": "//acdn-us.mitiendanube.com/stores/001/708/518/products/axeldodds-tv-8319-04acc5a20a9c6ec3e817709384867157-1024-1024.webp"
+        },
+        {
+          "variant_id": 1440932817,
+          "sku": "640",
+          "opciones": "L / 3000 PUNTOS",
+          "precio": 120000,
+          "precio_tachado": null,
+          "stock": 0,
+          "disponible": false,
+          "imagen": "//acdn-us.mitiendanube.com/stores/001/708/518/products/axeldodds-tv-8319-04acc5a20a9c6ec3e817709384867157-1024-1024.webp"
+        },
+        {
+          "variant_id": 1440932822,
+          "sku": "641",
+          "opciones": "XL / 3000 PUNTOS",
+          "precio": 120000,
+          "precio_tachado": null,
+          "stock": 0,
+          "disponible": false,
+          "imagen": "//acdn-us.mitiendanube.com/stores/001/708/518/products/axeldodds-tv-8319-04acc5a20a9c6ec3e817709384867157-1024-1024.webp"
+        }
+      ]
+    },
+    {
       "product_id": "373030640",
       "url": "https://sh-aka.com.ar/productos/est-2020-hood-gris-oscuro-8tmia/",
       "nombre": "SMMR LONGSLEEVE TEE (negro)",
@@ -5427,6 +5981,58 @@
           "stock": 0,
           "disponible": false,
           "imagen": "//acdn-us.mitiendanube.com/stores/001/708/518/products/1-4bb99fa1d73c22fe0417507969004831-1024-1024.webp"
+        }
+      ]
+    },
+    {
+      "product_id": "372995476",
+      "url": "https://sh-aka.com.ar/productos/everyday-tee-gris-melange/",
+      "nombre": "SMMR TEE (gris topo)",
+      "marca": "Shaka Cmmnty",
+      "descripcion": "Remera SMMR TEE gris topo, 100% algodón, oversize, estampa en serigrafía y costuras a la vista. Sumala a tu look urbano hoy!",
+      "imagenes": [
+        "https://acdn-us.mitiendanube.com/stores/001/708/518/products/artboard-12-918b5222a3364fb96a17914994862433-480-0.webp"
+      ],
+      "variantes": [
+        {
+          "variant_id": 1242434167,
+          "sku": "134",
+          "opciones": "S / 2000 PUNTOS",
+          "precio": 65000,
+          "precio_tachado": null,
+          "stock": 0,
+          "disponible": false,
+          "imagen": "//acdn-us.mitiendanube.com/stores/001/708/518/products/3-ca7eaa95bb33d25cf217507952506856-1024-1024.webp"
+        },
+        {
+          "variant_id": 1242434171,
+          "sku": "135",
+          "opciones": "M / 2000 PUNTOS",
+          "precio": 65000,
+          "precio_tachado": null,
+          "stock": 0,
+          "disponible": false,
+          "imagen": "//acdn-us.mitiendanube.com/stores/001/708/518/products/3-ca7eaa95bb33d25cf217507952506856-1024-1024.webp"
+        },
+        {
+          "variant_id": 1242434174,
+          "sku": "136",
+          "opciones": "L / 2000 PUNTOS",
+          "precio": 65000,
+          "precio_tachado": null,
+          "stock": 0,
+          "disponible": false,
+          "imagen": "//acdn-us.mitiendanube.com/stores/001/708/518/products/3-ca7eaa95bb33d25cf217507952506856-1024-1024.webp"
+        },
+        {
+          "variant_id": 1242434175,
+          "sku": "137",
+          "opciones": "XL / 2000 PUNTOS",
+          "precio": 65000,
+          "precio_tachado": null,
+          "stock": 0,
+          "disponible": false,
+          "imagen": "//acdn-us.mitiendanube.com/stores/001/708/518/products/3-ca7eaa95bb33d25cf217507952506856-1024-1024.webp"
         }
       ]
     },
@@ -6225,6 +6831,58 @@
       ]
     },
     {
+      "product_id": "354401899",
+      "url": "https://sh-aka.com.ar/productos/flower-shirt-marino-ob9ql/",
+      "nombre": "KIDZ LONGSLEEVE SHIRT",
+      "marca": "Shaka Cmmnty",
+      "descripcion": "Camisa KIDZ LONGSLEEVE de viyela, boxy fit y serigrafía. Bandera argentina. Estilo y confort local. ¡Sumala a tu look hoy!",
+      "imagenes": [
+        "https://acdn-us.mitiendanube.com/stores/001/708/518/products/artboard-26-f43e4bc2078a05556f17834604855305-480-0.webp"
+      ],
+      "variantes": [
+        {
+          "variant_id": 1496186356,
+          "sku": "119",
+          "opciones": "S / 2500 PUNTOS",
+          "precio": 59500,
+          "precio_tachado": 85000,
+          "stock": 4,
+          "disponible": true,
+          "imagen": "//acdn-us.mitiendanube.com/stores/001/708/518/products/artboard-18-042f3bd868615612ac17762829968522-1024-1024.webp"
+        },
+        {
+          "variant_id": 1496186370,
+          "sku": "120",
+          "opciones": "M / 2500 PUNTOS",
+          "precio": 59500,
+          "precio_tachado": 85000,
+          "stock": 8,
+          "disponible": true,
+          "imagen": "//acdn-us.mitiendanube.com/stores/001/708/518/products/artboard-18-042f3bd868615612ac17762829968522-1024-1024.webp"
+        },
+        {
+          "variant_id": 1496186383,
+          "sku": "121",
+          "opciones": "L / 2500 PUNTOS",
+          "precio": 59500,
+          "precio_tachado": 85000,
+          "stock": 13,
+          "disponible": true,
+          "imagen": "//acdn-us.mitiendanube.com/stores/001/708/518/products/artboard-18-042f3bd868615612ac17762829968522-1024-1024.webp"
+        },
+        {
+          "variant_id": 1496186392,
+          "sku": "122",
+          "opciones": "XL / 2500 PUNTOS",
+          "precio": 59500,
+          "precio_tachado": 85000,
+          "stock": 2,
+          "disponible": true,
+          "imagen": "//acdn-us.mitiendanube.com/stores/001/708/518/products/artboard-18-042f3bd868615612ac17762829968522-1024-1024.webp"
+        }
+      ]
+    },
+    {
       "product_id": "314746039",
       "url": "https://sh-aka.com.ar/productos/fogo-tee-negro/",
       "nombre": "ARG TEE",
@@ -6815,6 +7473,58 @@
       ]
     },
     {
+      "product_id": "222667300",
+      "url": "https://sh-aka.com.ar/productos/gray-stars-denim/",
+      "nombre": "THE ROOTZ DENIM (stone blue)",
+      "marca": "Shaka Cmmnty",
+      "descripcion": "Jean THE ROOTZ DENIM stone blue, baggy fit, denim 10.5oz, gastado vintage y bordado. Estilo argentino auténtico. ¡Sumalo a tu look hoy!",
+      "imagenes": [
+        "https://acdn-us.mitiendanube.com/stores/001/708/518/products/artboard-41-93874dd7e3d323ae6017784596742455-480-0.webp"
+      ],
+      "variantes": [
+        {
+          "variant_id": 1212396330,
+          "sku": "273",
+          "opciones": "S / 5000 PUNTOS",
+          "precio": 125000,
+          "precio_tachado": null,
+          "stock": 0,
+          "disponible": false,
+          "imagen": "//acdn-us.mitiendanube.com/stores/001/708/518/products/jean-mockup-c36f1039e9b4f7a14b17476828875705-1024-1024.webp"
+        },
+        {
+          "variant_id": 1212396338,
+          "sku": "274",
+          "opciones": "M / 5000 PUNTOS",
+          "precio": 125000,
+          "precio_tachado": null,
+          "stock": 0,
+          "disponible": false,
+          "imagen": "//acdn-us.mitiendanube.com/stores/001/708/518/products/jean-mockup-c36f1039e9b4f7a14b17476828875705-1024-1024.webp"
+        },
+        {
+          "variant_id": 1212396346,
+          "sku": "275",
+          "opciones": "L / 5000 PUNTOS",
+          "precio": 125000,
+          "precio_tachado": null,
+          "stock": 0,
+          "disponible": false,
+          "imagen": "//acdn-us.mitiendanube.com/stores/001/708/518/products/jean-mockup-c36f1039e9b4f7a14b17476828875705-1024-1024.webp"
+        },
+        {
+          "variant_id": 1212396351,
+          "sku": "276",
+          "opciones": "XL / 5000 PUNTOS",
+          "precio": 125000,
+          "precio_tachado": null,
+          "stock": 0,
+          "disponible": false,
+          "imagen": "//acdn-us.mitiendanube.com/stores/001/708/518/products/jean-mockup-c36f1039e9b4f7a14b17476828875705-1024-1024.webp"
+        }
+      ]
+    },
+    {
       "product_id": "336473828",
       "url": "https://sh-aka.com.ar/productos/gray-stars-tee-heavyweight/",
       "nombre": "SHK WASHED TEE (vison)",
@@ -7019,6 +7729,184 @@
           "stock": 0,
           "disponible": false,
           "imagen": "//acdn-us.mitiendanube.com/stores/001/708/518/products/oiuhnm-1594c02b358ab273f317327349519983-1024-1024.webp"
+        }
+      ]
+    },
+    {
+      "product_id": "373030640",
+      "url": "https://sh-aka.com.ar/productos/guarana-regular-tee/",
+      "nombre": "SMMR LONGSLEEVE TEE (negro)",
+      "marca": "Shaka Cmmnty",
+      "descripcion": "Remera SMMR LONGSLEEVE TEE oversize, algodón pesado, waffle, bordado y estampa. Hecha en Argentina. ¡Sumala a tu look urbano hoy!",
+      "imagenes": [
+        "https://acdn-us.mitiendanube.com/stores/001/708/518/products/artboard-46-c4877e12c18a90082217915010950784-480-0.webp"
+      ],
+      "variantes": [
+        {
+          "variant_id": 1073284934,
+          "sku": "",
+          "opciones": "S / 2000 PUNTOS",
+          "precio": 65000,
+          "precio_tachado": null,
+          "stock": 0,
+          "disponible": false,
+          "imagen": "//acdn-us.mitiendanube.com/stores/001/708/518/products/aertygn-e03628af18965fbe4117327350479116-1024-1024.webp"
+        },
+        {
+          "variant_id": 1073284939,
+          "sku": "374",
+          "opciones": "M / 2000 PUNTOS",
+          "precio": 65000,
+          "precio_tachado": null,
+          "stock": 0,
+          "disponible": false,
+          "imagen": "//acdn-us.mitiendanube.com/stores/001/708/518/products/aertygn-e03628af18965fbe4117327350479116-1024-1024.webp"
+        },
+        {
+          "variant_id": 1073284942,
+          "sku": "375",
+          "opciones": "L / 2000 PUNTOS",
+          "precio": 65000,
+          "precio_tachado": null,
+          "stock": 0,
+          "disponible": false,
+          "imagen": "//acdn-us.mitiendanube.com/stores/001/708/518/products/aertygn-e03628af18965fbe4117327350479116-1024-1024.webp"
+        },
+        {
+          "variant_id": 1073284946,
+          "sku": "376",
+          "opciones": "XL / 2000 PUNTOS",
+          "precio": 65000,
+          "precio_tachado": null,
+          "stock": 0,
+          "disponible": false,
+          "imagen": "//acdn-us.mitiendanube.com/stores/001/708/518/products/aertygn-e03628af18965fbe4117327350479116-1024-1024.webp"
+        }
+      ]
+    },
+    {
+      "product_id": "342756774",
+      "url": "https://sh-aka.com.ar/productos/heavyweight-tee-azul/",
+      "nombre": "EASY TEE (mushroom)",
+      "marca": "Shaka Cmmnty",
+      "descripcion": "Remera EASY TEE oversize, 100% algodón, estampa en serigrafía y suavizado. Hecha en Argentina. ¡Sumala a tu look hoy!",
+      "imagenes": [
+        "https://acdn-us.mitiendanube.com/stores/001/708/518/products/artboard-52-1295c21523df8a1eca17784590670604-480-0.webp"
+      ],
+      "variantes": [
+        {
+          "variant_id": 1167960673,
+          "sku": "16",
+          "opciones": "S / 2000 PUNTOS",
+          "precio": 65000,
+          "precio_tachado": null,
+          "stock": 0,
+          "disponible": false,
+          "imagen": "//acdn-us.mitiendanube.com/stores/001/708/518/products/vwdscz-3e5ddb03db53eea1c217437157532571-1024-1024.webp"
+        },
+        {
+          "variant_id": 1167960681,
+          "sku": "17",
+          "opciones": "M / 2000 PUNTOS",
+          "precio": 65000,
+          "precio_tachado": null,
+          "stock": 0,
+          "disponible": false,
+          "imagen": "//acdn-us.mitiendanube.com/stores/001/708/518/products/vwdscz-3e5ddb03db53eea1c217437157532571-1024-1024.webp"
+        },
+        {
+          "variant_id": 1167960687,
+          "sku": "18",
+          "opciones": "L / 2000 PUNTOS",
+          "precio": 65000,
+          "precio_tachado": null,
+          "stock": 0,
+          "disponible": false,
+          "imagen": "//acdn-us.mitiendanube.com/stores/001/708/518/products/vwdscz-3e5ddb03db53eea1c217437157532571-1024-1024.webp"
+        },
+        {
+          "variant_id": 1167960692,
+          "sku": "19",
+          "opciones": "XL / 2000 PUNTOS",
+          "precio": 65000,
+          "precio_tachado": null,
+          "stock": 0,
+          "disponible": false,
+          "imagen": "//acdn-us.mitiendanube.com/stores/001/708/518/products/vwdscz-3e5ddb03db53eea1c217437157532571-1024-1024.webp"
+        }
+      ]
+    },
+    {
+      "product_id": "336473828",
+      "url": "https://sh-aka.com.ar/productos/heavyweight-tee-negro/",
+      "nombre": "SHK WASHED TEE (vison)",
+      "marca": "Shaka Cmmnty",
+      "descripcion": "Remera oversize visón 100% algodón, gastada y con estampa serigrafiada. Sumá estilo argentino a tu outfit, ¡adquirila hoy!",
+      "imagenes": [
+        "https://acdn-us.mitiendanube.com/stores/001/708/518/products/artboard-28-796d6d0bb78b230bcb17762829241104-480-0.webp"
+      ],
+      "variantes": [
+        {
+          "variant_id": 1167959562,
+          "sku": "20",
+          "opciones": "S / 2000 PUNTOS",
+          "precio": 65000,
+          "precio_tachado": null,
+          "stock": 0,
+          "disponible": false,
+          "imagen": "//acdn-us.mitiendanube.com/stores/001/708/518/products/oijasm-f0e934bd2c191559d517437158746222-1024-1024.webp"
+        },
+        {
+          "variant_id": 1167959572,
+          "sku": "21",
+          "opciones": "M / 2000 PUNTOS",
+          "precio": 65000,
+          "precio_tachado": null,
+          "stock": 0,
+          "disponible": false,
+          "imagen": "//acdn-us.mitiendanube.com/stores/001/708/518/products/oijasm-f0e934bd2c191559d517437158746222-1024-1024.webp"
+        },
+        {
+          "variant_id": 1167959582,
+          "sku": "22",
+          "opciones": "L / 2000 PUNTOS",
+          "precio": 65000,
+          "precio_tachado": null,
+          "stock": 0,
+          "disponible": false,
+          "imagen": "//acdn-us.mitiendanube.com/stores/001/708/518/products/oijasm-f0e934bd2c191559d517437158746222-1024-1024.webp"
+        },
+        {
+          "variant_id": 1167959592,
+          "sku": "23",
+          "opciones": "XL / 2000 PUNTOS",
+          "precio": 65000,
+          "precio_tachado": null,
+          "stock": 0,
+          "disponible": false,
+          "imagen": "//acdn-us.mitiendanube.com/stores/001/708/518/products/oijasm-f0e934bd2c191559d517437158746222-1024-1024.webp"
+        }
+      ]
+    },
+    {
+      "product_id": "373048849",
+      "url": "https://sh-aka.com.ar/productos/helicoptero-shk/",
+      "nombre": "VNTG BELT (amarillo <3)",
+      "marca": "Shaka Cmmnty",
+      "descripcion": "Comprá online VNTG BELT (amarillo",
+      "imagenes": [
+        "https://acdn-us.mitiendanube.com/stores/001/708/518/products/artboard-4-f28cd59da45a7c5cd317915047995342-480-0.webp"
+      ],
+      "variantes": [
+        {
+          "variant_id": 893035979,
+          "sku": "695",
+          "opciones": "",
+          "precio": 420000000,
+          "precio_tachado": null,
+          "stock": 0,
+          "disponible": false,
+          "imagen": "//acdn-us.mitiendanube.com/stores/001/708/518/products/helicoptero-7795b1e1d818b6b51017147511741792-1024-1024.webp"
         }
       ]
     },
@@ -7701,6 +8589,38 @@
       ]
     },
     {
+      "product_id": "372996748",
+      "url": "https://sh-aka.com.ar/productos/kool-belt/",
+      "nombre": "BLACK CAP",
+      "marca": "Shaka Cmmnty",
+      "descripcion": "Gorra BLACK CAP de gabardina, bordado 3D y broche plástico. Hecha en Argentina. ¡Sumala a tu estilo hoy!",
+      "imagenes": [
+        "https://acdn-us.mitiendanube.com/stores/001/708/518/products/artboard-1-0784ee9d98a7b2dcb917915032531931-480-0.webp"
+      ],
+      "variantes": [
+        {
+          "variant_id": 1313709145,
+          "sku": "",
+          "opciones": "1",
+          "precio": 90000,
+          "precio_tachado": null,
+          "stock": 24,
+          "disponible": true,
+          "imagen": "//acdn-us.mitiendanube.com/stores/001/708/518/products/artboard-92-146b449e28e968446817784604626550-1024-1024.webp"
+        },
+        {
+          "variant_id": 1313709149,
+          "sku": "",
+          "opciones": "2",
+          "precio": 90000,
+          "precio_tachado": null,
+          "stock": 4,
+          "disponible": true,
+          "imagen": "//acdn-us.mitiendanube.com/stores/001/708/518/products/artboard-92-146b449e28e968446817784604626550-1024-1024.webp"
+        }
+      ]
+    },
+    {
       "product_id": "369092955",
       "url": "https://sh-aka.com.ar/productos/kool-denim1/",
       "nombre": "EL RANCHO DENIM - PRE-VENTA (entrega a partir del 15/12)",
@@ -8323,6 +9243,58 @@
           "stock": 0,
           "disponible": false,
           "imagen": "//acdn-us.mitiendanube.com/stores/001/708/518/products/bujvwdksl-257b2c8d45a41e9f2e17371531376994-1024-1024.webp"
+        }
+      ]
+    },
+    {
+      "product_id": "373030640",
+      "url": "https://sh-aka.com.ar/productos/lost-kidz-longsleeve-tee-arena-qaosp/",
+      "nombre": "SMMR LONGSLEEVE TEE (negro)",
+      "marca": "Shaka Cmmnty",
+      "descripcion": "Remera SMMR LONGSLEEVE TEE oversize, algodón pesado, waffle, bordado y estampa. Hecha en Argentina. ¡Sumala a tu look urbano hoy!",
+      "imagenes": [
+        "https://acdn-us.mitiendanube.com/stores/001/708/518/products/artboard-46-c4877e12c18a90082217915010950784-480-0.webp"
+      ],
+      "variantes": [
+        {
+          "variant_id": 1555350417,
+          "sku": "",
+          "opciones": "S / 2000 PUNTOS",
+          "precio": 54000,
+          "precio_tachado": 90000,
+          "stock": 0,
+          "disponible": false,
+          "imagen": "//acdn-us.mitiendanube.com/stores/001/708/518/products/artboard-18-fa0d4ecb335234722617834602909790-1024-1024.webp"
+        },
+        {
+          "variant_id": 1555350419,
+          "sku": "",
+          "opciones": "M / 2000 PUNTOS",
+          "precio": 54000,
+          "precio_tachado": 90000,
+          "stock": 5,
+          "disponible": true,
+          "imagen": "//acdn-us.mitiendanube.com/stores/001/708/518/products/artboard-18-fa0d4ecb335234722617834602909790-1024-1024.webp"
+        },
+        {
+          "variant_id": 1555350421,
+          "sku": "",
+          "opciones": "L / 2000 PUNTOS",
+          "precio": 54000,
+          "precio_tachado": 90000,
+          "stock": 2,
+          "disponible": true,
+          "imagen": "//acdn-us.mitiendanube.com/stores/001/708/518/products/artboard-18-fa0d4ecb335234722617834602909790-1024-1024.webp"
+        },
+        {
+          "variant_id": 1555350422,
+          "sku": "",
+          "opciones": "XL / 2000 PUNTOS",
+          "precio": 54000,
+          "precio_tachado": 90000,
+          "stock": 2,
+          "disponible": true,
+          "imagen": "//acdn-us.mitiendanube.com/stores/001/708/518/products/artboard-18-fa0d4ecb335234722617834602909790-1024-1024.webp"
         }
       ]
     },
@@ -9045,6 +10017,90 @@
           "stock": 0,
           "disponible": false,
           "imagen": "//acdn-us.mitiendanube.com/stores/001/708/518/products/artboard-57-ee59bcae6886627e5d17784593689694-1024-1024.webp"
+        }
+      ]
+    },
+    {
+      "product_id": "369099398",
+      "url": "https://sh-aka.com.ar/productos/not-a-zip-hoodie-crudo/",
+      "nombre": "EL RANCHO LONGSLEEVE TEE - PRE-VENTA (entrega a partir del 05/12)",
+      "marca": "Shaka Cmmnty",
+      "descripcion": "Remera EL RANCHO 100% algodón, oversize fit, estampa icónica sublimada. Hecha en Argentina. ¡Sumala a tu estilo hoy!",
+      "imagenes": [
+        "https://acdn-us.mitiendanube.com/stores/001/708/518/products/artboard-22-607706fceea8cfb81817901138381236-480-0.webp"
+      ],
+      "variantes": [
+        {
+          "variant_id": 1273957752,
+          "sku": "829",
+          "opciones": "M / 3000 PUNTOS",
+          "precio": 140000,
+          "precio_tachado": null,
+          "stock": 0,
+          "disponible": false,
+          "imagen": "//acdn-us.mitiendanube.com/stores/001/708/518/products/artboard-77-a0e6307d213a83528817784594092596-1024-1024.webp"
+        },
+        {
+          "variant_id": 1273957760,
+          "sku": "829",
+          "opciones": "L / 3000 PUNTOS",
+          "precio": 140000,
+          "precio_tachado": null,
+          "stock": 0,
+          "disponible": false,
+          "imagen": "//acdn-us.mitiendanube.com/stores/001/708/518/products/artboard-77-a0e6307d213a83528817784594092596-1024-1024.webp"
+        },
+        {
+          "variant_id": 1273957767,
+          "sku": "829",
+          "opciones": "XL / 3000 PUNTOS",
+          "precio": 140000,
+          "precio_tachado": null,
+          "stock": 0,
+          "disponible": false,
+          "imagen": "//acdn-us.mitiendanube.com/stores/001/708/518/products/artboard-77-a0e6307d213a83528817784594092596-1024-1024.webp"
+        }
+      ]
+    },
+    {
+      "product_id": "355790029",
+      "url": "https://sh-aka.com.ar/productos/not-a-zip-hoodie-marron-jis0i/",
+      "nombre": "MALVINAS HOOD",
+      "marca": "Shaka Cmmnty",
+      "descripcion": "Descubrí Malvinas Hood, buzo de frisa invisible, corte único y estampa DTG. Hecho en Argentina. ¡Elegí tu talle y destacate!",
+      "imagenes": [
+        "https://acdn-us.mitiendanube.com/stores/001/708/518/products/artboard-2-71931828666ebb152817841506861892-480-0.webp"
+      ],
+      "variantes": [
+        {
+          "variant_id": 1520299648,
+          "sku": "829",
+          "opciones": "M / 3000 PUNTOS",
+          "precio": 112000,
+          "precio_tachado": 140000,
+          "stock": 0,
+          "disponible": false,
+          "imagen": "//acdn-us.mitiendanube.com/stores/001/708/518/products/artboard-17-78ece76f7fce69d85617784587181068-1024-1024.webp"
+        },
+        {
+          "variant_id": 1520299656,
+          "sku": "829",
+          "opciones": "L / 3000 PUNTOS",
+          "precio": 112000,
+          "precio_tachado": 140000,
+          "stock": 0,
+          "disponible": false,
+          "imagen": "//acdn-us.mitiendanube.com/stores/001/708/518/products/artboard-17-78ece76f7fce69d85617784587181068-1024-1024.webp"
+        },
+        {
+          "variant_id": 1520299661,
+          "sku": "829",
+          "opciones": "XL / 3000 PUNTOS",
+          "precio": 112000,
+          "precio_tachado": 140000,
+          "stock": 0,
+          "disponible": false,
+          "imagen": "//acdn-us.mitiendanube.com/stores/001/708/518/products/artboard-17-78ece76f7fce69d85617784587181068-1024-1024.webp"
         }
       ]
     },
@@ -9891,6 +10947,48 @@
       ]
     },
     {
+      "product_id": "324956201",
+      "url": "https://sh-aka.com.ar/productos/passion-boxer-4-her-celeste-2ewkd/",
+      "nombre": "PASSION BOXER (gris)",
+      "marca": "Shaka Cmmnty",
+      "descripcion": "Boxer PASSION gris, poplin 100% algodón, corte 3/4 y etiqueta externa. Hecho en Argentina. ¡Sumalo a tu comodidad diaria!",
+      "imagenes": [
+        "https://acdn-us.mitiendanube.com/stores/001/708/518/products/artboard-32-5b68f7c001fb29cbf817709375455113-480-0.webp"
+      ],
+      "variantes": [
+        {
+          "variant_id": 1440888840,
+          "sku": "466",
+          "opciones": "S / 1000",
+          "precio": 12000,
+          "precio_tachado": 30000,
+          "stock": 0,
+          "disponible": false,
+          "imagen": "//acdn-us.mitiendanube.com/stores/001/708/518/products/artboard-28-811fb0fc4fd473c53517709373838264-1024-1024.webp"
+        },
+        {
+          "variant_id": 1440888845,
+          "sku": "467",
+          "opciones": "M / 1000",
+          "precio": 12000,
+          "precio_tachado": 30000,
+          "stock": 0,
+          "disponible": false,
+          "imagen": "//acdn-us.mitiendanube.com/stores/001/708/518/products/artboard-28-811fb0fc4fd473c53517709373838264-1024-1024.webp"
+        },
+        {
+          "variant_id": 1440888848,
+          "sku": "468",
+          "opciones": "L / 1000",
+          "precio": 12000,
+          "precio_tachado": 30000,
+          "stock": 0,
+          "disponible": false,
+          "imagen": "//acdn-us.mitiendanube.com/stores/001/708/518/products/artboard-28-811fb0fc4fd473c53517709373838264-1024-1024.webp"
+        }
+      ]
+    },
+    {
       "product_id": "324962294",
       "url": "https://sh-aka.com.ar/productos/passion-boxer-4-her-cuadrille-10euo/",
       "nombre": "SHK WHITE BOXER",
@@ -10395,6 +11493,214 @@
       ]
     },
     {
+      "product_id": "312237382",
+      "url": "https://sh-aka.com.ar/productos/passion-tee-blanco-y-beige-1w6bk/",
+      "nombre": "YIN YANG TEE (marron)",
+      "marca": "Shaka Cmmnty",
+      "descripcion": "Remera YIN YANG TEE marrón, 100% algodón pesado, oversize y estampa en serigrafía. ¡Sumala a tu look argentino hoy!",
+      "imagenes": [
+        "https://acdn-us.mitiendanube.com/stores/001/708/518/products/artboard-15-ae1bfc33c7c439866f17654021771221-480-0.webp"
+      ],
+      "variantes": [
+        {
+          "variant_id": 1440921293,
+          "sku": "",
+          "opciones": "S / 2000 PUNTOS",
+          "precio": 56000,
+          "precio_tachado": 70000,
+          "stock": 0,
+          "disponible": false,
+          "imagen": "//acdn-us.mitiendanube.com/stores/001/708/518/products/web-3-72fed4eea3086d458d17710231213629-1024-1024.webp"
+        },
+        {
+          "variant_id": 1440921305,
+          "sku": "374",
+          "opciones": "M / 2000 PUNTOS",
+          "precio": 56000,
+          "precio_tachado": 70000,
+          "stock": 0,
+          "disponible": false,
+          "imagen": "//acdn-us.mitiendanube.com/stores/001/708/518/products/web-3-72fed4eea3086d458d17710231213629-1024-1024.webp"
+        },
+        {
+          "variant_id": 1440921312,
+          "sku": "375",
+          "opciones": "L / 2000 PUNTOS",
+          "precio": 56000,
+          "precio_tachado": 70000,
+          "stock": 0,
+          "disponible": false,
+          "imagen": "//acdn-us.mitiendanube.com/stores/001/708/518/products/web-3-72fed4eea3086d458d17710231213629-1024-1024.webp"
+        },
+        {
+          "variant_id": 1440921317,
+          "sku": "376",
+          "opciones": "XL / 2000 PUNTOS",
+          "precio": 56000,
+          "precio_tachado": 70000,
+          "stock": 0,
+          "disponible": false,
+          "imagen": "//acdn-us.mitiendanube.com/stores/001/708/518/products/web-3-72fed4eea3086d458d17710231213629-1024-1024.webp"
+        }
+      ]
+    },
+    {
+      "product_id": "298697252",
+      "url": "https://sh-aka.com.ar/productos/passion-tee-blanco-y-gris-1leyh/",
+      "nombre": "VNTG TEE",
+      "marca": "Shaka Cmmnty",
+      "descripcion": "Remera VNTG TEE oversize, algodón pesado y ribb a contratono. Estilo argentino y calidad premium. ¡Sumala a tu outfit hoy!",
+      "imagenes": [
+        "https://acdn-us.mitiendanube.com/stores/001/708/518/products/artboard-17-8b47894d12fab182b317598761722580-480-0.webp"
+      ],
+      "variantes": [
+        {
+          "variant_id": 1440919131,
+          "sku": null,
+          "opciones": "S / 2000 PUNTOS",
+          "precio": 70000,
+          "precio_tachado": null,
+          "stock": 0,
+          "disponible": false,
+          "imagen": "//acdn-us.mitiendanube.com/stores/001/708/518/products/artboard-14-f093b412ba2045d01417709372852670-1024-1024.webp"
+        },
+        {
+          "variant_id": 1440919142,
+          "sku": "374",
+          "opciones": "M / 2000 PUNTOS",
+          "precio": 70000,
+          "precio_tachado": null,
+          "stock": 0,
+          "disponible": false,
+          "imagen": "//acdn-us.mitiendanube.com/stores/001/708/518/products/artboard-14-f093b412ba2045d01417709372852670-1024-1024.webp"
+        },
+        {
+          "variant_id": 1440919153,
+          "sku": "375",
+          "opciones": "L / 2000 PUNTOS",
+          "precio": 70000,
+          "precio_tachado": null,
+          "stock": 0,
+          "disponible": false,
+          "imagen": "//acdn-us.mitiendanube.com/stores/001/708/518/products/artboard-14-f093b412ba2045d01417709372852670-1024-1024.webp"
+        },
+        {
+          "variant_id": 1440919158,
+          "sku": "376",
+          "opciones": "XL / 2000 PUNTOS",
+          "precio": 70000,
+          "precio_tachado": null,
+          "stock": 0,
+          "disponible": false,
+          "imagen": "//acdn-us.mitiendanube.com/stores/001/708/518/products/artboard-14-f093b412ba2045d01417709372852670-1024-1024.webp"
+        }
+      ]
+    },
+    {
+      "product_id": "342756991",
+      "url": "https://sh-aka.com.ar/productos/passion-tee-gris-y-beige-12xl2/",
+      "nombre": "EASY TEE (black)",
+      "marca": "Shaka Cmmnty",
+      "descripcion": "Remera EASY TEE negra, oversize 100% algodón peinado, estampa serigrafiada. Suavidad y estilo argentino. ¡Sumala a tu look hoy!",
+      "imagenes": [
+        "https://acdn-us.mitiendanube.com/stores/001/708/518/products/artboard-83-d065c882e4217e440517784590202204-480-0.webp"
+      ],
+      "variantes": [
+        {
+          "variant_id": 1440921914,
+          "sku": "",
+          "opciones": "S / 2000 PUNTOS",
+          "precio": 49000,
+          "precio_tachado": 70000,
+          "stock": 0,
+          "disponible": false,
+          "imagen": "//acdn-us.mitiendanube.com/stores/001/708/518/products/artboard-12-6439ec9d193e02e48917709372473386-1024-1024.webp"
+        },
+        {
+          "variant_id": 1440921920,
+          "sku": "374",
+          "opciones": "M / 2000 PUNTOS",
+          "precio": 49000,
+          "precio_tachado": 70000,
+          "stock": 0,
+          "disponible": false,
+          "imagen": "//acdn-us.mitiendanube.com/stores/001/708/518/products/artboard-12-6439ec9d193e02e48917709372473386-1024-1024.webp"
+        },
+        {
+          "variant_id": 1440921923,
+          "sku": "375",
+          "opciones": "L / 2000 PUNTOS",
+          "precio": 49000,
+          "precio_tachado": 70000,
+          "stock": 0,
+          "disponible": false,
+          "imagen": "//acdn-us.mitiendanube.com/stores/001/708/518/products/artboard-12-6439ec9d193e02e48917709372473386-1024-1024.webp"
+        },
+        {
+          "variant_id": 1440921926,
+          "sku": "376",
+          "opciones": "XL / 2000 PUNTOS",
+          "precio": 49000,
+          "precio_tachado": 70000,
+          "stock": 0,
+          "disponible": false,
+          "imagen": "//acdn-us.mitiendanube.com/stores/001/708/518/products/artboard-12-6439ec9d193e02e48917709372473386-1024-1024.webp"
+        }
+      ]
+    },
+    {
+      "product_id": "373046023",
+      "url": "https://sh-aka.com.ar/productos/pra-voce-shirt-beige/",
+      "nombre": "SQUARED SMMR SHIRT (blanco)",
+      "marca": "Shaka Cmmnty",
+      "descripcion": "Comprá online SQUARED SMMR SHIRT (blanco) por $85.000. Hacé tu pedido y pagalo online.",
+      "imagenes": [
+        "https://acdn-us.mitiendanube.com/stores/001/708/518/products/artboard-13-51a9f961250cd75cb517915006592360-480-0.webp"
+      ],
+      "variantes": [
+        {
+          "variant_id": 1055622715,
+          "sku": "",
+          "opciones": "S / 2500 PUNTOS",
+          "precio": 75000,
+          "precio_tachado": null,
+          "stock": 0,
+          "disponible": false,
+          "imagen": "//acdn-us.mitiendanube.com/stores/001/708/518/products/sdfgjv-a43e7434be296cdd9917307440163616-1024-1024.webp"
+        },
+        {
+          "variant_id": 1055622718,
+          "sku": "394",
+          "opciones": "M / 2500 PUNTOS",
+          "precio": 75000,
+          "precio_tachado": null,
+          "stock": 0,
+          "disponible": false,
+          "imagen": "//acdn-us.mitiendanube.com/stores/001/708/518/products/sdfgjv-a43e7434be296cdd9917307440163616-1024-1024.webp"
+        },
+        {
+          "variant_id": 1055622720,
+          "sku": "395",
+          "opciones": "L / 2500 PUNTOS",
+          "precio": 75000,
+          "precio_tachado": null,
+          "stock": 0,
+          "disponible": false,
+          "imagen": "//acdn-us.mitiendanube.com/stores/001/708/518/products/sdfgjv-a43e7434be296cdd9917307440163616-1024-1024.webp"
+        },
+        {
+          "variant_id": 1055622722,
+          "sku": "396",
+          "opciones": "XL / 2500 PUNTOS",
+          "precio": 75000,
+          "precio_tachado": null,
+          "stock": 0,
+          "disponible": false,
+          "imagen": "//acdn-us.mitiendanube.com/stores/001/708/518/products/sdfgjv-a43e7434be296cdd9917307440163616-1024-1024.webp"
+        }
+      ]
+    },
+    {
       "product_id": "354401899",
       "url": "https://sh-aka.com.ar/productos/pra-voce-shirt-celeste/",
       "nombre": "KIDZ LONGSLEEVE SHIRT",
@@ -10881,6 +12187,80 @@
           "stock": 0,
           "disponible": false,
           "imagen": "//acdn-us.mitiendanube.com/stores/001/708/518/products/web-beanie-rojo-2a07a594098b52a78817177858763803-1024-1024.webp"
+        }
+      ]
+    },
+    {
+      "product_id": "289864293",
+      "url": "https://sh-aka.com.ar/productos/red-cap-1z0ir/",
+      "nombre": "<3 CAP (verde)",
+      "marca": "Shaka Cmmnty",
+      "descripcion": "Gorra",
+      "imagenes": [
+        "https://acdn-us.mitiendanube.com/stores/001/708/518/products/3-cap-verde-mockup-v2-59926d81e9db2c5a6a17936507254170-480-0.webp"
+      ],
+      "variantes": [
+        {
+          "variant_id": 1356209154,
+          "sku": "398",
+          "opciones": "TALLE UNICO / 1000",
+          "precio": 45000,
+          "precio_tachado": null,
+          "stock": 0,
+          "disponible": false,
+          "imagen": "//acdn-us.mitiendanube.com/stores/001/708/518/products/camisa-sol-3-712be69caad0dac28e17621993087857-1024-1024.webp"
+        }
+      ]
+    },
+    {
+      "product_id": "354401899",
+      "url": "https://sh-aka.com.ar/productos/red-stripes-shirt-hwubw/",
+      "nombre": "KIDZ LONGSLEEVE SHIRT",
+      "marca": "Shaka Cmmnty",
+      "descripcion": "Camisa KIDZ LONGSLEEVE de viyela, boxy fit y serigrafía. Bandera argentina. Estilo y confort local. ¡Sumala a tu look hoy!",
+      "imagenes": [
+        "https://acdn-us.mitiendanube.com/stores/001/708/518/products/artboard-26-f43e4bc2078a05556f17834604855305-480-0.webp"
+      ],
+      "variantes": [
+        {
+          "variant_id": 1356221955,
+          "sku": "12",
+          "opciones": "S / 2500 PUNTOS",
+          "precio": 75000,
+          "precio_tachado": null,
+          "stock": 0,
+          "disponible": false,
+          "imagen": "//acdn-us.mitiendanube.com/stores/001/708/518/products/camisa-rosa-2-d9ec4afc5d36a6d28e17621986668948-1024-1024.webp"
+        },
+        {
+          "variant_id": 1356221959,
+          "sku": "13",
+          "opciones": "M / 2500 PUNTOS",
+          "precio": 75000,
+          "precio_tachado": null,
+          "stock": 0,
+          "disponible": false,
+          "imagen": "//acdn-us.mitiendanube.com/stores/001/708/518/products/camisa-rosa-2-d9ec4afc5d36a6d28e17621986668948-1024-1024.webp"
+        },
+        {
+          "variant_id": 1356221962,
+          "sku": "14",
+          "opciones": "L / 2500 PUNTOS",
+          "precio": 75000,
+          "precio_tachado": null,
+          "stock": 0,
+          "disponible": false,
+          "imagen": "//acdn-us.mitiendanube.com/stores/001/708/518/products/camisa-rosa-2-d9ec4afc5d36a6d28e17621986668948-1024-1024.webp"
+        },
+        {
+          "variant_id": 1356221965,
+          "sku": "15",
+          "opciones": "XL / 2500 PUNTOS",
+          "precio": 75000,
+          "precio_tachado": null,
+          "stock": 0,
+          "disponible": false,
+          "imagen": "//acdn-us.mitiendanube.com/stores/001/708/518/products/camisa-rosa-2-d9ec4afc5d36a6d28e17621986668948-1024-1024.webp"
         }
       ]
     },
@@ -12976,6 +14356,58 @@
     },
     {
       "product_id": "369090885",
+      "url": "https://sh-aka.com.ar/productos/shk-tank-blanco/",
+      "nombre": "SHK RIPPED TANK",
+      "marca": null,
+      "descripcion": "Comprá online SHK RIPPED TANK por $27.500. Hacé tu pedido y pagalo online.",
+      "imagenes": [
+        "https://acdn-us.mitiendanube.com/stores/001/708/518/products/artboard-62-f020638cad5504f07e17901153169679-480-0.webp"
+      ],
+      "variantes": [
+        {
+          "variant_id": 1034526541,
+          "sku": "462",
+          "opciones": "S / 1500 PUNTOS",
+          "precio": 30000,
+          "precio_tachado": null,
+          "stock": 0,
+          "disponible": false,
+          "imagen": "//acdn-us.mitiendanube.com/stores/001/708/518/products/oigjl-d1968fff1d907da60217283279719157-1024-1024.webp"
+        },
+        {
+          "variant_id": 1034526548,
+          "sku": "463",
+          "opciones": "M / 1500 PUNTOS",
+          "precio": 30000,
+          "precio_tachado": null,
+          "stock": 0,
+          "disponible": false,
+          "imagen": "//acdn-us.mitiendanube.com/stores/001/708/518/products/oigjl-d1968fff1d907da60217283279719157-1024-1024.webp"
+        },
+        {
+          "variant_id": 1034526552,
+          "sku": "464",
+          "opciones": "L / 1500 PUNTOS",
+          "precio": 30000,
+          "precio_tachado": null,
+          "stock": 0,
+          "disponible": false,
+          "imagen": "//acdn-us.mitiendanube.com/stores/001/708/518/products/oigjl-d1968fff1d907da60217283279719157-1024-1024.webp"
+        },
+        {
+          "variant_id": 1034526556,
+          "sku": "465",
+          "opciones": "XL / 1500 PUNTOS",
+          "precio": 30000,
+          "precio_tachado": null,
+          "stock": 0,
+          "disponible": false,
+          "imagen": "//acdn-us.mitiendanube.com/stores/001/708/518/products/oigjl-d1968fff1d907da60217283279719157-1024-1024.webp"
+        }
+      ]
+    },
+    {
+      "product_id": "369090885",
       "url": "https://sh-aka.com.ar/productos/shk-tank-moka/",
       "nombre": "SHK RIPPED TANK",
       "marca": null,
@@ -13543,6 +14975,58 @@
           "stock": 0,
           "disponible": false,
           "imagen": "//acdn-us.mitiendanube.com/stores/001/708/518/products/dfg-6d20be6cdda0eee34217259002918475-1024-1024.webp"
+        }
+      ]
+    },
+    {
+      "product_id": "369097262",
+      "url": "https://sh-aka.com.ar/productos/shk-tee-vison-394t3/",
+      "nombre": "<3 WAFFLE TEE (vison)",
+      "marca": "Shaka Cmmnty",
+      "descripcion": "Remera WAFFLE TEE 100% algodón, tela waffle suave, boxy fit y logo en serigrafía. Estilo argentino auténtico. ¡Sumala a tu look hoy!",
+      "imagenes": [
+        "https://acdn-us.mitiendanube.com/stores/001/708/518/products/artboard-10-b96be0de04b360ef0217901146280013-480-0.webp"
+      ],
+      "variantes": [
+        {
+          "variant_id": 1520295975,
+          "sku": "",
+          "opciones": "S / 2000 PUNTOS",
+          "precio": 56000,
+          "precio_tachado": 70000,
+          "stock": 1,
+          "disponible": true,
+          "imagen": "//acdn-us.mitiendanube.com/stores/001/708/518/products/artboard-52-1295c21523df8a1eca17784590670604-1024-1024.webp"
+        },
+        {
+          "variant_id": 1520295980,
+          "sku": "",
+          "opciones": "M / 2000 PUNTOS",
+          "precio": 56000,
+          "precio_tachado": 70000,
+          "stock": 4,
+          "disponible": true,
+          "imagen": "//acdn-us.mitiendanube.com/stores/001/708/518/products/artboard-52-1295c21523df8a1eca17784590670604-1024-1024.webp"
+        },
+        {
+          "variant_id": 1520295985,
+          "sku": "",
+          "opciones": "L / 2000 PUNTOS",
+          "precio": 56000,
+          "precio_tachado": 70000,
+          "stock": 0,
+          "disponible": false,
+          "imagen": "//acdn-us.mitiendanube.com/stores/001/708/518/products/artboard-52-1295c21523df8a1eca17784590670604-1024-1024.webp"
+        },
+        {
+          "variant_id": 1520295989,
+          "sku": "",
+          "opciones": "XL / 2000 PUNTOS",
+          "precio": 56000,
+          "precio_tachado": 70000,
+          "stock": 0,
+          "disponible": false,
+          "imagen": "//acdn-us.mitiendanube.com/stores/001/708/518/products/artboard-52-1295c21523df8a1eca17784590670604-1024-1024.webp"
         }
       ]
     },
@@ -14299,6 +15783,110 @@
       ]
     },
     {
+      "product_id": "312237382",
+      "url": "https://sh-aka.com.ar/productos/smmr-longsleeve-tee-153hr/",
+      "nombre": "YIN YANG TEE (marron)",
+      "marca": "Shaka Cmmnty",
+      "descripcion": "Remera YIN YANG TEE marrón, 100% algodón pesado, oversize y estampa en serigrafía. ¡Sumala a tu look argentino hoy!",
+      "imagenes": [
+        "https://acdn-us.mitiendanube.com/stores/001/708/518/products/artboard-15-ae1bfc33c7c439866f17654021771221-480-0.webp"
+      ],
+      "variantes": [
+        {
+          "variant_id": 1615120593,
+          "sku": "189",
+          "opciones": "S / 3000 PUNTOS",
+          "precio": 95000,
+          "precio_tachado": null,
+          "stock": 0,
+          "disponible": false,
+          "imagen": "//acdn-us.mitiendanube.com/stores/001/708/518/products/artboard-46-c4877e12c18a90082217915010950784-1024-1024.webp"
+        },
+        {
+          "variant_id": 1615120594,
+          "sku": "190",
+          "opciones": "M / 3000 PUNTOS",
+          "precio": 95000,
+          "precio_tachado": null,
+          "stock": 4,
+          "disponible": true,
+          "imagen": "//acdn-us.mitiendanube.com/stores/001/708/518/products/artboard-46-c4877e12c18a90082217915010950784-1024-1024.webp"
+        },
+        {
+          "variant_id": 1615120595,
+          "sku": "191",
+          "opciones": "L / 3000 PUNTOS",
+          "precio": 95000,
+          "precio_tachado": null,
+          "stock": 3,
+          "disponible": true,
+          "imagen": "//acdn-us.mitiendanube.com/stores/001/708/518/products/artboard-46-c4877e12c18a90082217915010950784-1024-1024.webp"
+        },
+        {
+          "variant_id": 1615120597,
+          "sku": "192",
+          "opciones": "XL / 3000 PUNTOS",
+          "precio": 95000,
+          "precio_tachado": null,
+          "stock": 1,
+          "disponible": true,
+          "imagen": "//acdn-us.mitiendanube.com/stores/001/708/518/products/artboard-46-c4877e12c18a90082217915010950784-1024-1024.webp"
+        }
+      ]
+    },
+    {
+      "product_id": "342756966",
+      "url": "https://sh-aka.com.ar/productos/smmr-longsleeve-tee-lima-8vi16/",
+      "nombre": "EASY TEE (white)",
+      "marca": "Shaka Cmmnty",
+      "descripcion": "Remera EASY TEE blanca oversize, algodón peinado 20/1, serigrafía y suavizado. Estilo cómodo argentino. ¡Sumala a tu look hoy!",
+      "imagenes": [
+        "https://acdn-us.mitiendanube.com/stores/001/708/518/products/artboard-86-5ccb6b48c7de7d448e17784590435002-480-0.webp"
+      ],
+      "variantes": [
+        {
+          "variant_id": 1615125503,
+          "sku": "189",
+          "opciones": "S / 3000 PUNTOS",
+          "precio": 95000,
+          "precio_tachado": null,
+          "stock": 0,
+          "disponible": false,
+          "imagen": "//acdn-us.mitiendanube.com/stores/001/708/518/products/artboard-51-8b53d7bcb1706e374417915010586082-1024-1024.webp"
+        },
+        {
+          "variant_id": 1615125507,
+          "sku": "190",
+          "opciones": "M / 3000 PUNTOS",
+          "precio": 95000,
+          "precio_tachado": null,
+          "stock": 0,
+          "disponible": false,
+          "imagen": "//acdn-us.mitiendanube.com/stores/001/708/518/products/artboard-51-8b53d7bcb1706e374417915010586082-1024-1024.webp"
+        },
+        {
+          "variant_id": 1615125509,
+          "sku": "191",
+          "opciones": "L / 3000 PUNTOS",
+          "precio": 95000,
+          "precio_tachado": null,
+          "stock": 0,
+          "disponible": false,
+          "imagen": "//acdn-us.mitiendanube.com/stores/001/708/518/products/artboard-51-8b53d7bcb1706e374417915010586082-1024-1024.webp"
+        },
+        {
+          "variant_id": 1615125511,
+          "sku": "192",
+          "opciones": "XL / 3000 PUNTOS",
+          "precio": 95000,
+          "precio_tachado": null,
+          "stock": 0,
+          "disponible": false,
+          "imagen": "//acdn-us.mitiendanube.com/stores/001/708/518/products/artboard-51-8b53d7bcb1706e374417915010586082-1024-1024.webp"
+        }
+      ]
+    },
+    {
       "product_id": "378329886",
       "url": "https://sh-aka.com.ar/productos/smmr-ranglan-tee-beige-a79j2/",
       "nombre": "<3 CAP - (rosa)",
@@ -14823,6 +16411,110 @@
       ]
     },
     {
+      "product_id": "307803736",
+      "url": "https://sh-aka.com.ar/productos/squared-jort-1feby/",
+      "nombre": "THE VNTG BOARDSHORT (negro) - PRE-VENTA (entrega a partir del 30/11)",
+      "marca": "Shaka Cmmnty",
+      "descripcion": "Boardshort THE VNTG BOARDSHORT negro, microfibra spandex, secado rápido, surfer fit 3/4 y detalles blancos. ¡Sumalo a tu look argentino hoy!",
+      "imagenes": [
+        "https://acdn-us.mitiendanube.com/stores/001/708/518/products/artboard-70-16a57a7fe223b6f62417915023343331-480-0.webp"
+      ],
+      "variantes": [
+        {
+          "variant_id": 1393874962,
+          "sku": "434",
+          "opciones": "S / 3000 PUNTOS",
+          "precio": 100000,
+          "precio_tachado": null,
+          "stock": 0,
+          "disponible": false,
+          "imagen": "//acdn-us.mitiendanube.com/stores/001/708/518/products/artboard-1-f26300de8f70bdf44e17685148568578-1024-1024.webp"
+        },
+        {
+          "variant_id": 1393874969,
+          "sku": "435",
+          "opciones": "M / 3000 PUNTOS",
+          "precio": 100000,
+          "precio_tachado": null,
+          "stock": 0,
+          "disponible": false,
+          "imagen": "//acdn-us.mitiendanube.com/stores/001/708/518/products/artboard-1-f26300de8f70bdf44e17685148568578-1024-1024.webp"
+        },
+        {
+          "variant_id": 1393874979,
+          "sku": "436",
+          "opciones": "L / 3000 PUNTOS",
+          "precio": 100000,
+          "precio_tachado": null,
+          "stock": 0,
+          "disponible": false,
+          "imagen": "//acdn-us.mitiendanube.com/stores/001/708/518/products/artboard-1-f26300de8f70bdf44e17685148568578-1024-1024.webp"
+        },
+        {
+          "variant_id": 1393874985,
+          "sku": "437",
+          "opciones": "XL / 3000 PUNTOS",
+          "precio": 100000,
+          "precio_tachado": null,
+          "stock": 0,
+          "disponible": false,
+          "imagen": "//acdn-us.mitiendanube.com/stores/001/708/518/products/artboard-1-f26300de8f70bdf44e17685148568578-1024-1024.webp"
+        }
+      ]
+    },
+    {
+      "product_id": "336472958",
+      "url": "https://sh-aka.com.ar/productos/squared-longsleeve-shirt/",
+      "nombre": "FLOWER SHIRT (marino)",
+      "marca": "Shaka Cmmnty",
+      "descripcion": "Camisa oversize de poplin marino con estampa serigrafiada. Diseño argentino, cómoda y única. ¡Sumala a tu look hoy!",
+      "imagenes": [
+        "https://acdn-us.mitiendanube.com/stores/001/708/518/products/artboard-18-042f3bd868615612ac17762829968522-480-0.webp"
+      ],
+      "variantes": [
+        {
+          "variant_id": 1332707193,
+          "sku": "12",
+          "opciones": "S / 2500 PUNTOS",
+          "precio": 78000,
+          "precio_tachado": null,
+          "stock": 0,
+          "disponible": false,
+          "imagen": "//acdn-us.mitiendanube.com/stores/001/708/518/products/artboard-23-3fe341d0413467b73f17598758908676-1024-1024.webp"
+        },
+        {
+          "variant_id": 1332707199,
+          "sku": "13",
+          "opciones": "M / 2500 PUNTOS",
+          "precio": 78000,
+          "precio_tachado": null,
+          "stock": 0,
+          "disponible": false,
+          "imagen": "//acdn-us.mitiendanube.com/stores/001/708/518/products/artboard-23-3fe341d0413467b73f17598758908676-1024-1024.webp"
+        },
+        {
+          "variant_id": 1332707207,
+          "sku": "14",
+          "opciones": "L / 2500 PUNTOS",
+          "precio": 78000,
+          "precio_tachado": null,
+          "stock": 0,
+          "disponible": false,
+          "imagen": "//acdn-us.mitiendanube.com/stores/001/708/518/products/artboard-23-3fe341d0413467b73f17598758908676-1024-1024.webp"
+        },
+        {
+          "variant_id": 1332707212,
+          "sku": "15",
+          "opciones": "XL / 2500 PUNTOS",
+          "precio": 78000,
+          "precio_tachado": null,
+          "stock": 0,
+          "disponible": false,
+          "imagen": "//acdn-us.mitiendanube.com/stores/001/708/518/products/artboard-23-3fe341d0413467b73f17598758908676-1024-1024.webp"
+        }
+      ]
+    },
+    {
       "product_id": "378330275",
       "url": "https://sh-aka.com.ar/productos/squared-polo-1fvny/",
       "nombre": "VNTG POLO (crudo)",
@@ -15287,6 +16979,58 @@
           "stock": 0,
           "disponible": false,
           "imagen": "//acdn-us.mitiendanube.com/stores/001/708/518/products/ok-665d0d689bcaad4c8a17307423397034-1024-1024.webp"
+        }
+      ]
+    },
+    {
+      "product_id": "244269148",
+      "url": "https://sh-aka.com.ar/productos/ss-baby-tee/",
+      "nombre": "SHK MORLEY TOP",
+      "marca": "Shaka Cmmnty",
+      "descripcion": "Top SHK MORLEY 100% algodón, tela morley, hecho en Argentina. Estilo cómodo y nacional. ¡Sumalo a tu look hoy!",
+      "imagenes": [
+        "https://acdn-us.mitiendanube.com/stores/001/708/518/products/sdtg-deaec09ed5609eeeff17327350304176-480-0.webp"
+      ],
+      "variantes": [
+        {
+          "variant_id": 1219353336,
+          "sku": "161",
+          "opciones": "1500 PUNTOS / S",
+          "precio": 15000,
+          "precio_tachado": 30000,
+          "stock": 0,
+          "disponible": false,
+          "imagen": "//acdn-us.mitiendanube.com/stores/001/708/518/products/kjmhnfg-e6ae1af8452ccea49417371528959534-1024-1024.webp"
+        },
+        {
+          "variant_id": 1219353342,
+          "sku": "161",
+          "opciones": "1500 PUNTOS / M",
+          "precio": 15000,
+          "precio_tachado": 30000,
+          "stock": 0,
+          "disponible": false,
+          "imagen": "//acdn-us.mitiendanube.com/stores/001/708/518/products/kjmhnfg-e6ae1af8452ccea49417371528959534-1024-1024.webp"
+        },
+        {
+          "variant_id": 1219353352,
+          "sku": "161",
+          "opciones": "1500 PUNTOS / L",
+          "precio": 15000,
+          "precio_tachado": 30000,
+          "stock": 0,
+          "disponible": false,
+          "imagen": "//acdn-us.mitiendanube.com/stores/001/708/518/products/kjmhnfg-e6ae1af8452ccea49417371528959534-1024-1024.webp"
+        },
+        {
+          "variant_id": 1219353359,
+          "sku": "161",
+          "opciones": "1500 PUNTOS / XL",
+          "precio": 15000,
+          "precio_tachado": 30000,
+          "stock": 5,
+          "disponible": true,
+          "imagen": "//acdn-us.mitiendanube.com/stores/001/708/518/products/kjmhnfg-e6ae1af8452ccea49417371528959534-1024-1024.webp"
         }
       ]
     },
@@ -16019,6 +17763,266 @@
           "stock": 0,
           "disponible": false,
           "imagen": "//acdn-us.mitiendanube.com/stores/001/708/518/products/artboard-7-6b345ac8386cad675117636701230550-1024-1024.webp"
+        }
+      ]
+    },
+    {
+      "product_id": "314746039",
+      "url": "https://sh-aka.com.ar/productos/stripes-tee-7xc3y/",
+      "nombre": "ARG TEE",
+      "marca": "Shaka Cmmnty",
+      "descripcion": "Remera ARG TEE 100% algodón pesado, oversize, jersey peinado y estampa en serigrafía. Hecha en Argentina. ¡Sumala a tu outfit hoy!",
+      "imagenes": [
+        "https://acdn-us.mitiendanube.com/stores/001/708/518/products/artboard-17-c156bad35abe00319a17685147731796-480-0.webp"
+      ],
+      "variantes": [
+        {
+          "variant_id": 1367941645,
+          "sku": null,
+          "opciones": "S / 2000 PUNTOS",
+          "precio": 65000,
+          "precio_tachado": null,
+          "stock": 0,
+          "disponible": false,
+          "imagen": "//acdn-us.mitiendanube.com/stores/001/708/518/products/artboard-11-20ef85ddcf02706b7c17636703309246-1024-1024.webp"
+        },
+        {
+          "variant_id": 1367941651,
+          "sku": "374",
+          "opciones": "M / 2000 PUNTOS",
+          "precio": 65000,
+          "precio_tachado": null,
+          "stock": 0,
+          "disponible": false,
+          "imagen": "//acdn-us.mitiendanube.com/stores/001/708/518/products/artboard-11-20ef85ddcf02706b7c17636703309246-1024-1024.webp"
+        },
+        {
+          "variant_id": 1367941657,
+          "sku": "375",
+          "opciones": "L / 2000 PUNTOS",
+          "precio": 65000,
+          "precio_tachado": null,
+          "stock": 0,
+          "disponible": false,
+          "imagen": "//acdn-us.mitiendanube.com/stores/001/708/518/products/artboard-11-20ef85ddcf02706b7c17636703309246-1024-1024.webp"
+        },
+        {
+          "variant_id": 1367941659,
+          "sku": "376",
+          "opciones": "XL / 2000 PUNTOS",
+          "precio": 65000,
+          "precio_tachado": null,
+          "stock": 0,
+          "disponible": false,
+          "imagen": "//acdn-us.mitiendanube.com/stores/001/708/518/products/artboard-11-20ef85ddcf02706b7c17636703309246-1024-1024.webp"
+        }
+      ]
+    },
+    {
+      "product_id": "342756774",
+      "url": "https://sh-aka.com.ar/productos/stripes-tee/",
+      "nombre": "EASY TEE (mushroom)",
+      "marca": "Shaka Cmmnty",
+      "descripcion": "Remera EASY TEE oversize, 100% algodón, estampa en serigrafía y suavizado. Hecha en Argentina. ¡Sumala a tu look hoy!",
+      "imagenes": [
+        "https://acdn-us.mitiendanube.com/stores/001/708/518/products/artboard-52-1295c21523df8a1eca17784590670604-480-0.webp"
+      ],
+      "variantes": [
+        {
+          "variant_id": 1055619300,
+          "sku": "",
+          "opciones": "S / 2000 PUNTOS",
+          "precio": 65000,
+          "precio_tachado": null,
+          "stock": 0,
+          "disponible": false,
+          "imagen": "//acdn-us.mitiendanube.com/stores/001/708/518/products/oijb-1e4894b9931693b4cc17307446584391-1024-1024.webp"
+        },
+        {
+          "variant_id": 1055619303,
+          "sku": "412",
+          "opciones": "M / 2000 PUNTOS",
+          "precio": 65000,
+          "precio_tachado": null,
+          "stock": 0,
+          "disponible": false,
+          "imagen": "//acdn-us.mitiendanube.com/stores/001/708/518/products/oijb-1e4894b9931693b4cc17307446584391-1024-1024.webp"
+        },
+        {
+          "variant_id": 1055619308,
+          "sku": "413",
+          "opciones": "L / 2000 PUNTOS",
+          "precio": 65000,
+          "precio_tachado": null,
+          "stock": 0,
+          "disponible": false,
+          "imagen": "//acdn-us.mitiendanube.com/stores/001/708/518/products/oijb-1e4894b9931693b4cc17307446584391-1024-1024.webp"
+        },
+        {
+          "variant_id": 1055619315,
+          "sku": "414",
+          "opciones": "XL / 2000 PUNTOS",
+          "precio": 65000,
+          "precio_tachado": null,
+          "stock": 0,
+          "disponible": false,
+          "imagen": "//acdn-us.mitiendanube.com/stores/001/708/518/products/oijb-1e4894b9931693b4cc17307446584391-1024-1024.webp"
+        }
+      ]
+    },
+    {
+      "product_id": "331507491",
+      "url": "https://sh-aka.com.ar/productos/sunkissed-shirt-gris-topo/",
+      "nombre": "WOODCUTTER SHIRT (gris oscuro)",
+      "marca": "Shaka Cmmnty",
+      "descripcion": "Camisa WOODCUTTER SHIRT gris oscuro, gabardina 8oz, fit oversize y detalles exclusivos. Hecha en Argentina. ¡Sumala a tu estilo hoy!",
+      "imagenes": [
+        "https://acdn-us.mitiendanube.com/stores/001/708/518/products/artboard-21-96674bd9613304c7fb17736841428694-480-0.webp"
+      ],
+      "variantes": [
+        {
+          "variant_id": 1034537127,
+          "sku": "438",
+          "opciones": "S / 2500 PUNTOS",
+          "precio": 75000,
+          "precio_tachado": null,
+          "stock": 0,
+          "disponible": false,
+          "imagen": "//acdn-us.mitiendanube.com/stores/001/708/518/products/ifyhk-e5e99dc46bda77987517283277653910-1024-1024.webp"
+        },
+        {
+          "variant_id": 1034537129,
+          "sku": "439",
+          "opciones": "M / 2500 PUNTOS",
+          "precio": 75000,
+          "precio_tachado": null,
+          "stock": 0,
+          "disponible": false,
+          "imagen": "//acdn-us.mitiendanube.com/stores/001/708/518/products/ifyhk-e5e99dc46bda77987517283277653910-1024-1024.webp"
+        },
+        {
+          "variant_id": 1034537131,
+          "sku": "440",
+          "opciones": "L / 2500 PUNTOS",
+          "precio": 75000,
+          "precio_tachado": null,
+          "stock": 0,
+          "disponible": false,
+          "imagen": "//acdn-us.mitiendanube.com/stores/001/708/518/products/ifyhk-e5e99dc46bda77987517283277653910-1024-1024.webp"
+        },
+        {
+          "variant_id": 1034537132,
+          "sku": "441",
+          "opciones": "XL / 2500 PUNTOS",
+          "precio": 75000,
+          "precio_tachado": null,
+          "stock": 0,
+          "disponible": false,
+          "imagen": "//acdn-us.mitiendanube.com/stores/001/708/518/products/ifyhk-e5e99dc46bda77987517283277653910-1024-1024.webp"
+        }
+      ]
+    },
+    {
+      "product_id": "331507491",
+      "url": "https://sh-aka.com.ar/productos/sunkissed-shirt-hueso/",
+      "nombre": "WOODCUTTER SHIRT (gris oscuro)",
+      "marca": "Shaka Cmmnty",
+      "descripcion": "Camisa WOODCUTTER SHIRT gris oscuro, gabardina 8oz, fit oversize y detalles exclusivos. Hecha en Argentina. ¡Sumala a tu estilo hoy!",
+      "imagenes": [
+        "https://acdn-us.mitiendanube.com/stores/001/708/518/products/artboard-21-96674bd9613304c7fb17736841428694-480-0.webp"
+      ],
+      "variantes": [
+        {
+          "variant_id": 1034536987,
+          "sku": "442",
+          "opciones": "S / 2500 PUNTOS",
+          "precio": 75000,
+          "precio_tachado": null,
+          "stock": 0,
+          "disponible": false,
+          "imagen": "//acdn-us.mitiendanube.com/stores/001/708/518/products/iutresd-7a9d32a9cf3aae4aea17283278075000-1024-1024.webp"
+        },
+        {
+          "variant_id": 1034536992,
+          "sku": "443",
+          "opciones": "M / 2500 PUNTOS",
+          "precio": 75000,
+          "precio_tachado": null,
+          "stock": 0,
+          "disponible": false,
+          "imagen": "//acdn-us.mitiendanube.com/stores/001/708/518/products/iutresd-7a9d32a9cf3aae4aea17283278075000-1024-1024.webp"
+        },
+        {
+          "variant_id": 1034536998,
+          "sku": "444",
+          "opciones": "L / 2500 PUNTOS",
+          "precio": 75000,
+          "precio_tachado": null,
+          "stock": 0,
+          "disponible": false,
+          "imagen": "//acdn-us.mitiendanube.com/stores/001/708/518/products/iutresd-7a9d32a9cf3aae4aea17283278075000-1024-1024.webp"
+        },
+        {
+          "variant_id": 1034537000,
+          "sku": "445",
+          "opciones": "XL / 2500 PUNTOS",
+          "precio": 75000,
+          "precio_tachado": null,
+          "stock": 0,
+          "disponible": false,
+          "imagen": "//acdn-us.mitiendanube.com/stores/001/708/518/products/iutresd-7a9d32a9cf3aae4aea17283278075000-1024-1024.webp"
+        }
+      ]
+    },
+    {
+      "product_id": "342756966",
+      "url": "https://sh-aka.com.ar/productos/sunkissed-tee-celeste/",
+      "nombre": "EASY TEE (white)",
+      "marca": "Shaka Cmmnty",
+      "descripcion": "Remera EASY TEE blanca oversize, algodón peinado 20/1, serigrafía y suavizado. Estilo cómodo argentino. ¡Sumala a tu look hoy!",
+      "imagenes": [
+        "https://acdn-us.mitiendanube.com/stores/001/708/518/products/artboard-86-5ccb6b48c7de7d448e17784590435002-480-0.webp"
+      ],
+      "variantes": [
+        {
+          "variant_id": 1034488432,
+          "sku": "483",
+          "opciones": "S / 2000 PUNTOS",
+          "precio": 65000,
+          "precio_tachado": null,
+          "stock": 0,
+          "disponible": false,
+          "imagen": "//acdn-us.mitiendanube.com/stores/001/708/518/products/hj-4ae7dbe124f26107e417283283250737-1024-1024.webp"
+        },
+        {
+          "variant_id": 1034488446,
+          "sku": "484",
+          "opciones": "M / 2000 PUNTOS",
+          "precio": 65000,
+          "precio_tachado": null,
+          "stock": 0,
+          "disponible": false,
+          "imagen": "//acdn-us.mitiendanube.com/stores/001/708/518/products/hj-4ae7dbe124f26107e417283283250737-1024-1024.webp"
+        },
+        {
+          "variant_id": 1034488459,
+          "sku": "485",
+          "opciones": "L / 2000 PUNTOS",
+          "precio": 65000,
+          "precio_tachado": null,
+          "stock": 0,
+          "disponible": false,
+          "imagen": "//acdn-us.mitiendanube.com/stores/001/708/518/products/hj-4ae7dbe124f26107e417283283250737-1024-1024.webp"
+        },
+        {
+          "variant_id": 1034488467,
+          "sku": "486",
+          "opciones": "XL / 2000 PUNTOS",
+          "precio": 65000,
+          "precio_tachado": null,
+          "stock": 0,
+          "disponible": false,
+          "imagen": "//acdn-us.mitiendanube.com/stores/001/708/518/products/hj-4ae7dbe124f26107e417283283250737-1024-1024.webp"
         }
       ]
     },
@@ -17235,6 +19239,162 @@
       ]
     },
     {
+      "product_id": "221000692",
+      "url": "https://sh-aka.com.ar/productos/the-black-vest-1hai0/",
+      "nombre": "THE FLEECE ZIPPER (celeste)",
+      "marca": null,
+      "descripcion": "Comprá online THE FLEECE ZIPPER (celeste) por $100.000. Hacé tu pedido y pagalo online.",
+      "imagenes": [
+        "https://acdn-us.mitiendanube.com/stores/001/708/518/products/rbvfdcs-eb5d6bb072ad0124e117210914844967-480-0.webp"
+      ],
+      "variantes": [
+        {
+          "variant_id": 1532395045,
+          "sku": "167",
+          "opciones": "S / 4000 PUNTOS",
+          "precio": 135000,
+          "precio_tachado": null,
+          "stock": 0,
+          "disponible": false,
+          "imagen": "//acdn-us.mitiendanube.com/stores/001/708/518/products/artboard-38-cf3f9c1130abc8af7617810440791116-1024-1024.webp"
+        },
+        {
+          "variant_id": 1532395047,
+          "sku": "167",
+          "opciones": "M / 4000 PUNTOS",
+          "precio": 135000,
+          "precio_tachado": null,
+          "stock": 0,
+          "disponible": false,
+          "imagen": "//acdn-us.mitiendanube.com/stores/001/708/518/products/artboard-38-cf3f9c1130abc8af7617810440791116-1024-1024.webp"
+        },
+        {
+          "variant_id": 1532395050,
+          "sku": "168",
+          "opciones": "L / 4000 PUNTOS",
+          "precio": 135000,
+          "precio_tachado": null,
+          "stock": 0,
+          "disponible": false,
+          "imagen": "//acdn-us.mitiendanube.com/stores/001/708/518/products/artboard-38-cf3f9c1130abc8af7617810440791116-1024-1024.webp"
+        },
+        {
+          "variant_id": 1532395053,
+          "sku": "169",
+          "opciones": "XL / 4000 PUNTOS",
+          "precio": 135000,
+          "precio_tachado": null,
+          "stock": 0,
+          "disponible": false,
+          "imagen": "//acdn-us.mitiendanube.com/stores/001/708/518/products/artboard-38-cf3f9c1130abc8af7617810440791116-1024-1024.webp"
+        }
+      ]
+    },
+    {
+      "product_id": "369087693",
+      "url": "https://sh-aka.com.ar/productos/the-broken-denim-beige/",
+      "nombre": "WASHED BLUE STRIPE JORT",
+      "marca": null,
+      "descripcion": "Comprá online WASHED BLUE STRIPE JORT por $112.500. Hacé tu pedido y pagalo online.",
+      "imagenes": [
+        "https://acdn-us.mitiendanube.com/stores/001/708/518/products/artboard-67-fe381fe709dab0b86117901157234075-480-0.webp"
+      ],
+      "variantes": [
+        {
+          "variant_id": 1088118711,
+          "sku": "273",
+          "opciones": "S / 5000 PUNTOS",
+          "precio": 108000,
+          "precio_tachado": 135000,
+          "stock": 0,
+          "disponible": false,
+          "imagen": "//acdn-us.mitiendanube.com/stores/001/708/518/products/artboard-45-3199af47e02d5ed7a417784596148034-1024-1024.webp"
+        },
+        {
+          "variant_id": 1088118719,
+          "sku": "274",
+          "opciones": "M / 5000 PUNTOS",
+          "precio": 108000,
+          "precio_tachado": 135000,
+          "stock": 0,
+          "disponible": false,
+          "imagen": "//acdn-us.mitiendanube.com/stores/001/708/518/products/artboard-45-3199af47e02d5ed7a417784596148034-1024-1024.webp"
+        },
+        {
+          "variant_id": 1088118725,
+          "sku": "275",
+          "opciones": "L / 5000 PUNTOS",
+          "precio": 108000,
+          "precio_tachado": 135000,
+          "stock": 0,
+          "disponible": false,
+          "imagen": "//acdn-us.mitiendanube.com/stores/001/708/518/products/artboard-45-3199af47e02d5ed7a417784596148034-1024-1024.webp"
+        },
+        {
+          "variant_id": 1088118734,
+          "sku": "276",
+          "opciones": "XL / 5000 PUNTOS",
+          "precio": 108000,
+          "precio_tachado": 135000,
+          "stock": 0,
+          "disponible": false,
+          "imagen": "//acdn-us.mitiendanube.com/stores/001/708/518/products/artboard-45-3199af47e02d5ed7a417784596148034-1024-1024.webp"
+        }
+      ]
+    },
+    {
+      "product_id": "336486626",
+      "url": "https://sh-aka.com.ar/productos/the-broken-denim-washed-blue/",
+      "nombre": "THE STRIPE DENIM (washed black)",
+      "marca": "Shaka Cmmnty",
+      "descripcion": "Jean baggy fit gastado con láser, tiras vintage y detalles exclusivos. Descubrí el estilo único de Shaka Denims. ¡Comprá el tuyo ahora!",
+      "imagenes": [
+        "https://acdn-us.mitiendanube.com/stores/001/708/518/products/artboard-21-f19ec3411a6311bffc17762825923259-480-0.webp"
+      ],
+      "variantes": [
+        {
+          "variant_id": 1088116726,
+          "sku": "277",
+          "opciones": "S / 5000 PUNTOS",
+          "precio": 125000,
+          "precio_tachado": null,
+          "stock": 0,
+          "disponible": false,
+          "imagen": "//acdn-us.mitiendanube.com/stores/001/708/518/products/vbuodwelajsxagy-be67879d6783c27e1e17343899159578-1024-1024.webp"
+        },
+        {
+          "variant_id": 1088116740,
+          "sku": "278",
+          "opciones": "M / 5000 PUNTOS",
+          "precio": 125000,
+          "precio_tachado": null,
+          "stock": 0,
+          "disponible": false,
+          "imagen": "//acdn-us.mitiendanube.com/stores/001/708/518/products/vbuodwelajsxagy-be67879d6783c27e1e17343899159578-1024-1024.webp"
+        },
+        {
+          "variant_id": 1088116746,
+          "sku": "279",
+          "opciones": "L / 5000 PUNTOS",
+          "precio": 125000,
+          "precio_tachado": null,
+          "stock": 0,
+          "disponible": false,
+          "imagen": "//acdn-us.mitiendanube.com/stores/001/708/518/products/vbuodwelajsxagy-be67879d6783c27e1e17343899159578-1024-1024.webp"
+        },
+        {
+          "variant_id": 1088116752,
+          "sku": "280",
+          "opciones": "XL / 5000 PUNTOS",
+          "precio": 125000,
+          "precio_tachado": null,
+          "stock": 0,
+          "disponible": false,
+          "imagen": "//acdn-us.mitiendanube.com/stores/001/708/518/products/vbuodwelajsxagy-be67879d6783c27e1e17343899159578-1024-1024.webp"
+        }
+      ]
+    },
+    {
       "product_id": "336486626",
       "url": "https://sh-aka.com.ar/productos/the-broken-denim-washed-raw-blue/",
       "nombre": "THE STRIPE DENIM (washed black)",
@@ -17799,6 +19959,110 @@
       ]
     },
     {
+      "product_id": "222666659",
+      "url": "https://sh-aka.com.ar/productos/the-fleece-zipper-azul-marino/",
+      "nombre": "THE FLEECE ZIPPER (verde militar)",
+      "marca": null,
+      "descripcion": "Comprá online THE FLEECE ZIPPER (verde militar) por $100.000. Hacé tu pedido y pagalo online.",
+      "imagenes": [
+        "https://acdn-us.mitiendanube.com/stores/001/708/518/products/polar-verde-adelante-aeeaef31d41c03bc5d17227061552656-480-0.webp"
+      ],
+      "variantes": [
+        {
+          "variant_id": 980320328,
+          "sku": "569",
+          "opciones": "S / 3000 PUNTOS",
+          "precio": 100000,
+          "precio_tachado": null,
+          "stock": 0,
+          "disponible": false,
+          "imagen": "//acdn-us.mitiendanube.com/stores/001/708/518/products/polar-azul-adelante-f088e24b99c72b9f5717227062632503-1024-1024.webp"
+        },
+        {
+          "variant_id": 980320330,
+          "sku": "570",
+          "opciones": "M / 3000 PUNTOS",
+          "precio": 100000,
+          "precio_tachado": null,
+          "stock": 0,
+          "disponible": false,
+          "imagen": "//acdn-us.mitiendanube.com/stores/001/708/518/products/polar-azul-adelante-f088e24b99c72b9f5717227062632503-1024-1024.webp"
+        },
+        {
+          "variant_id": 980320332,
+          "sku": "571",
+          "opciones": "L / 3000 PUNTOS",
+          "precio": 100000,
+          "precio_tachado": null,
+          "stock": 0,
+          "disponible": false,
+          "imagen": "//acdn-us.mitiendanube.com/stores/001/708/518/products/polar-azul-adelante-f088e24b99c72b9f5717227062632503-1024-1024.webp"
+        },
+        {
+          "variant_id": 980320334,
+          "sku": "572",
+          "opciones": "XL / 3000 PUNTOS",
+          "precio": 100000,
+          "precio_tachado": null,
+          "stock": 0,
+          "disponible": false,
+          "imagen": "//acdn-us.mitiendanube.com/stores/001/708/518/products/polar-azul-adelante-f088e24b99c72b9f5717227062632503-1024-1024.webp"
+        }
+      ]
+    },
+    {
+      "product_id": "346859296",
+      "url": "https://sh-aka.com.ar/productos/the-fleece-zipper-celeste/",
+      "nombre": "NOT A SHERPA REVERSIBLE JACKET",
+      "marca": "Shaka Cmmnty",
+      "descripcion": "Campera NOT A SHERPA reversible, sherpa y microfibra, repelente al agua, regular fit y estampa exclusiva. ¡Sumala a tu look urbano hoy!",
+      "imagenes": [
+        "https://acdn-us.mitiendanube.com/stores/001/708/518/products/artboard-43-3f44313d4c5639e81817810441177848-480-0.webp"
+      ],
+      "variantes": [
+        {
+          "variant_id": 971405516,
+          "sku": "613",
+          "opciones": "S / 3000 PUNTOS",
+          "precio": 100000,
+          "precio_tachado": null,
+          "stock": 0,
+          "disponible": false,
+          "imagen": "//acdn-us.mitiendanube.com/stores/001/708/518/products/rbvfdcs-eb5d6bb072ad0124e117210914844967-1024-1024.webp"
+        },
+        {
+          "variant_id": 971405517,
+          "sku": "614",
+          "opciones": "M / 3000 PUNTOS",
+          "precio": 100000,
+          "precio_tachado": null,
+          "stock": 0,
+          "disponible": false,
+          "imagen": "//acdn-us.mitiendanube.com/stores/001/708/518/products/rbvfdcs-eb5d6bb072ad0124e117210914844967-1024-1024.webp"
+        },
+        {
+          "variant_id": 971405518,
+          "sku": "615",
+          "opciones": "L / 3000 PUNTOS",
+          "precio": 100000,
+          "precio_tachado": null,
+          "stock": 0,
+          "disponible": false,
+          "imagen": "//acdn-us.mitiendanube.com/stores/001/708/518/products/rbvfdcs-eb5d6bb072ad0124e117210914844967-1024-1024.webp"
+        },
+        {
+          "variant_id": 971405520,
+          "sku": "616",
+          "opciones": "XL / 3000 PUNTOS",
+          "precio": 100000,
+          "precio_tachado": null,
+          "stock": 0,
+          "disponible": false,
+          "imagen": "//acdn-us.mitiendanube.com/stores/001/708/518/products/rbvfdcs-eb5d6bb072ad0124e117210914844967-1024-1024.webp"
+        }
+      ]
+    },
+    {
       "product_id": "346859296",
       "url": "https://sh-aka.com.ar/productos/the-fleece-zipper-gris-topo/",
       "nombre": "NOT A SHERPA REVERSIBLE JACKET",
@@ -17847,6 +20111,58 @@
           "stock": 0,
           "disponible": false,
           "imagen": "//acdn-us.mitiendanube.com/stores/001/708/518/products/vecsd-65cb51e645f9bb255117210917478941-1024-1024.webp"
+        }
+      ]
+    },
+    {
+      "product_id": "221000766",
+      "url": "https://sh-aka.com.ar/productos/the-fleece-zipper-negro/",
+      "nombre": "THE FLEECE ZIPPER (gris topo)",
+      "marca": null,
+      "descripcion": "Comprá online THE FLEECE ZIPPER (gris topo) por $100.000. Hacé tu pedido y pagalo online.",
+      "imagenes": [
+        "https://acdn-us.mitiendanube.com/stores/001/708/518/products/vecsd-65cb51e645f9bb255117210917478941-480-0.webp"
+      ],
+      "variantes": [
+        {
+          "variant_id": 971403215,
+          "sku": "617",
+          "opciones": "S / 3000 PUNTOS",
+          "precio": 100000,
+          "precio_tachado": null,
+          "stock": 0,
+          "disponible": false,
+          "imagen": "//acdn-us.mitiendanube.com/stores/001/708/518/products/vefdcas-93e8ab56d46bfa190917210915163413-1024-1024.webp"
+        },
+        {
+          "variant_id": 971403218,
+          "sku": "618",
+          "opciones": "M / 3000 PUNTOS",
+          "precio": 100000,
+          "precio_tachado": null,
+          "stock": 0,
+          "disponible": false,
+          "imagen": "//acdn-us.mitiendanube.com/stores/001/708/518/products/vefdcas-93e8ab56d46bfa190917210915163413-1024-1024.webp"
+        },
+        {
+          "variant_id": 971403222,
+          "sku": "619",
+          "opciones": "L / 3000 PUNTOS",
+          "precio": 100000,
+          "precio_tachado": null,
+          "stock": 0,
+          "disponible": false,
+          "imagen": "//acdn-us.mitiendanube.com/stores/001/708/518/products/vefdcas-93e8ab56d46bfa190917210915163413-1024-1024.webp"
+        },
+        {
+          "variant_id": 971403227,
+          "sku": "620",
+          "opciones": "XL / 3000 PUNTOS",
+          "precio": 100000,
+          "precio_tachado": null,
+          "stock": 0,
+          "disponible": false,
+          "imagen": "//acdn-us.mitiendanube.com/stores/001/708/518/products/vefdcas-93e8ab56d46bfa190917210915163413-1024-1024.webp"
         }
       ]
     },
@@ -18463,6 +20779,58 @@
       ]
     },
     {
+      "product_id": "378330293",
+      "url": "https://sh-aka.com.ar/productos/the-pipping-polo-azul/",
+      "nombre": "VNTG POLO (azul marino)",
+      "marca": "Shaka Cmmnty",
+      "descripcion": "Comprá online VNTG POLO (azul marino) por $95.000. Hacé tu pedido y pagalo online.",
+      "imagenes": [
+        "https://acdn-us.mitiendanube.com/stores/001/708/518/products/polo-azul-marino-hombre-1-e2adeae6e1d928b7ef17935738778961-480-0.webp"
+      ],
+      "variantes": [
+        {
+          "variant_id": 1167937581,
+          "sku": "36",
+          "opciones": "S / 3000 PUNTOS",
+          "precio": 75000,
+          "precio_tachado": null,
+          "stock": 0,
+          "disponible": false,
+          "imagen": "//acdn-us.mitiendanube.com/stores/001/708/518/products/es-este-55e8956adb206bcdb417437162319873-1024-1024.webp"
+        },
+        {
+          "variant_id": 1167937585,
+          "sku": "37",
+          "opciones": "M / 3000 PUNTOS",
+          "precio": 75000,
+          "precio_tachado": null,
+          "stock": 0,
+          "disponible": false,
+          "imagen": "//acdn-us.mitiendanube.com/stores/001/708/518/products/es-este-55e8956adb206bcdb417437162319873-1024-1024.webp"
+        },
+        {
+          "variant_id": 1167937588,
+          "sku": "38",
+          "opciones": "L / 3000 PUNTOS",
+          "precio": 75000,
+          "precio_tachado": null,
+          "stock": 0,
+          "disponible": false,
+          "imagen": "//acdn-us.mitiendanube.com/stores/001/708/518/products/es-este-55e8956adb206bcdb417437162319873-1024-1024.webp"
+        },
+        {
+          "variant_id": 1167937593,
+          "sku": "39",
+          "opciones": "XL / 3000 PUNTOS",
+          "precio": 75000,
+          "precio_tachado": null,
+          "stock": 0,
+          "disponible": false,
+          "imagen": "//acdn-us.mitiendanube.com/stores/001/708/518/products/es-este-55e8956adb206bcdb417437162319873-1024-1024.webp"
+        }
+      ]
+    },
+    {
       "product_id": "378330306",
       "url": "https://sh-aka.com.ar/productos/the-polo-knit-beige/",
       "nombre": "BASIC KNIT (negro)",
@@ -18795,6 +21163,90 @@
           "stock": 0,
           "disponible": false,
           "imagen": "//acdn-us.mitiendanube.com/stores/001/708/518/products/ertgfvb-f02307d00d022a329317259020099433-1024-1024.webp"
+        }
+      ]
+    },
+    {
+      "product_id": "354402518",
+      "url": "https://sh-aka.com.ar/productos/the-ribbed-knit-gris/",
+      "nombre": "FÜN RANGLAN KNIT (vison)",
+      "marca": "Shaka Cmmnty",
+      "descripcion": "Sweater FÜN RANGLAN KNIT visón 100% algodón, regular fit y serigrafía. Estilo argentino auténtico. ¡Sumalo a tu look hoy!",
+      "imagenes": [
+        "https://acdn-us.mitiendanube.com/stores/001/708/518/products/artboard-34-c4c52de41e56fe0b7517834604300353-480-0.webp"
+      ],
+      "variantes": [
+        {
+          "variant_id": 1012843034,
+          "sku": "509",
+          "opciones": "M / 4000 PUNTOS",
+          "precio": 120000,
+          "precio_tachado": null,
+          "stock": 0,
+          "disponible": false,
+          "imagen": "//acdn-us.mitiendanube.com/stores/001/708/518/products/edfv-5a8e699adf5bad5bc917259009175295-1024-1024.webp"
+        },
+        {
+          "variant_id": 1012843039,
+          "sku": "510",
+          "opciones": "L / 4000 PUNTOS",
+          "precio": 120000,
+          "precio_tachado": null,
+          "stock": 0,
+          "disponible": false,
+          "imagen": "//acdn-us.mitiendanube.com/stores/001/708/518/products/edfv-5a8e699adf5bad5bc917259009175295-1024-1024.webp"
+        },
+        {
+          "variant_id": 1012843044,
+          "sku": "511",
+          "opciones": "XL / 4000 PUNTOS",
+          "precio": 120000,
+          "precio_tachado": null,
+          "stock": 0,
+          "disponible": false,
+          "imagen": "//acdn-us.mitiendanube.com/stores/001/708/518/products/edfv-5a8e699adf5bad5bc917259009175295-1024-1024.webp"
+        }
+      ]
+    },
+    {
+      "product_id": "378330306",
+      "url": "https://sh-aka.com.ar/productos/the-ripped-knit-black/",
+      "nombre": "BASIC KNIT (negro)",
+      "marca": "Shaka Cmmnty",
+      "descripcion": "Comprá online BASIC KNIT (negro) por $135.000. Hacé tu pedido y pagalo online.",
+      "imagenes": [
+        "https://acdn-us.mitiendanube.com/stores/001/708/518/products/knit-negro-hombre-1-a217b16ebf510d4b6017935739913163-480-0.webp"
+      ],
+      "variantes": [
+        {
+          "variant_id": 893149890,
+          "sku": "689",
+          "opciones": "M / 4000 PUNTOS",
+          "precio": 120000,
+          "precio_tachado": null,
+          "stock": 0,
+          "disponible": false,
+          "imagen": "//acdn-us.mitiendanube.com/stores/001/708/518/products/web-4-14df7be731602e534b17147591963903-1024-1024.webp"
+        },
+        {
+          "variant_id": 893149893,
+          "sku": "690",
+          "opciones": "L / 4000 PUNTOS",
+          "precio": 120000,
+          "precio_tachado": null,
+          "stock": 0,
+          "disponible": false,
+          "imagen": "//acdn-us.mitiendanube.com/stores/001/708/518/products/web-4-14df7be731602e534b17147591963903-1024-1024.webp"
+        },
+        {
+          "variant_id": 893149896,
+          "sku": "691",
+          "opciones": "XL / 4000 PUNTOS",
+          "precio": 120000,
+          "precio_tachado": null,
+          "stock": 0,
+          "disponible": false,
+          "imagen": "//acdn-us.mitiendanube.com/stores/001/708/518/products/web-4-14df7be731602e534b17147591963903-1024-1024.webp"
         }
       ]
     },
@@ -20253,6 +22705,58 @@
           "stock": 0,
           "disponible": false,
           "imagen": "//acdn-us.mitiendanube.com/stores/001/708/518/products/fwdcshjk-e49cb585db09a4706017437161574627-1024-1024.webp"
+        }
+      ]
+    },
+    {
+      "product_id": "314744612",
+      "url": "https://sh-aka.com.ar/productos/the-sunny-polo-0khh9/",
+      "nombre": "YIN YANG POLO",
+      "marca": "Shaka Cmmnty",
+      "descripcion": "Chomba YIN YANG POLO regular fit, piqué, serigrafía y algodón. Estilo argentino único. ¡Sumala a tu look hoy!",
+      "imagenes": [
+        "https://acdn-us.mitiendanube.com/stores/001/708/518/products/artboard-11-fc5fb74a3fd1b0db1c17685150136239-480-0.webp"
+      ],
+      "variantes": [
+        {
+          "variant_id": 1367947091,
+          "sku": "68",
+          "opciones": "S / 3000 PUNTOS",
+          "precio": 76500,
+          "precio_tachado": 85000,
+          "stock": 5,
+          "disponible": true,
+          "imagen": "//acdn-us.mitiendanube.com/stores/001/708/518/products/artboard-33-a5980fdb05a7ec1fc717636697961999-1024-1024.webp"
+        },
+        {
+          "variant_id": 1367947097,
+          "sku": "69",
+          "opciones": "M / 3000 PUNTOS",
+          "precio": 76500,
+          "precio_tachado": 85000,
+          "stock": 0,
+          "disponible": false,
+          "imagen": "//acdn-us.mitiendanube.com/stores/001/708/518/products/artboard-33-a5980fdb05a7ec1fc717636697961999-1024-1024.webp"
+        },
+        {
+          "variant_id": 1367947101,
+          "sku": "70",
+          "opciones": "L / 3000 PUNTOS",
+          "precio": 76500,
+          "precio_tachado": 85000,
+          "stock": 0,
+          "disponible": false,
+          "imagen": "//acdn-us.mitiendanube.com/stores/001/708/518/products/artboard-33-a5980fdb05a7ec1fc717636697961999-1024-1024.webp"
+        },
+        {
+          "variant_id": 1367947104,
+          "sku": "71",
+          "opciones": "XL / 3000 PUNTOS",
+          "precio": 76500,
+          "precio_tachado": 85000,
+          "stock": 0,
+          "disponible": false,
+          "imagen": "//acdn-us.mitiendanube.com/stores/001/708/518/products/artboard-33-a5980fdb05a7ec1fc717636697961999-1024-1024.webp"
         }
       ]
     },
@@ -22225,6 +24729,58 @@
           "stock": 0,
           "disponible": false,
           "imagen": "//acdn-us.mitiendanube.com/stores/001/708/518/products/artboard-13-3344bcd160cde7b87517659128830256-1024-1024.webp"
+        }
+      ]
+    },
+    {
+      "product_id": "373042441",
+      "url": "https://sh-aka.com.ar/productos/yin-yang-longsleeve-shirt-rgp23/",
+      "nombre": "<3 LONGSLEEVE SHIRT (celeste)",
+      "marca": "Shaka Cmmnty",
+      "descripcion": "Comprá online",
+      "imagenes": [
+        "https://acdn-us.mitiendanube.com/stores/001/708/518/products/artboard-20-532d4fd080748d44d017915007882221-480-0.webp"
+      ],
+      "variantes": [
+        {
+          "variant_id": 1388899218,
+          "sku": "12",
+          "opciones": "S / 2500 PUNTOS",
+          "precio": 78000,
+          "precio_tachado": null,
+          "stock": 0,
+          "disponible": false,
+          "imagen": "//acdn-us.mitiendanube.com/stores/001/708/518/products/artboard-3-65788758469371827417659124349612-1024-1024.webp"
+        },
+        {
+          "variant_id": 1388899221,
+          "sku": "13",
+          "opciones": "M / 2500 PUNTOS",
+          "precio": 78000,
+          "precio_tachado": null,
+          "stock": 0,
+          "disponible": false,
+          "imagen": "//acdn-us.mitiendanube.com/stores/001/708/518/products/artboard-3-65788758469371827417659124349612-1024-1024.webp"
+        },
+        {
+          "variant_id": 1388899222,
+          "sku": "14",
+          "opciones": "L / 2500 PUNTOS",
+          "precio": 78000,
+          "precio_tachado": null,
+          "stock": 0,
+          "disponible": false,
+          "imagen": "//acdn-us.mitiendanube.com/stores/001/708/518/products/artboard-3-65788758469371827417659124349612-1024-1024.webp"
+        },
+        {
+          "variant_id": 1388899223,
+          "sku": "15",
+          "opciones": "XL / 2500 PUNTOS",
+          "precio": 78000,
+          "precio_tachado": null,
+          "stock": 0,
+          "disponible": false,
+          "imagen": "//acdn-us.mitiendanube.com/stores/001/708/518/products/artboard-3-65788758469371827417659124349612-1024-1024.webp"
         }
       ]
     },
