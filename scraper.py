@@ -331,6 +331,15 @@ def esc(texto):
     return escape(CTRL.sub("", str(texto)))
 
 
+UTM = "utm_source=Google%20Shopping&utm_campaign=feed%20shaka&utm_medium=cpc"
+
+
+def linea_xml(k, val):
+    if k == "g:description":   # CDATA, como en el feed de referencia
+        return f"      <{k}><![CDATA[{CTRL.sub('', str(val)).replace(']]>', ']]&gt;')}]]></{k}>"
+    return f"      <{k}>{esc(val)}</{k}>"
+
+
 def disponibilidad_variante(v, preorder):
     if v.get("disponible") is False or v.get("stock") == 0:
         return "out_of_stock"
@@ -373,9 +382,11 @@ def generar_google_xml(productos, ruta):
                 talle = "Único"
             color = (v.get("color") or "").strip().capitalize() or color_nombre
 
-            titulo = f"{nombre} | {singular} {MARCA}"
-            if talle and talle != "Único":
-                titulo += f" - Talle {talle}"
+            # Título como en el feed de referencia: nombre + talle (el color ya viene en el nombre)
+            titulo = f"{nombre} {talle}".strip() if talle else nombre
+
+            # Link a la variante concreta + UTM (igual que el feed de referencia)
+            link = f"{p['url']}?variant={v['variant_id']}&{UTM}" if v.get("variant_id") else f"{p['url']}?{UTM}"
 
             imagen = url_absoluta(v.get("imagen")) or (imagenes[0] if imagenes else None)
             if not imagen:
@@ -385,33 +396,34 @@ def generar_google_xml(productos, ruta):
             disp = disponibilidad_variante(v, preorder)
             campos = [
                 ("g:id", v.get("variant_id") or f"{p['product_id']}-{talle}"),
-                ("g:item_group_id", p["product_id"]),
                 ("g:title", titulo[:150]),
                 ("g:description", desc[:5000]),
-                ("g:link", p["url"]),
+                ("g:link", link),
                 ("g:image_link", imagen),
                 *[("g:additional_image_link", i) for i in extras],
                 ("g:availability", disp),
                 ("g:availability_date", fecha_disp if disp == "preorder" else None),
-                ("g:condition", "new"),
-                ("g:brand", MARCA),
+                ("g:price", None),   # se completa abajo (price / sale_price)
                 ("g:google_product_category", categoria),
-                ("g:product_type", f"{tipo} > {nombre}"),
+                ("g:product_type", f"Home > {tipo}"),
+                ("g:condition", "new"),
+                ("g:item_group_id", p["product_id"]),
+                ("g:brand", MARCA),
                 ("g:gender", GENERO),
                 ("g:age_group", EDAD),
                 ("g:size", talle or None),
                 ("g:color", color),
+                ("g:identifier_exists", "no"),
             ]
+            # El SKU de Tiendanube se repite entre productos: no sirve como MPN.
+            i = next(n for n, (k, _) in enumerate(campos) if k == "g:price")
             if tachado and float(tachado) > float(precio_actual):
-                campos += [("g:price", precio_fmt(tachado)),
-                           ("g:sale_price", precio_fmt(precio_actual))]
+                campos[i:i + 1] = [("g:price", precio_fmt(tachado)),
+                                   ("g:sale_price", precio_fmt(precio_actual))]
             else:
-                campos.append(("g:price", precio_fmt(precio_actual)))
-            # Los SKU de Tiendanube son números cortos que se repiten entre productos:
-            # no sirven como MPN y Google los marca como inválidos.
-            campos.append(("g:identifier_exists", "no"))
+                campos[i] = ("g:price", precio_fmt(precio_actual))
 
-            lineas = [f"      <{k}>{esc(val)}</{k}>" for k, val in campos if val]
+            lineas = [linea_xml(k, val) for k, val in campos if val]
             items.append("    <item>\n" + "\n".join(lineas) + "\n    </item>")
 
     xml = (
