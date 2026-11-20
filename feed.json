@@ -1,5 +1,5 @@
 {
-  "generado": "2026-11-20T04:53:41.095077+00:00",
+  "generado": "2026-11-20T05:56:31.857920+00:00",
   "total": 532,
   "productos": [
     {
@@ -10473,7 +10473,7 @@
           "opciones": "S",
           "precio": 66500,
           "precio_tachado": 95000,
-          "stock": 6,
+          "stock": 5,
           "disponible": true,
           "imagen": "//acdn-us.mitiendanube.com/stores/001/708/518/products/artboard-26-f43e4bc2078a05556f17834604855305-1024-1024.webp"
         },
