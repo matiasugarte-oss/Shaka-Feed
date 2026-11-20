@@ -1,5 +1,5 @@
 {
-  "generado": "2026-11-20T11:33:31.383972+00:00",
+  "generado": "2026-11-20T12:38:16.489516+00:00",
   "total": 532,
   "productos": [
     {
@@ -2579,7 +2579,7 @@
           "opciones": "L",
           "precio": 90000,
           "precio_tachado": null,
-          "stock": 10,
+          "stock": 9,
           "disponible": true,
           "imagen": "//acdn-us.mitiendanube.com/stores/001/708/518/products/polo-big-dreamz-azul-hombre-1-b971b63bb4cc006dc017935738346699-1024-1024.webp"
         },
@@ -5380,9 +5380,9 @@
         {
           "variant_id": 1440889630,
           "sku": null,
-          "talle": null,
+          "talle": "S",
           "color": null,
-          "opciones": "",
+          "opciones": "S",
           "precio": 36000,
           "precio_tachado": 45000,
           "stock": 0,
@@ -5392,9 +5392,9 @@
         {
           "variant_id": 1440889637,
           "sku": "368",
-          "talle": null,
+          "talle": "M",
           "color": null,
-          "opciones": "",
+          "opciones": "M",
           "precio": 36000,
           "precio_tachado": 45000,
           "stock": 0,
@@ -5404,9 +5404,9 @@
         {
           "variant_id": 1440889643,
           "sku": "369",
-          "talle": null,
+          "talle": "L",
           "color": null,
-          "opciones": "",
+          "opciones": "L",
           "precio": 36000,
           "precio_tachado": 45000,
           "stock": 0,
@@ -11462,9 +11462,9 @@
         {
           "variant_id": 1313703989,
           "sku": null,
-          "talle": null,
+          "talle": "S",
           "color": null,
-          "opciones": "",
+          "opciones": "S",
           "precio": 17500,
           "precio_tachado": 35000,
           "stock": 0,
@@ -11474,9 +11474,9 @@
         {
           "variant_id": 1313703990,
           "sku": "371",
-          "talle": null,
+          "talle": "M",
           "color": null,
-          "opciones": "",
+          "opciones": "M",
           "precio": 17500,
           "precio_tachado": 35000,
           "stock": 0,
@@ -11486,9 +11486,9 @@
         {
           "variant_id": 1313703992,
           "sku": "372",
-          "talle": null,
+          "talle": "L",
           "color": null,
-          "opciones": "",
+          "opciones": "L",
           "precio": 17500,
           "precio_tachado": 35000,
           "stock": 0,
@@ -16584,7 +16584,7 @@
           "opciones": "L",
           "precio": 22000,
           "precio_tachado": null,
-          "stock": 89,
+          "stock": 88,
           "disponible": true,
           "imagen": "//acdn-us.mitiendanube.com/stores/001/708/518/products/img_8949-919ed4b595b7b69f9917307772648524-1024-1024.webp"
         }
@@ -17406,9 +17406,9 @@
         {
           "variant_id": 1088107088,
           "sku": "299",
-          "talle": null,
+          "talle": "S",
           "color": null,
-          "opciones": "",
+          "opciones": "S",
           "precio": 15000,
           "precio_tachado": 30000,
           "stock": 0,
@@ -17418,9 +17418,9 @@
         {
           "variant_id": 1088107094,
           "sku": "300",
-          "talle": null,
+          "talle": "M",
           "color": null,
-          "opciones": "",
+          "opciones": "M",
           "precio": 15000,
           "precio_tachado": 30000,
           "stock": 0,
@@ -17430,9 +17430,9 @@
         {
           "variant_id": 1088107102,
           "sku": "301",
-          "talle": null,
+          "talle": "L",
           "color": null,
-          "opciones": "",
+          "opciones": "L",
           "precio": 15000,
           "precio_tachado": 30000,
           "stock": 0,
@@ -20167,7 +20167,7 @@
           "opciones": "XL",
           "precio": 70000,
           "precio_tachado": null,
-          "stock": 8,
+          "stock": 7,
           "disponible": true,
           "imagen": "//acdn-us.mitiendanube.com/stores/001/708/518/products/remera-raglan-rosa-hombre-1-e7ddef75831183717117935734984102-1024-1024.webp"
         }
@@ -29529,9 +29529,9 @@
         {
           "variant_id": 1073285773,
           "sku": null,
-          "talle": "S",
+          "talle": null,
           "color": null,
-          "opciones": "S",
+          "opciones": "",
           "precio": 15000,
           "precio_tachado": 30000,
           "stock": 0,
@@ -29541,9 +29541,9 @@
         {
           "variant_id": 1073285775,
           "sku": "368",
-          "talle": "M",
+          "talle": null,
           "color": null,
-          "opciones": "M",
+          "opciones": "",
           "precio": 15000,
           "precio_tachado": 30000,
           "stock": 0,
@@ -29553,9 +29553,9 @@
         {
           "variant_id": 1073285776,
           "sku": "369",
-          "talle": "L",
+          "talle": null,
           "color": null,
-          "opciones": "L",
+          "opciones": "",
           "precio": 15000,
           "precio_tachado": 30000,
           "stock": 0,
