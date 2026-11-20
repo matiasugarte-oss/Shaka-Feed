@@ -1,5 +1,5 @@
 {
-  "generado": "2026-11-20T20:43:47.256201+00:00",
+  "generado": "2026-11-20T21:41:19.424100+00:00",
   "total": 532,
   "productos": [
     {
@@ -1867,7 +1867,7 @@
           "opciones": "S",
           "precio": 135000,
           "precio_tachado": null,
-          "stock": 6,
+          "stock": 5,
           "disponible": true,
           "imagen": "//acdn-us.mitiendanube.com/stores/001/708/518/products/knit-crudo-hombre-1-c452f87ae57d5d011517935740580712-1024-1024.webp"
         },
@@ -15150,7 +15150,7 @@
           "opciones": "L",
           "precio": 116000,
           "precio_tachado": 145000,
-          "stock": 7,
+          "stock": 6,
           "disponible": true,
           "imagen": "//acdn-us.mitiendanube.com/stores/001/708/518/products/artboard-31-e96b9cc6f5b9ad3fa317901139133786-1024-1024.webp"
         },
@@ -17297,7 +17297,7 @@
           "opciones": "M",
           "precio": 144000,
           "precio_tachado": 180000,
-          "stock": 5,
+          "stock": 4,
           "disponible": true,
           "imagen": "//acdn-us.mitiendanube.com/stores/001/708/518/products/artboard-42-393026dd9380b6980817901149839393-1024-1024.webp"
         },
