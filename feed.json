@@ -1,5 +1,5 @@
 {
-  "generado": "2026-11-20T13:54:59.887248+00:00",
+  "generado": "2026-11-20T14:49:41.920043+00:00",
   "total": 532,
   "productos": [
     {
@@ -2463,7 +2463,7 @@
           "opciones": "L",
           "precio": 125000,
           "precio_tachado": null,
-          "stock": 27,
+          "stock": 26,
           "disponible": true,
           "imagen": "//acdn-us.mitiendanube.com/stores/001/708/518/products/jort-camuflado-hombre-2-36b60e6f4d119f417c17935742822659-1024-1024.webp"
         },
@@ -2475,7 +2475,7 @@
           "opciones": "XL",
           "precio": 125000,
           "precio_tachado": null,
-          "stock": 8,
+          "stock": 7,
           "disponible": true,
           "imagen": "//acdn-us.mitiendanube.com/stores/001/708/518/products/jort-camuflado-hombre-2-36b60e6f4d119f417c17935742822659-1024-1024.webp"
         }
@@ -21472,7 +21472,7 @@
           "opciones": "",
           "precio": 15000,
           "precio_tachado": 30000,
-          "stock": 5,
+          "stock": 4,
           "disponible": true,
           "imagen": "//acdn-us.mitiendanube.com/stores/001/708/518/products/kjmhnfg-e6ae1af8452ccea49417371528959534-1024-1024.webp"
         }
@@ -29272,7 +29272,7 @@
           "opciones": "S",
           "precio": 95000,
           "precio_tachado": null,
-          "stock": 37,
+          "stock": 36,
           "disponible": true,
           "imagen": "//acdn-us.mitiendanube.com/stores/001/708/518/products/artboard-70-16a57a7fe223b6f62417915023343331-1024-1024.webp"
         },
