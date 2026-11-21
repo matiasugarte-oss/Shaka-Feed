@@ -1,5 +1,5 @@
 {
-  "generado": "2026-11-21T12:50:25.049429+00:00",
+  "generado": "2026-11-21T13:53:29.641299+00:00",
   "total": 532,
   "productos": [
     {
@@ -17459,9 +17459,9 @@
         {
           "variant_id": 1073285381,
           "sku": null,
-          "talle": null,
+          "talle": "S",
           "color": null,
-          "opciones": "",
+          "opciones": "S",
           "precio": 15000,
           "precio_tachado": 30000,
           "stock": 0,
@@ -17471,9 +17471,9 @@
         {
           "variant_id": 1073285382,
           "sku": "371",
-          "talle": null,
+          "talle": "M",
           "color": null,
-          "opciones": "",
+          "opciones": "M",
           "precio": 15000,
           "precio_tachado": 30000,
           "stock": 3,
@@ -17483,9 +17483,9 @@
         {
           "variant_id": 1073285384,
           "sku": "372",
-          "talle": null,
+          "talle": "L",
           "color": null,
-          "opciones": "",
+          "opciones": "L",
           "precio": 15000,
           "precio_tachado": 30000,
           "stock": 33,
