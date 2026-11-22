@@ -1,5 +1,5 @@
 {
-  "generado": "2026-11-22T20:45:31.571919+00:00",
+  "generado": "2026-11-22T21:37:46.677047+00:00",
   "total": 532,
   "productos": [
     {
@@ -5380,9 +5380,9 @@
         {
           "variant_id": 1440889630,
           "sku": null,
-          "talle": "S",
+          "talle": null,
           "color": null,
-          "opciones": "S",
+          "opciones": "",
           "precio": 36000,
           "precio_tachado": 45000,
           "stock": 0,
@@ -5392,9 +5392,9 @@
         {
           "variant_id": 1440889637,
           "sku": "368",
-          "talle": "M",
+          "talle": null,
           "color": null,
-          "opciones": "M",
+          "opciones": "",
           "precio": 36000,
           "precio_tachado": 45000,
           "stock": 0,
@@ -5404,9 +5404,9 @@
         {
           "variant_id": 1440889643,
           "sku": "369",
-          "talle": "L",
+          "talle": null,
           "color": null,
-          "opciones": "L",
+          "opciones": "",
           "precio": 36000,
           "precio_tachado": 45000,
           "stock": 0,
@@ -11102,9 +11102,9 @@
         {
           "variant_id": 1313709552,
           "sku": "",
-          "talle": "S",
+          "talle": null,
           "color": null,
-          "opciones": "S",
+          "opciones": "",
           "precio": 17500,
           "precio_tachado": 35000,
           "stock": 0,
@@ -11114,9 +11114,9 @@
         {
           "variant_id": 1313709557,
           "sku": "371",
-          "talle": "M",
+          "talle": null,
           "color": null,
-          "opciones": "M",
+          "opciones": "",
           "precio": 17500,
           "precio_tachado": 35000,
           "stock": 0,
@@ -11126,9 +11126,9 @@
         {
           "variant_id": 1313709561,
           "sku": "372",
-          "talle": "L",
+          "talle": null,
           "color": null,
-          "opciones": "L",
+          "opciones": "",
           "precio": 17500,
           "precio_tachado": 35000,
           "stock": 0,
@@ -29170,7 +29170,7 @@
           "opciones": "L",
           "precio": 95000,
           "precio_tachado": null,
-          "stock": 82,
+          "stock": 81,
           "disponible": true,
           "imagen": "//acdn-us.mitiendanube.com/stores/001/708/518/products/artboard-64-a9b980c69ef5a6cdaf17915023886181-1024-1024.webp"
         },
