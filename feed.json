@@ -1,5 +1,5 @@
 {
-  "generado": "2026-11-22T19:17:18.190138+00:00",
+  "generado": "2026-11-22T20:04:43.251242+00:00",
   "total": 532,
   "productos": [
     {
@@ -11102,9 +11102,9 @@
         {
           "variant_id": 1313709552,
           "sku": "",
-          "talle": null,
+          "talle": "S",
           "color": null,
-          "opciones": "",
+          "opciones": "S",
           "precio": 17500,
           "precio_tachado": 35000,
           "stock": 0,
@@ -11114,9 +11114,9 @@
         {
           "variant_id": 1313709557,
           "sku": "371",
-          "talle": null,
+          "talle": "M",
           "color": null,
-          "opciones": "",
+          "opciones": "M",
           "precio": 17500,
           "precio_tachado": 35000,
           "stock": 0,
@@ -11126,9 +11126,9 @@
         {
           "variant_id": 1313709561,
           "sku": "372",
-          "talle": null,
+          "talle": "L",
           "color": null,
-          "opciones": "",
+          "opciones": "L",
           "precio": 17500,
           "precio_tachado": 35000,
           "stock": 0,
@@ -17406,9 +17406,9 @@
         {
           "variant_id": 1088107088,
           "sku": "299",
-          "talle": null,
+          "talle": "S",
           "color": null,
-          "opciones": "",
+          "opciones": "S",
           "precio": 15000,
           "precio_tachado": 30000,
           "stock": 0,
@@ -17418,9 +17418,9 @@
         {
           "variant_id": 1088107094,
           "sku": "300",
-          "talle": null,
+          "talle": "M",
           "color": null,
-          "opciones": "",
+          "opciones": "M",
           "precio": 15000,
           "precio_tachado": 30000,
           "stock": 0,
@@ -17430,9 +17430,9 @@
         {
           "variant_id": 1088107102,
           "sku": "301",
-          "talle": null,
+          "talle": "L",
           "color": null,
-          "opciones": "",
+          "opciones": "L",
           "precio": 15000,
           "precio_tachado": 30000,
           "stock": 0,
