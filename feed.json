@@ -1,5 +1,5 @@
 {
-  "generado": "2026-11-21T23:21:45.156738+00:00",
+  "generado": "2026-11-22T00:00:14.364592+00:00",
   "total": 532,
   "productos": [
     {
@@ -17406,9 +17406,9 @@
         {
           "variant_id": 1088107088,
           "sku": "299",
-          "talle": null,
+          "talle": "S",
           "color": null,
-          "opciones": "",
+          "opciones": "S",
           "precio": 15000,
           "precio_tachado": 30000,
           "stock": 0,
@@ -17418,9 +17418,9 @@
         {
           "variant_id": 1088107094,
           "sku": "300",
-          "talle": null,
+          "talle": "M",
           "color": null,
-          "opciones": "",
+          "opciones": "M",
           "precio": 15000,
           "precio_tachado": 30000,
           "stock": 0,
@@ -17430,9 +17430,9 @@
         {
           "variant_id": 1088107102,
           "sku": "301",
-          "talle": null,
+          "talle": "L",
           "color": null,
-          "opciones": "",
+          "opciones": "L",
           "precio": 15000,
           "precio_tachado": 30000,
           "stock": 0,
@@ -29529,9 +29529,9 @@
         {
           "variant_id": 1073285773,
           "sku": null,
-          "talle": null,
+          "talle": "S",
           "color": null,
-          "opciones": "",
+          "opciones": "S",
           "precio": 15000,
           "precio_tachado": 30000,
           "stock": 0,
@@ -29541,9 +29541,9 @@
         {
           "variant_id": 1073285775,
           "sku": "368",
-          "talle": null,
+          "talle": "M",
           "color": null,
-          "opciones": "",
+          "opciones": "M",
           "precio": 15000,
           "precio_tachado": 30000,
           "stock": 0,
@@ -29553,9 +29553,9 @@
         {
           "variant_id": 1073285776,
           "sku": "369",
-          "talle": null,
+          "talle": "L",
           "color": null,
-          "opciones": "",
+          "opciones": "L",
           "precio": 15000,
           "precio_tachado": 30000,
           "stock": 0,
