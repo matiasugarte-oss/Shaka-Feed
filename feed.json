@@ -1,5 +1,5 @@
 {
-  "generado": "2026-11-23T10:58:29.959500+00:00",
+  "generado": "2026-11-23T11:48:50.766798+00:00",
   "total": 532,
   "productos": [
     {
@@ -5470,7 +5470,7 @@
           "opciones": "L",
           "precio": 150000,
           "precio_tachado": null,
-          "stock": 13,
+          "stock": 12,
           "disponible": true,
           "imagen": "//acdn-us.mitiendanube.com/stores/001/708/518/products/artboard-4-39a319ff4d0e35d19917760436932630-1024-1024.webp"
         },
