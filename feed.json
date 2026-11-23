@@ -1,5 +1,5 @@
 {
-  "generado": "2026-11-22T23:24:51.471042+00:00",
+  "generado": "2026-11-23T00:24:40.166317+00:00",
   "total": 532,
   "productos": [
     {
@@ -1891,7 +1891,7 @@
           "opciones": "L",
           "precio": 135000,
           "precio_tachado": null,
-          "stock": 11,
+          "stock": 10,
           "disponible": true,
           "imagen": "//acdn-us.mitiendanube.com/stores/001/708/518/products/knit-crudo-hombre-1-c452f87ae57d5d011517935740580712-1024-1024.webp"
         },
