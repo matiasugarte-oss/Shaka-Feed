@@ -1,5 +1,5 @@
 {
-  "generado": "2026-11-23T17:35:41.068693+00:00",
+  "generado": "2026-11-23T18:32:22.506165+00:00",
   "total": 532,
   "productos": [
     {
@@ -2201,7 +2201,7 @@
           "opciones": "M",
           "precio": 25000,
           "precio_tachado": 50000,
-          "stock": 18,
+          "stock": 17,
           "disponible": true,
           "imagen": "//acdn-us.mitiendanube.com/stores/001/708/518/products/artboard-55-b4b5a8c593cb1ec81e17901156023680-1024-1024.webp"
         },
@@ -8628,7 +8628,7 @@
           "opciones": "S",
           "precio": 59500,
           "precio_tachado": 85000,
-          "stock": 4,
+          "stock": 3,
           "disponible": true,
           "imagen": "//acdn-us.mitiendanube.com/stores/001/708/518/products/artboard-18-042f3bd868615612ac17762829968522-1024-1024.webp"
         },
