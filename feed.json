@@ -1,5 +1,5 @@
 {
-  "generado": "2026-11-24T17:49:44.703395+00:00",
+  "generado": "2026-11-24T18:51:15.693097+00:00",
   "total": 532,
   "productos": [
     {
@@ -17159,7 +17159,7 @@
           "opciones": "S",
           "precio": 145000,
           "precio_tachado": null,
-          "stock": 5,
+          "stock": 4,
           "disponible": true,
           "imagen": "//acdn-us.mitiendanube.com/stores/001/708/518/products/artboard-31-7ec99900332b77b1de17915010147708-1024-1024.webp"
         },
@@ -17183,7 +17183,7 @@
           "opciones": "L",
           "precio": 145000,
           "precio_tachado": null,
-          "stock": 6,
+          "stock": 5,
           "disponible": true,
           "imagen": "//acdn-us.mitiendanube.com/stores/001/708/518/products/artboard-31-7ec99900332b77b1de17915010147708-1024-1024.webp"
         },
@@ -17954,7 +17954,7 @@
           "opciones": "M",
           "precio": 56000,
           "precio_tachado": 70000,
-          "stock": 13,
+          "stock": 12,
           "disponible": true,
           "imagen": "//acdn-us.mitiendanube.com/stores/001/708/518/products/artboard-11-1765f4802ca6c923fb17784589075300-1024-1024.webp"
         },
@@ -19668,8 +19668,8 @@
           "opciones": "L",
           "precio": 144000,
           "precio_tachado": 180000,
-          "stock": 1,
-          "disponible": true,
+          "stock": 0,
+          "disponible": false,
           "imagen": "//acdn-us.mitiendanube.com/stores/001/708/518/products/artboard-30-3c2d306c9894c2134317737741169661-1024-1024.webp"
         },
         {
@@ -29529,9 +29529,9 @@
         {
           "variant_id": 1073285773,
           "sku": null,
-          "talle": null,
+          "talle": "S",
           "color": null,
-          "opciones": "",
+          "opciones": "S",
           "precio": 15000,
           "precio_tachado": 30000,
           "stock": 0,
@@ -29541,9 +29541,9 @@
         {
           "variant_id": 1073285775,
           "sku": "368",
-          "talle": null,
+          "talle": "M",
           "color": null,
-          "opciones": "",
+          "opciones": "M",
           "precio": 15000,
           "precio_tachado": 30000,
           "stock": 0,
@@ -29553,9 +29553,9 @@
         {
           "variant_id": 1073285776,
           "sku": "369",
-          "talle": null,
+          "talle": "L",
           "color": null,
-          "opciones": "",
+          "opciones": "L",
           "precio": 15000,
           "precio_tachado": 30000,
           "stock": 0,
