@@ -1,5 +1,5 @@
 {
-  "generado": "2026-11-24T08:02:18.408726+00:00",
+  "generado": "2026-11-24T09:01:08.013319+00:00",
   "total": 532,
   "productos": [
     {
@@ -3579,8 +3579,8 @@
           "opciones": "TALLE UNICO",
           "precio": 65000,
           "precio_tachado": null,
-          "stock": 1,
-          "disponible": true,
+          "stock": 0,
+          "disponible": false,
           "imagen": "//acdn-us.mitiendanube.com/stores/001/708/518/products/artboard-1-0784ee9d98a7b2dcb917915032531931-1024-1024.webp"
         }
       ]
