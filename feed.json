@@ -1,5 +1,5 @@
 {
-  "generado": "2026-11-25T14:15:39.439247+00:00",
+  "generado": "2026-11-25T15:28:47.593387+00:00",
   "total": 549,
   "productos": [
     {
@@ -1589,7 +1589,7 @@
           "opciones": "M",
           "precio": 100000,
           "precio_tachado": null,
-          "stock": 100,
+          "stock": 99,
           "disponible": true,
           "imagen": "//acdn-us.mitiendanube.com/stores/001/708/518/products/boardshort-azul-lima-hombre-1-eccabfbec6d628bd7917955607686176-1024-1024.webp"
         },
@@ -5833,9 +5833,9 @@
         {
           "variant_id": 1440889630,
           "sku": null,
-          "talle": "S",
+          "talle": null,
           "color": null,
-          "opciones": "S",
+          "opciones": "",
           "precio": 36000,
           "precio_tachado": 45000,
           "stock": 0,
@@ -5845,9 +5845,9 @@
         {
           "variant_id": 1440889637,
           "sku": "368",
-          "talle": "M",
+          "talle": null,
           "color": null,
-          "opciones": "M",
+          "opciones": "",
           "precio": 36000,
           "precio_tachado": 45000,
           "stock": 0,
@@ -5857,9 +5857,9 @@
         {
           "variant_id": 1440889643,
           "sku": "369",
-          "talle": "L",
+          "talle": null,
           "color": null,
-          "opciones": "L",
+          "opciones": "",
           "precio": 36000,
           "precio_tachado": 45000,
           "stock": 0,
@@ -15975,7 +15975,7 @@
           "opciones": "M",
           "precio": 56000,
           "precio_tachado": 70000,
-          "stock": 15,
+          "stock": 14,
           "disponible": true,
           "imagen": "//acdn-us.mitiendanube.com/stores/001/708/518/products/artboard-17-b6e9104024c2fc26b017901158274953-1024-1024.webp"
         },
@@ -16161,7 +16161,7 @@
           "opciones": "M",
           "precio": 80000,
           "precio_tachado": null,
-          "stock": 30,
+          "stock": 29,
           "disponible": true,
           "imagen": "//acdn-us.mitiendanube.com/stores/001/708/518/products/remera-waffle-cruda-roja-hombre-1-e70268b2b0af6b76b917955609145785-1024-1024.webp"
         },
@@ -19880,9 +19880,9 @@
         {
           "variant_id": 822744299,
           "sku": "747",
-          "talle": null,
+          "talle": "S",
           "color": null,
-          "opciones": "",
+          "opciones": "S",
           "precio": 15000,
           "precio_tachado": 30000,
           "stock": 0,
@@ -19892,9 +19892,9 @@
         {
           "variant_id": 822744303,
           "sku": "748",
-          "talle": null,
+          "talle": "M",
           "color": null,
-          "opciones": "",
+          "opciones": "M",
           "precio": 15000,
           "precio_tachado": 30000,
           "stock": 0,
@@ -19904,9 +19904,9 @@
         {
           "variant_id": 822744306,
           "sku": "749",
-          "talle": null,
+          "talle": "L",
           "color": null,
-          "opciones": "",
+          "opciones": "L",
           "precio": 15000,
           "precio_tachado": 30000,
           "stock": 9,
@@ -20637,7 +20637,7 @@
           "opciones": "L",
           "precio": 80000,
           "precio_tachado": null,
-          "stock": 20,
+          "stock": 19,
           "disponible": true,
           "imagen": "//acdn-us.mitiendanube.com/stores/001/708/518/products/remera-raglan-foto-skate-mujer-1-2f4d73970c186e5ec717955609784206-1024-1024.webp"
         },
@@ -21251,7 +21251,7 @@
           "opciones": "L",
           "precio": 70000,
           "precio_tachado": null,
-          "stock": 65,
+          "stock": 64,
           "disponible": true,
           "imagen": "//acdn-us.mitiendanube.com/stores/001/708/518/products/artboard-12-918b5222a3364fb96a17914994862433-1024-1024.webp"
         },
@@ -30269,7 +30269,7 @@
           "opciones": "L",
           "precio": 95000,
           "precio_tachado": null,
-          "stock": 78,
+          "stock": 76,
           "disponible": true,
           "imagen": "//acdn-us.mitiendanube.com/stores/001/708/518/products/artboard-64-a9b980c69ef5a6cdaf17915023886181-1024-1024.webp"
         },
