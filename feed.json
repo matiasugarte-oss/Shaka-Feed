@@ -1,5 +1,5 @@
 {
-  "generado": "2026-11-25T16:45:54.126635+00:00",
+  "generado": "2026-11-25T17:48:13.210337+00:00",
   "total": 549,
   "productos": [
     {
@@ -1601,7 +1601,7 @@
           "opciones": "L",
           "precio": 100000,
           "precio_tachado": null,
-          "stock": 100,
+          "stock": 99,
           "disponible": true,
           "imagen": "//acdn-us.mitiendanube.com/stores/001/708/518/products/boardshort-azul-lima-hombre-1-eccabfbec6d628bd7917955607686176-1024-1024.webp"
         },
@@ -5871,9 +5871,9 @@
     {
       "product_id": 336498764,
       "url": "https://sh-aka.com.ar/productos/costa-rica-knit-1ym6e/",
-      "nombre": "COSTA RICA KNIT - PRE-VENTA (entrega a partir del 30/11)",
+      "nombre": "COSTA RICA KNIT - PRE-VENTA (entrega a partir del 20/12)",
       "marca": "Shaka Cmmnty",
-      "descripcion": "PRE-VENTA (entrega a partir del 30/11) Sweater de 100% algodón. Hilado premium. Sublimado en prenda. Corte: regular fit. Hecho en Argentina x argentinos. El mide 1,83 y usa talle L Ella mide 1,60 y usa talle S CUIDADOS: Lavar con agua fria. Centrifugar sin retorcer. Secar horizuntal a la sombra. Plancha suave.",
+      "descripcion": "PRE-VENTA (entrega a partir del 20/12) Sweater de 100% algodón. Hilado premium. Sublimado en prenda. Corte: regular fit. Hecho en Argentina x argentinos. El mide 1,83 y usa talle L Ella mide 1,60 y usa talle S CUIDADOS: Lavar con agua fria. Centrifugar sin retorcer. Secar horizuntal a la sombra. Plancha suave.",
       "imagenes": [
         "//acdn-us.mitiendanube.com/stores/001/708/518/products/artboard-4-39a319ff4d0e35d19917760436932630-1024-1024.webp",
         "//acdn-us.mitiendanube.com/stores/001/708/518/products/artboard-5-7d005a35bd2a00ecb317760436932902-1024-1024.webp",
@@ -5899,8 +5899,8 @@
           "opciones": "S",
           "precio": 150000,
           "precio_tachado": null,
-          "stock": 0,
-          "disponible": false,
+          "stock": 15,
+          "disponible": true,
           "imagen": "//acdn-us.mitiendanube.com/stores/001/708/518/products/artboard-4-39a319ff4d0e35d19917760436932630-1024-1024.webp"
         },
         {
@@ -5935,8 +5935,8 @@
           "opciones": "XL",
           "precio": 150000,
           "precio_tachado": null,
-          "stock": 0,
-          "disponible": false,
+          "stock": 15,
+          "disponible": true,
           "imagen": "//acdn-us.mitiendanube.com/stores/001/708/518/products/artboard-4-39a319ff4d0e35d19917760436932630-1024-1024.webp"
         }
       ]
@@ -12173,9 +12173,9 @@
         {
           "variant_id": 1313703989,
           "sku": null,
-          "talle": "S",
+          "talle": null,
           "color": null,
-          "opciones": "S",
+          "opciones": "",
           "precio": 17500,
           "precio_tachado": 35000,
           "stock": 0,
@@ -12185,9 +12185,9 @@
         {
           "variant_id": 1313703990,
           "sku": "371",
-          "talle": "M",
+          "talle": null,
           "color": null,
-          "opciones": "M",
+          "opciones": "",
           "precio": 17500,
           "precio_tachado": 35000,
           "stock": 0,
@@ -12197,9 +12197,9 @@
         {
           "variant_id": 1313703992,
           "sku": "372",
-          "talle": "L",
+          "talle": null,
           "color": null,
-          "opciones": "L",
+          "opciones": "",
           "precio": 17500,
           "precio_tachado": 35000,
           "stock": 0,
@@ -17488,7 +17488,7 @@
           "opciones": "L",
           "precio": 22000,
           "precio_tachado": null,
-          "stock": 86,
+          "stock": 85,
           "disponible": true,
           "imagen": "//acdn-us.mitiendanube.com/stores/001/708/518/products/img_8949-919ed4b595b7b69f9917307772648524-1024-1024.webp"
         }
@@ -21263,7 +21263,7 @@
           "opciones": "XL",
           "precio": 70000,
           "precio_tachado": null,
-          "stock": 30,
+          "stock": 29,
           "disponible": true,
           "imagen": "//acdn-us.mitiendanube.com/stores/001/708/518/products/artboard-12-918b5222a3364fb96a17914994862433-1024-1024.webp"
         }
@@ -30269,7 +30269,7 @@
           "opciones": "L",
           "precio": 95000,
           "precio_tachado": null,
-          "stock": 76,
+          "stock": 75,
           "disponible": true,
           "imagen": "//acdn-us.mitiendanube.com/stores/001/708/518/products/artboard-64-a9b980c69ef5a6cdaf17915023886181-1024-1024.webp"
         },
@@ -30628,9 +30628,9 @@
         {
           "variant_id": 1073285773,
           "sku": null,
-          "talle": "S",
+          "talle": null,
           "color": null,
-          "opciones": "S",
+          "opciones": "",
           "precio": 15000,
           "precio_tachado": 30000,
           "stock": 0,
@@ -30640,9 +30640,9 @@
         {
           "variant_id": 1073285775,
           "sku": "368",
-          "talle": "M",
+          "talle": null,
           "color": null,
-          "opciones": "M",
+          "opciones": "",
           "precio": 15000,
           "precio_tachado": 30000,
           "stock": 0,
@@ -30652,9 +30652,9 @@
         {
           "variant_id": 1073285776,
           "sku": "369",
-          "talle": "L",
+          "talle": null,
           "color": null,
-          "opciones": "L",
+          "opciones": "",
           "precio": 15000,
           "precio_tachado": 30000,
           "stock": 0,
