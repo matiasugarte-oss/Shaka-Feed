@@ -1,6 +1,6 @@
 {
-  "generado": "2026-11-25T04:33:32.033797+00:00",
-  "total": 532,
+  "generado": "2026-11-25T05:39:09.975777+00:00",
+  "total": 549,
   "productos": [
     {
       "product_id": 222665845,
@@ -690,6 +690,71 @@
       ]
     },
     {
+      "product_id": 383160214,
+      "url": "https://sh-aka.com.ar/productos/3-longsleeve-shirt-1igpy/",
+      "nombre": "<3 LONGSLEEVE SHIRT - PRE-VENTA (entrega a partir del 30/11)",
+      "marca": "Shaka Cmmnty",
+      "descripcion": "- PRE-VENTA (entrega a partir del 30/11) Camisa de poplin algodon/poliester. Estampa en serigrafia en frente. Pinzas en trasero. Se recomienda lavar con agua fria a mano. Corte: regular fit. Hecho en Argentina x argentinos. El mide 1,84 y usa talle L Ella mide 1,62 y usa talle S",
+      "imagenes": [
+        "//acdn-us.mitiendanube.com/stores/001/708/518/products/camisa-rayas-marron-hombre-1-70cb183771fc5466f617955612555254-1024-1024.webp",
+        "//acdn-us.mitiendanube.com/stores/001/708/518/products/camisa-rayas-marron-hombre-detalle-4ed5bd3dad77f06ef217955612561001-1024-1024.webp",
+        "//acdn-us.mitiendanube.com/stores/001/708/518/products/camisa-rayas-marron-mujer-1-7aa1e93872361f100c17955612555303-1024-1024.webp",
+        "//acdn-us.mitiendanube.com/stores/001/708/518/products/camisa-rayas-marron-mujer-detalle-182ab404a37a975a7717955612555387-1024-1024.webp",
+        "//acdn-us.mitiendanube.com/stores/001/708/518/products/camisa-rayas-marron-mujer-2-64048c257329a3af9e17955612557647-1024-1024.webp",
+        "//acdn-us.mitiendanube.com/stores/001/708/518/products/camisa-rayas-marron-hombre-2-9e1fbc16b883aa7c7e17955612554801-1024-1024.webp"
+      ],
+      "variantes": [
+        {
+          "variant_id": 1645756459,
+          "sku": null,
+          "talle": "S",
+          "color": null,
+          "opciones": "S",
+          "precio": 90000,
+          "precio_tachado": null,
+          "stock": 8,
+          "disponible": true,
+          "imagen": "//acdn-us.mitiendanube.com/stores/001/708/518/products/camisa-rayas-marron-hombre-1-70cb183771fc5466f617955612555254-1024-1024.webp"
+        },
+        {
+          "variant_id": 1645756465,
+          "sku": null,
+          "talle": "M",
+          "color": null,
+          "opciones": "M",
+          "precio": 90000,
+          "precio_tachado": null,
+          "stock": 15,
+          "disponible": true,
+          "imagen": "//acdn-us.mitiendanube.com/stores/001/708/518/products/camisa-rayas-marron-hombre-1-70cb183771fc5466f617955612555254-1024-1024.webp"
+        },
+        {
+          "variant_id": 1645756472,
+          "sku": null,
+          "talle": "L",
+          "color": null,
+          "opciones": "L",
+          "precio": 90000,
+          "precio_tachado": null,
+          "stock": 15,
+          "disponible": true,
+          "imagen": "//acdn-us.mitiendanube.com/stores/001/708/518/products/camisa-rayas-marron-hombre-1-70cb183771fc5466f617955612555254-1024-1024.webp"
+        },
+        {
+          "variant_id": 1645756487,
+          "sku": null,
+          "talle": "XL",
+          "color": null,
+          "opciones": "XL",
+          "precio": 90000,
+          "precio_tachado": null,
+          "stock": 8,
+          "disponible": true,
+          "imagen": "//acdn-us.mitiendanube.com/stores/001/708/518/products/camisa-rayas-marron-hombre-1-70cb183771fc5466f617955612555254-1024-1024.webp"
+        }
+      ]
+    },
+    {
       "product_id": 373042441,
       "url": "https://sh-aka.com.ar/productos/3-longsleeve-shirt-celeste-f6dfr/",
       "nombre": "<3 LONGSLEEVE SHIRT (celeste)",
@@ -883,6 +948,136 @@
       ]
     },
     {
+      "product_id": 383159924,
+      "url": "https://sh-aka.com.ar/productos/3-or-die-tee-rosa-11ihe/",
+      "nombre": "<3 OR DIE TEE (rosa)",
+      "marca": "Shaka Cmmnty",
+      "descripcion": "Remera de 100% algodón. Estampa en serigrafía al frente. Doble aguja en cuello y sisas. Terminaciones con collareta tapa costura. Proceso de suavizado. Jersey 20/1. Corte: oversize fit. Hecho en Argentina x argentinos. El mide 1,84 y usa talle L Ella mide 1,62 y usa talle S",
+      "imagenes": [
+        "//acdn-us.mitiendanube.com/stores/001/708/518/products/remera-rosa-or-die-hombre-2-61cf4f948904cf483f17955613804773-1024-1024.webp",
+        "//acdn-us.mitiendanube.com/stores/001/708/518/products/remera-rosa-or-die-mujer-1-54d78704d76e29c07617955613810393-1024-1024.webp",
+        "//acdn-us.mitiendanube.com/stores/001/708/518/products/remera-rosa-or-die-hombre-detalle-858c3c2bf11fd2aab017955613808543-1024-1024.webp",
+        "//acdn-us.mitiendanube.com/stores/001/708/518/products/remera-rosa-or-die-mujer-2-a178d4cdf3f02798ba17955613804783-1024-1024.webp",
+        "//acdn-us.mitiendanube.com/stores/001/708/518/products/remera-rosa-or-die-hombre-1-6d5a60c640b1905ab317955613809687-1024-1024.webp",
+        "//acdn-us.mitiendanube.com/stores/001/708/518/products/remera-rosa-or-die-detalle-espalda-d3d99d6465cdb15f0117955613806448-1024-1024.webp"
+      ],
+      "variantes": [
+        {
+          "variant_id": 1645755574,
+          "sku": null,
+          "talle": "S",
+          "color": null,
+          "opciones": "S",
+          "precio": 70000,
+          "precio_tachado": null,
+          "stock": 9,
+          "disponible": true,
+          "imagen": "//acdn-us.mitiendanube.com/stores/001/708/518/products/remera-rosa-or-die-hombre-2-61cf4f948904cf483f17955613804773-1024-1024.webp"
+        },
+        {
+          "variant_id": 1645755582,
+          "sku": null,
+          "talle": "M",
+          "color": null,
+          "opciones": "M",
+          "precio": 70000,
+          "precio_tachado": null,
+          "stock": 20,
+          "disponible": true,
+          "imagen": "//acdn-us.mitiendanube.com/stores/001/708/518/products/remera-rosa-or-die-hombre-2-61cf4f948904cf483f17955613804773-1024-1024.webp"
+        },
+        {
+          "variant_id": 1645755588,
+          "sku": null,
+          "talle": "L",
+          "color": null,
+          "opciones": "L",
+          "precio": 70000,
+          "precio_tachado": null,
+          "stock": 20,
+          "disponible": true,
+          "imagen": "//acdn-us.mitiendanube.com/stores/001/708/518/products/remera-rosa-or-die-hombre-2-61cf4f948904cf483f17955613804773-1024-1024.webp"
+        },
+        {
+          "variant_id": 1645755596,
+          "sku": null,
+          "talle": "XL",
+          "color": null,
+          "opciones": "XL",
+          "precio": 70000,
+          "precio_tachado": null,
+          "stock": 9,
+          "disponible": true,
+          "imagen": "//acdn-us.mitiendanube.com/stores/001/708/518/products/remera-rosa-or-die-hombre-2-61cf4f948904cf483f17955613804773-1024-1024.webp"
+        }
+      ]
+    },
+    {
+      "product_id": 383160147,
+      "url": "https://sh-aka.com.ar/productos/3-or-die-tee-verde-84a37/",
+      "nombre": "<3 OR DIE TEE (verde)",
+      "marca": "Shaka Cmmnty",
+      "descripcion": "Remera de 100% algodón. Estampa en serigrafía al frente. Doble aguja en cuello y sisas. Terminaciones con collareta tapa costura. Proceso de suavizado. Jersey 20/1. Corte: oversize fit. Hecho en Argentina x argentinos. El mide 1,84 y usa talle L Ella mide 1,62 y usa talle S",
+      "imagenes": [
+        "//acdn-us.mitiendanube.com/stores/001/708/518/products/remera-verde-or-die-mujer-1-b15290f62b8b9e389317955613445200-1024-1024.webp",
+        "//acdn-us.mitiendanube.com/stores/001/708/518/products/remera-verde-or-die-hombre-2-7e0a08754ed1e7328d17955613443629-1024-1024.webp",
+        "//acdn-us.mitiendanube.com/stores/001/708/518/products/remera-verde-or-die-mujer-2-1f59a8c2d3fd7a80e617955613445311-1024-1024.webp",
+        "//acdn-us.mitiendanube.com/stores/001/708/518/products/remera-verde-or-die-hombre-detalle-a08fa9835455b8188e17955613449082-1024-1024.webp",
+        "//acdn-us.mitiendanube.com/stores/001/708/518/products/remera-verde-or-die-hombre-1-e1080f554a9ca7803c17955613445474-1024-1024.webp",
+        "//acdn-us.mitiendanube.com/stores/001/708/518/products/remera-verde-or-die-detalle-espalda-19affc42713099426217955613444798-1024-1024.webp"
+      ],
+      "variantes": [
+        {
+          "variant_id": 1645756259,
+          "sku": null,
+          "talle": "S",
+          "color": null,
+          "opciones": "S",
+          "precio": 70000,
+          "precio_tachado": null,
+          "stock": 12,
+          "disponible": true,
+          "imagen": "//acdn-us.mitiendanube.com/stores/001/708/518/products/remera-verde-or-die-mujer-1-b15290f62b8b9e389317955613445200-1024-1024.webp"
+        },
+        {
+          "variant_id": 1645756266,
+          "sku": null,
+          "talle": "M",
+          "color": null,
+          "opciones": "M",
+          "precio": 70000,
+          "precio_tachado": null,
+          "stock": 24,
+          "disponible": true,
+          "imagen": "//acdn-us.mitiendanube.com/stores/001/708/518/products/remera-verde-or-die-mujer-1-b15290f62b8b9e389317955613445200-1024-1024.webp"
+        },
+        {
+          "variant_id": 1645756276,
+          "sku": null,
+          "talle": "L",
+          "color": null,
+          "opciones": "L",
+          "precio": 70000,
+          "precio_tachado": null,
+          "stock": 24,
+          "disponible": true,
+          "imagen": "//acdn-us.mitiendanube.com/stores/001/708/518/products/remera-verde-or-die-mujer-1-b15290f62b8b9e389317955613445200-1024-1024.webp"
+        },
+        {
+          "variant_id": 1645756279,
+          "sku": null,
+          "talle": "XL",
+          "color": null,
+          "opciones": "XL",
+          "precio": 70000,
+          "precio_tachado": null,
+          "stock": 12,
+          "disponible": true,
+          "imagen": "//acdn-us.mitiendanube.com/stores/001/708/518/products/remera-verde-or-die-mujer-1-b15290f62b8b9e389317955613445200-1024-1024.webp"
+        }
+      ]
+    },
+    {
       "product_id": 369083139,
       "url": "https://sh-aka.com.ar/productos/3-ring-copia-1r5th/",
       "nombre": "<3 RING",
@@ -1003,6 +1198,71 @@
           "stock": 3,
           "disponible": true,
           "imagen": "//acdn-us.mitiendanube.com/stores/001/708/518/products/artboard-70-f5c36f0dfed463f03717810438418594-1024-1024.webp"
+        }
+      ]
+    },
+    {
+      "product_id": 383160192,
+      "url": "https://sh-aka.com.ar/productos/3-squared-longsleeve-shirt-1vxry/",
+      "nombre": "<3 SQUARED LONGSLEEVE SHIRT - PRE-VENTA (entrega a partir del 30/11)",
+      "marca": "Shaka Cmmnty",
+      "descripcion": "- PRE-VENTA (entrega a partir del 30/11) Camisa de poplin algodon/poliester. Estampa en serigrafia en frente. Pinzas en trasero. Se recomienda lavar con agua fria a mano. Corte: regular fit. Hecho en Argentina x argentinos. El mide 1,84 y usa talle L Ella mide 1,62 y usa talle S",
+      "imagenes": [
+        "//acdn-us.mitiendanube.com/stores/001/708/518/products/camisa-cuadros-cruda-hombre-1-06a02cbf4b924f160a17955612853085-1024-1024.webp",
+        "//acdn-us.mitiendanube.com/stores/001/708/518/products/camisa-cuadros-cruda-mujer-detalle-121d01ab3d26cc848517955612853716-1024-1024.webp",
+        "//acdn-us.mitiendanube.com/stores/001/708/518/products/camisa-cuadros-cruda-mujer-2-741be2dcb81111a23917955612852001-1024-1024.webp",
+        "//acdn-us.mitiendanube.com/stores/001/708/518/products/camisa-cuadros-cruda-mujer-1-8c917bfb03c57de59717955612852488-1024-1024.webp",
+        "//acdn-us.mitiendanube.com/stores/001/708/518/products/camisa-cuadros-cruda-hombre-detalle-0de8239836856e9c1917955612853890-1024-1024.webp",
+        "//acdn-us.mitiendanube.com/stores/001/708/518/products/camisa-cuadros-cruda-hombre-2-1ec7d560ce3ecd34b017955612849990-1024-1024.webp"
+      ],
+      "variantes": [
+        {
+          "variant_id": 1645756386,
+          "sku": null,
+          "talle": "S",
+          "color": null,
+          "opciones": "S",
+          "precio": 90000,
+          "precio_tachado": null,
+          "stock": 8,
+          "disponible": true,
+          "imagen": "//acdn-us.mitiendanube.com/stores/001/708/518/products/camisa-cuadros-cruda-hombre-1-06a02cbf4b924f160a17955612853085-1024-1024.webp"
+        },
+        {
+          "variant_id": 1645756395,
+          "sku": null,
+          "talle": "M",
+          "color": null,
+          "opciones": "M",
+          "precio": 90000,
+          "precio_tachado": null,
+          "stock": 15,
+          "disponible": true,
+          "imagen": "//acdn-us.mitiendanube.com/stores/001/708/518/products/camisa-cuadros-cruda-hombre-1-06a02cbf4b924f160a17955612853085-1024-1024.webp"
+        },
+        {
+          "variant_id": 1645756399,
+          "sku": null,
+          "talle": "L",
+          "color": null,
+          "opciones": "L",
+          "precio": 90000,
+          "precio_tachado": null,
+          "stock": 15,
+          "disponible": true,
+          "imagen": "//acdn-us.mitiendanube.com/stores/001/708/518/products/camisa-cuadros-cruda-hombre-1-06a02cbf4b924f160a17955612853085-1024-1024.webp"
+        },
+        {
+          "variant_id": 1645756407,
+          "sku": null,
+          "talle": "XL",
+          "color": null,
+          "opciones": "XL",
+          "precio": 90000,
+          "precio_tachado": null,
+          "stock": 8,
+          "disponible": true,
+          "imagen": "//acdn-us.mitiendanube.com/stores/001/708/518/products/camisa-cuadros-cruda-hombre-1-06a02cbf4b924f160a17955612853085-1024-1024.webp"
         }
       ]
     },
@@ -1292,6 +1552,134 @@
           "stock": 0,
           "disponible": false,
           "imagen": "//acdn-us.mitiendanube.com/stores/001/708/518/products/artboard-20-275a1abc461eebcb8c17579586984128-1024-1024.webp"
+        }
+      ]
+    },
+    {
+      "product_id": 383160606,
+      "url": "https://sh-aka.com.ar/productos/90s-boardshort-azul-2jqmw/",
+      "nombre": "90s BOARDSHORT (azul) - PRE-VENTA (entrega a partir del 20/12)",
+      "marca": "Shaka Cmmnty",
+      "descripcion": "- PRE-VENTA (entrega a partir del 20/12) Boardshort de microfibra con spandex pesada. Vivos por todos sus recortes. Shaka estampado. Bolsillos laterales. Corte: 3/4 surfer fit. Secado rapido. Hecho en Argentina x argentinos. El mide 1,84 y usa talle L Ella mide 1,62 y usa talle S",
+      "imagenes": [
+        "//acdn-us.mitiendanube.com/stores/001/708/518/products/boardshort-azul-lima-hombre-1-eccabfbec6d628bd7917955607686176-1024-1024.webp",
+        "//acdn-us.mitiendanube.com/stores/001/708/518/products/boardshort-azul-lima-hombre-3-81ffa9bce04fdd344b17955607687154-1024-1024.webp",
+        "//acdn-us.mitiendanube.com/stores/001/708/518/products/boardshort-azul-lima-mujer-2-58f6eb7469f89aeacd17955607685732-1024-1024.webp",
+        "//acdn-us.mitiendanube.com/stores/001/708/518/products/boardshort-azul-lima-mujer-1-39666df879241745ec17955607686309-1024-1024.webp",
+        "//acdn-us.mitiendanube.com/stores/001/708/518/products/boardshort-azul-lima-hombre-2-e81af9f6b247592f6717955607688778-1024-1024.webp"
+      ],
+      "variantes": [
+        {
+          "variant_id": 1645758084,
+          "sku": null,
+          "talle": "S",
+          "color": null,
+          "opciones": "S",
+          "precio": 100000,
+          "precio_tachado": null,
+          "stock": 50,
+          "disponible": true,
+          "imagen": "//acdn-us.mitiendanube.com/stores/001/708/518/products/boardshort-azul-lima-hombre-1-eccabfbec6d628bd7917955607686176-1024-1024.webp"
+        },
+        {
+          "variant_id": 1645758087,
+          "sku": null,
+          "talle": "M",
+          "color": null,
+          "opciones": "M",
+          "precio": 100000,
+          "precio_tachado": null,
+          "stock": 100,
+          "disponible": true,
+          "imagen": "//acdn-us.mitiendanube.com/stores/001/708/518/products/boardshort-azul-lima-hombre-1-eccabfbec6d628bd7917955607686176-1024-1024.webp"
+        },
+        {
+          "variant_id": 1645758093,
+          "sku": null,
+          "talle": "L",
+          "color": null,
+          "opciones": "L",
+          "precio": 100000,
+          "precio_tachado": null,
+          "stock": 100,
+          "disponible": true,
+          "imagen": "//acdn-us.mitiendanube.com/stores/001/708/518/products/boardshort-azul-lima-hombre-1-eccabfbec6d628bd7917955607686176-1024-1024.webp"
+        },
+        {
+          "variant_id": 1645758096,
+          "sku": null,
+          "talle": "XL",
+          "color": null,
+          "opciones": "XL",
+          "precio": 100000,
+          "precio_tachado": null,
+          "stock": 50,
+          "disponible": true,
+          "imagen": "//acdn-us.mitiendanube.com/stores/001/708/518/products/boardshort-azul-lima-hombre-1-eccabfbec6d628bd7917955607686176-1024-1024.webp"
+        }
+      ]
+    },
+    {
+      "product_id": 383160584,
+      "url": "https://sh-aka.com.ar/productos/90s-boardshort-blanco-1yclz/",
+      "nombre": "90s BOARDSHORT (blanco) - PRE-VENTA (entrega a partir del 20/12)",
+      "marca": "Shaka Cmmnty",
+      "descripcion": "- PRE-VENTA (entrega a partir del 20/12) Boardshort de microfibra con spandex pesada. Vivos por todos sus recortes. Shaka estampado. Bolsillos laterales. Corte: 3/4 surfer fit. Secado rapido. Hecho en Argentina x argentinos. El mide 1,84 y usa talle L Ella mide 1,62 y usa talle S",
+      "imagenes": [
+        "//acdn-us.mitiendanube.com/stores/001/708/518/products/boardshort-blanco-hombre-1-9ec2bdbc029d216d0817955608652708-1024-1024.webp",
+        "//acdn-us.mitiendanube.com/stores/001/708/518/products/boardshort-blanco-hombre-3-483395c6516ecd81a017955608656419-1024-1024.webp",
+        "//acdn-us.mitiendanube.com/stores/001/708/518/products/boardshort-blanco-mujer-2-e87f50b5c41147410917955608650830-1024-1024.webp",
+        "//acdn-us.mitiendanube.com/stores/001/708/518/products/boardshort-blanco-mujer-1-e7ee97626a5f85b31017955608650815-1024-1024.webp",
+        "//acdn-us.mitiendanube.com/stores/001/708/518/products/boardshort-blanco-hombre-2-6645d3455dc4d19c2717955608651311-1024-1024.webp"
+      ],
+      "variantes": [
+        {
+          "variant_id": 1645758030,
+          "sku": null,
+          "talle": "S",
+          "color": null,
+          "opciones": "S",
+          "precio": 100000,
+          "precio_tachado": null,
+          "stock": 50,
+          "disponible": true,
+          "imagen": "//acdn-us.mitiendanube.com/stores/001/708/518/products/boardshort-blanco-hombre-1-9ec2bdbc029d216d0817955608652708-1024-1024.webp"
+        },
+        {
+          "variant_id": 1645758036,
+          "sku": null,
+          "talle": "M",
+          "color": null,
+          "opciones": "M",
+          "precio": 100000,
+          "precio_tachado": null,
+          "stock": 98,
+          "disponible": true,
+          "imagen": "//acdn-us.mitiendanube.com/stores/001/708/518/products/boardshort-blanco-hombre-1-9ec2bdbc029d216d0817955608652708-1024-1024.webp"
+        },
+        {
+          "variant_id": 1645758038,
+          "sku": null,
+          "talle": "L",
+          "color": null,
+          "opciones": "L",
+          "precio": 100000,
+          "precio_tachado": null,
+          "stock": 98,
+          "disponible": true,
+          "imagen": "//acdn-us.mitiendanube.com/stores/001/708/518/products/boardshort-blanco-hombre-1-9ec2bdbc029d216d0817955608652708-1024-1024.webp"
+        },
+        {
+          "variant_id": 1645758043,
+          "sku": null,
+          "talle": "XL",
+          "color": null,
+          "opciones": "XL",
+          "precio": 100000,
+          "precio_tachado": null,
+          "stock": 50,
+          "disponible": true,
+          "imagen": "//acdn-us.mitiendanube.com/stores/001/708/518/products/boardshort-blanco-hombre-1-9ec2bdbc029d216d0817955608652708-1024-1024.webp"
         }
       ]
     },
@@ -3848,6 +4236,71 @@
           "stock": 0,
           "disponible": false,
           "imagen": "//acdn-us.mitiendanube.com/stores/001/708/518/products/reme-1-frente-38d343943e0bff779f17476848010714-1024-1024.webp"
+        }
+      ]
+    },
+    {
+      "product_id": 383160170,
+      "url": "https://sh-aka.com.ar/productos/black-tailored-jort-1d0pq/",
+      "nombre": "BLACK TAILORED JORT - PRE-VENTA (entrega a partir del 03/12)",
+      "marca": "Shaka Cmmnty",
+      "descripcion": "- PRE-VENTA (entrega a partir del 03/12) Bermuda de tela sastrera alg/pol. Aplique de marca en bolsillo trasero. Bolsillo lateral. Pinzas para efecto sastrero. Cierre YKK. Corte: baggy. Hecho en Argentina x argentinos. El mide 1,84 y usa talle L Ella mide 1,62 y usa talle S",
+      "imagenes": [
+        "//acdn-us.mitiendanube.com/stores/001/708/518/products/bermuda-negra-cinturon-hombre-1-a6a75e979542c08bec17955613134605-1024-1024.webp",
+        "//acdn-us.mitiendanube.com/stores/001/708/518/products/bermuda-negra-cinturon-mujer-2-2e745b72450f60a10f17955613135395-1024-1024.webp",
+        "//acdn-us.mitiendanube.com/stores/001/708/518/products/bermuda-negra-cinturon-hombre-detalle-09706cee07246fc0e417955613134866-1024-1024.webp",
+        "//acdn-us.mitiendanube.com/stores/001/708/518/products/bermuda-negra-cinturon-mujer-1-fff4feae3d40fa656117955613137442-1024-1024.webp",
+        "//acdn-us.mitiendanube.com/stores/001/708/518/products/bermuda-negra-cinturon-hombre-2-510cf8678989055c0417955613134577-1024-1024.webp",
+        "//acdn-us.mitiendanube.com/stores/001/708/518/products/bermuda-negra-cinturon-detalle-espalda-f96e45462c471b8b7517955613135178-1024-1024.webp"
+      ],
+      "variantes": [
+        {
+          "variant_id": 1645756317,
+          "sku": null,
+          "talle": "S",
+          "color": null,
+          "opciones": "S",
+          "precio": 115000,
+          "precio_tachado": null,
+          "stock": 12,
+          "disponible": true,
+          "imagen": "//acdn-us.mitiendanube.com/stores/001/708/518/products/bermuda-negra-cinturon-hombre-1-a6a75e979542c08bec17955613134605-1024-1024.webp"
+        },
+        {
+          "variant_id": 1645756333,
+          "sku": null,
+          "talle": "M",
+          "color": null,
+          "opciones": "M",
+          "precio": 115000,
+          "precio_tachado": null,
+          "stock": 26,
+          "disponible": true,
+          "imagen": "//acdn-us.mitiendanube.com/stores/001/708/518/products/bermuda-negra-cinturon-hombre-1-a6a75e979542c08bec17955613134605-1024-1024.webp"
+        },
+        {
+          "variant_id": 1645756342,
+          "sku": null,
+          "talle": "L",
+          "color": null,
+          "opciones": "L",
+          "precio": 115000,
+          "precio_tachado": null,
+          "stock": 26,
+          "disponible": true,
+          "imagen": "//acdn-us.mitiendanube.com/stores/001/708/518/products/bermuda-negra-cinturon-hombre-1-a6a75e979542c08bec17955613134605-1024-1024.webp"
+        },
+        {
+          "variant_id": 1645756346,
+          "sku": null,
+          "talle": "XL",
+          "color": null,
+          "opciones": "XL",
+          "precio": 115000,
+          "precio_tachado": null,
+          "stock": 12,
+          "disponible": true,
+          "imagen": "//acdn-us.mitiendanube.com/stores/001/708/518/products/bermuda-negra-cinturon-hombre-1-a6a75e979542c08bec17955613134605-1024-1024.webp"
         }
       ]
     },
@@ -7873,6 +8326,134 @@
       ]
     },
     {
+      "product_id": 383160232,
+      "url": "https://sh-aka.com.ar/productos/fire-3-shirt-celeste-13mzr/",
+      "nombre": "FIRE <3 SHIRT (celeste) - PRE-VENTA (entrega a partir del 30/11)",
+      "marca": "Shaka Cmmnty",
+      "descripcion": "- PRE-VENTA (entrega a partir del 30/11) Camisa de poplin algodon/poliester. Estampa en serigrafia en frente. Pinzas en trasero. Se recomienda lavar con agua fria a mano. Corte: regular fit. Hecho en Argentina x argentinos. El mide 1,84 y usa talle L Ella mide 1,62 y usa talle S",
+      "imagenes": [
+        "//acdn-us.mitiendanube.com/stores/001/708/518/products/camisa-rayas-celeste-mujer-1-2d6e555b30c7b85fe417955611908952-1024-1024.webp",
+        "//acdn-us.mitiendanube.com/stores/001/708/518/products/camisa-rayas-celeste-hombre-1-15ad1f5dc33c3db1b417955611906833-1024-1024.webp",
+        "//acdn-us.mitiendanube.com/stores/001/708/518/products/camisa-rayas-celeste-hombre-2-0a878daeed8c6d937817955611908929-1024-1024.webp",
+        "//acdn-us.mitiendanube.com/stores/001/708/518/products/camisa-rayas-celeste-mujer-detalle-0b21df0d64f6d07f6617955611915613-1024-1024.webp",
+        "//acdn-us.mitiendanube.com/stores/001/708/518/products/camisa-rayas-celeste-mujer-2-30e86214f486ae4a9017955611908758-1024-1024.webp"
+      ],
+      "variantes": [
+        {
+          "variant_id": 1645756526,
+          "sku": null,
+          "talle": "S",
+          "color": null,
+          "opciones": "S",
+          "precio": 85000,
+          "precio_tachado": null,
+          "stock": 11,
+          "disponible": true,
+          "imagen": "//acdn-us.mitiendanube.com/stores/001/708/518/products/camisa-rayas-celeste-mujer-1-2d6e555b30c7b85fe417955611908952-1024-1024.webp"
+        },
+        {
+          "variant_id": 1645756536,
+          "sku": null,
+          "talle": "M",
+          "color": null,
+          "opciones": "M",
+          "precio": 85000,
+          "precio_tachado": null,
+          "stock": 20,
+          "disponible": true,
+          "imagen": "//acdn-us.mitiendanube.com/stores/001/708/518/products/camisa-rayas-celeste-mujer-1-2d6e555b30c7b85fe417955611908952-1024-1024.webp"
+        },
+        {
+          "variant_id": 1645756544,
+          "sku": null,
+          "talle": "L",
+          "color": null,
+          "opciones": "L",
+          "precio": 85000,
+          "precio_tachado": null,
+          "stock": 20,
+          "disponible": true,
+          "imagen": "//acdn-us.mitiendanube.com/stores/001/708/518/products/camisa-rayas-celeste-mujer-1-2d6e555b30c7b85fe417955611908952-1024-1024.webp"
+        },
+        {
+          "variant_id": 1645756549,
+          "sku": null,
+          "talle": "XL",
+          "color": null,
+          "opciones": "XL",
+          "precio": 85000,
+          "precio_tachado": null,
+          "stock": 11,
+          "disponible": true,
+          "imagen": "//acdn-us.mitiendanube.com/stores/001/708/518/products/camisa-rayas-celeste-mujer-1-2d6e555b30c7b85fe417955611908952-1024-1024.webp"
+        }
+      ]
+    },
+    {
+      "product_id": 383160250,
+      "url": "https://sh-aka.com.ar/productos/fire-3-shirt-marron-1962n/",
+      "nombre": "FIRE <3 SHIRT (marron) - PRE-VENTA (entrega a partir del 30/11)",
+      "marca": "Shaka Cmmnty",
+      "descripcion": "- PRE-VENTA (entrega a partir del 30/11) Camisa de poplin algodon/poliester. Estampa en serigrafia en frente. Pinzas en trasero. Se recomienda lavar con agua fria a mano. Corte: regular fit. Hecho en Argentina x argentinos. El mide 1,84 y usa talle L Ella mide 1,62 y usa talle S",
+      "imagenes": [
+        "//acdn-us.mitiendanube.com/stores/001/708/518/products/camisa-cuadros-marron-hombre-1-b64024fc391905ee0017955611550912-1024-1024.webp",
+        "//acdn-us.mitiendanube.com/stores/001/708/518/products/camisa-cuadros-marron-mujer-detalle-6fd4bb4fbf3c36126917955611551103-1024-1024.webp",
+        "//acdn-us.mitiendanube.com/stores/001/708/518/products/camisa-cuadros-marron-mujer-2-2347be46f1bd01e9e017955611553312-1024-1024.webp",
+        "//acdn-us.mitiendanube.com/stores/001/708/518/products/camisa-cuadros-marron-mujer-1-579f0c50ea46bbf7a417955611550715-1024-1024.webp",
+        "//acdn-us.mitiendanube.com/stores/001/708/518/products/camisa-cuadros-marron-hombre-2-71b8e91514b237c8f817955611550695-1024-1024.webp"
+      ],
+      "variantes": [
+        {
+          "variant_id": 1645756622,
+          "sku": null,
+          "talle": "S",
+          "color": null,
+          "opciones": "S",
+          "precio": 85000,
+          "precio_tachado": null,
+          "stock": 11,
+          "disponible": true,
+          "imagen": "//acdn-us.mitiendanube.com/stores/001/708/518/products/camisa-cuadros-marron-hombre-1-b64024fc391905ee0017955611550912-1024-1024.webp"
+        },
+        {
+          "variant_id": 1645756640,
+          "sku": null,
+          "talle": "M",
+          "color": null,
+          "opciones": "M",
+          "precio": 85000,
+          "precio_tachado": null,
+          "stock": 20,
+          "disponible": true,
+          "imagen": "//acdn-us.mitiendanube.com/stores/001/708/518/products/camisa-cuadros-marron-hombre-1-b64024fc391905ee0017955611550912-1024-1024.webp"
+        },
+        {
+          "variant_id": 1645756646,
+          "sku": null,
+          "talle": "L",
+          "color": null,
+          "opciones": "L",
+          "precio": 85000,
+          "precio_tachado": null,
+          "stock": 20,
+          "disponible": true,
+          "imagen": "//acdn-us.mitiendanube.com/stores/001/708/518/products/camisa-cuadros-marron-hombre-1-b64024fc391905ee0017955611550912-1024-1024.webp"
+        },
+        {
+          "variant_id": 1645756657,
+          "sku": null,
+          "talle": "XL",
+          "color": null,
+          "opciones": "XL",
+          "precio": 85000,
+          "precio_tachado": null,
+          "stock": 10,
+          "disponible": true,
+          "imagen": "//acdn-us.mitiendanube.com/stores/001/708/518/products/camisa-cuadros-marron-hombre-1-b64024fc391905ee0017955611550912-1024-1024.webp"
+        }
+      ]
+    },
+    {
       "product_id": 220995048,
       "url": "https://sh-aka.com.ar/productos/first-steps-hood-malva/",
       "nombre": "FIRST STEPS HOOD (malva)",
@@ -8283,6 +8864,136 @@
           "stock": 0,
           "disponible": false,
           "imagen": "//acdn-us.mitiendanube.com/stores/001/708/518/products/artboard-23-24252b3988655a32b017685148050803-1024-1024.webp"
+        }
+      ]
+    },
+    {
+      "product_id": 383160391,
+      "url": "https://sh-aka.com.ar/productos/flame-jort-gris-ux3p0/",
+      "nombre": "FLAME JORT (gris) - PRE-VENTA (entrega a partir del 30/11)",
+      "marca": "Shaka Cmmnty",
+      "descripcion": "- PRE-VENTA (entrega a partir del 30/11) Bermuda de rústico. Cintura elastizada. Bolsillos laterales y bolsillo trasero. Estampa flame en piernas traseras. Corte: baggy. Hecho en Argentina x argentinos. El mide 1,84 y usa talle L Ella mide 1,62 y usa talle S",
+      "imagenes": [
+        "//acdn-us.mitiendanube.com/stores/001/708/518/products/short-gris-llamas-mujer-2-fdf051f53847dadb3217955611141704-1024-1024.webp",
+        "//acdn-us.mitiendanube.com/stores/001/708/518/products/short-gris-llamas-hombre-detalle-e0d2bb5f41259bb5fc17955611141187-1024-1024.webp",
+        "//acdn-us.mitiendanube.com/stores/001/708/518/products/short-gris-llamas-detalle-espalda-9ebccf6b2e9a409e8517955611141732-1024-1024.webp",
+        "//acdn-us.mitiendanube.com/stores/001/708/518/products/short-gris-llamas-hombre-1-769de77276de3ad6bb17955611143208-1024-1024.webp",
+        "//acdn-us.mitiendanube.com/stores/001/708/518/products/short-gris-llamas-mujer-1-56fe43576045bf2e0d17955611142609-1024-1024.webp",
+        "//acdn-us.mitiendanube.com/stores/001/708/518/products/short-gris-llamas-hombre-2-40f324b76601b6712717955611141046-1024-1024.webp"
+      ],
+      "variantes": [
+        {
+          "variant_id": 1645757292,
+          "sku": null,
+          "talle": "S",
+          "color": null,
+          "opciones": "S",
+          "precio": 105000,
+          "precio_tachado": null,
+          "stock": 13,
+          "disponible": true,
+          "imagen": "//acdn-us.mitiendanube.com/stores/001/708/518/products/short-gris-llamas-mujer-2-fdf051f53847dadb3217955611141704-1024-1024.webp"
+        },
+        {
+          "variant_id": 1645757297,
+          "sku": null,
+          "talle": "M",
+          "color": null,
+          "opciones": "M",
+          "precio": 105000,
+          "precio_tachado": null,
+          "stock": 28,
+          "disponible": true,
+          "imagen": "//acdn-us.mitiendanube.com/stores/001/708/518/products/short-gris-llamas-mujer-2-fdf051f53847dadb3217955611141704-1024-1024.webp"
+        },
+        {
+          "variant_id": 1645757303,
+          "sku": null,
+          "talle": "L",
+          "color": null,
+          "opciones": "L",
+          "precio": 105000,
+          "precio_tachado": null,
+          "stock": 27,
+          "disponible": true,
+          "imagen": "//acdn-us.mitiendanube.com/stores/001/708/518/products/short-gris-llamas-mujer-2-fdf051f53847dadb3217955611141704-1024-1024.webp"
+        },
+        {
+          "variant_id": 1645757308,
+          "sku": null,
+          "talle": "XL",
+          "color": null,
+          "opciones": "XL",
+          "precio": 105000,
+          "precio_tachado": null,
+          "stock": 14,
+          "disponible": true,
+          "imagen": "//acdn-us.mitiendanube.com/stores/001/708/518/products/short-gris-llamas-mujer-2-fdf051f53847dadb3217955611141704-1024-1024.webp"
+        }
+      ]
+    },
+    {
+      "product_id": 383160407,
+      "url": "https://sh-aka.com.ar/productos/flame-jort-rojo-1ttm6/",
+      "nombre": "FLAME JORT (rojo) - PRE-VENTA (entrega a partir del 30/11)",
+      "marca": "Shaka Cmmnty",
+      "descripcion": "- PRE-VENTA (entrega a partir del 30/11) Bermuda de rústico. Cintura elastizada. Bolsillos laterales y bolsillo trasero. Estampa flame en piernas traseras. Corte: baggy. Hecho en Argentina x argentinos. El mide 1,84 y usa talle L Ella mide 1,62 y usa talle S",
+      "imagenes": [
+        "//acdn-us.mitiendanube.com/stores/001/708/518/products/short-rojo-llamas-hombre-2-10d1d6e3e67d50d67a17955610627629-1024-1024.webp",
+        "//acdn-us.mitiendanube.com/stores/001/708/518/products/short-rojo-llamas-detalle-espalda-c3d6133e75b8aa2df417955610630795-1024-1024.webp",
+        "//acdn-us.mitiendanube.com/stores/001/708/518/products/short-rojo-llamas-hombre-1-e710060ee27d26065817955610627794-1024-1024.webp",
+        "//acdn-us.mitiendanube.com/stores/001/708/518/products/short-rojo-llamas-mujer-2-2978c04e213148e86b17955610633007-1024-1024.webp",
+        "//acdn-us.mitiendanube.com/stores/001/708/518/products/short-rojo-llamas-mujer-1-af344ad57b7ad389fa17955610627518-1024-1024.webp",
+        "//acdn-us.mitiendanube.com/stores/001/708/518/products/short-rojo-llamas-hombre-detalle-328fa2debb8e3ed73917955610635387-1024-1024.webp"
+      ],
+      "variantes": [
+        {
+          "variant_id": 1645757348,
+          "sku": null,
+          "talle": "S",
+          "color": null,
+          "opciones": "S",
+          "precio": 105000,
+          "precio_tachado": null,
+          "stock": 6,
+          "disponible": true,
+          "imagen": "//acdn-us.mitiendanube.com/stores/001/708/518/products/short-rojo-llamas-hombre-2-10d1d6e3e67d50d67a17955610627629-1024-1024.webp"
+        },
+        {
+          "variant_id": 1645757353,
+          "sku": null,
+          "talle": "M",
+          "color": null,
+          "opciones": "M",
+          "precio": 105000,
+          "precio_tachado": null,
+          "stock": 12,
+          "disponible": true,
+          "imagen": "//acdn-us.mitiendanube.com/stores/001/708/518/products/short-rojo-llamas-hombre-2-10d1d6e3e67d50d67a17955610627629-1024-1024.webp"
+        },
+        {
+          "variant_id": 1645757358,
+          "sku": null,
+          "talle": "L",
+          "color": null,
+          "opciones": "L",
+          "precio": 105000,
+          "precio_tachado": null,
+          "stock": 12,
+          "disponible": true,
+          "imagen": "//acdn-us.mitiendanube.com/stores/001/708/518/products/short-rojo-llamas-hombre-2-10d1d6e3e67d50d67a17955610627629-1024-1024.webp"
+        },
+        {
+          "variant_id": 1645757368,
+          "sku": null,
+          "talle": "XL",
+          "color": null,
+          "opciones": "XL",
+          "precio": 105000,
+          "precio_tachado": null,
+          "stock": 6,
+          "disponible": true,
+          "imagen": "//acdn-us.mitiendanube.com/stores/001/708/518/products/short-rojo-llamas-hombre-2-10d1d6e3e67d50d67a17955610627629-1024-1024.webp"
         }
       ]
     },
@@ -15417,6 +16128,70 @@
       ]
     },
     {
+      "product_id": 383160472,
+      "url": "https://sh-aka.com.ar/productos/red-logo-waffle-tee-74uys/",
+      "nombre": "RED LOGO WAFFLE TEE - PRE-VENTA (entrega a partir del 30/11)",
+      "marca": "Shaka Cmmnty",
+      "descripcion": "- PRE-VENTA (entrega a partir del 30/11) Remera de 100% algodón. Tela de waffle. Proceso de suavizado. Logo rojo en serigrafia. Corte: boxy fit. Hecho en Argentina x argentinos. El mide 1,84 y usa talle XL Ella mide 1,62 y usa talle S",
+      "imagenes": [
+        "//acdn-us.mitiendanube.com/stores/001/708/518/products/remera-waffle-cruda-roja-hombre-1-e70268b2b0af6b76b917955609145785-1024-1024.webp",
+        "//acdn-us.mitiendanube.com/stores/001/708/518/products/remera-waffle-cruda-roja-mujer-detalle-3a3a0e3dbc3d1db93717955609146564-1024-1024.webp",
+        "//acdn-us.mitiendanube.com/stores/001/708/518/products/remera-waffle-cruda-roja-hombre-2-ba24541ae6d1bf5f5d17955609148631-1024-1024.webp",
+        "//acdn-us.mitiendanube.com/stores/001/708/518/products/remera-waffle-cruda-roja-mujer-1-9ca3bf1cdb4d47f7c917955609143650-1024-1024.webp",
+        "//acdn-us.mitiendanube.com/stores/001/708/518/products/remera-waffle-cruda-roja-hombre-detalle-4831c0517a743966ae17955609148830-1024-1024.webp"
+      ],
+      "variantes": [
+        {
+          "variant_id": 1645757620,
+          "sku": null,
+          "talle": "S",
+          "color": null,
+          "opciones": "S",
+          "precio": 80000,
+          "precio_tachado": null,
+          "stock": 14,
+          "disponible": true,
+          "imagen": "//acdn-us.mitiendanube.com/stores/001/708/518/products/remera-waffle-cruda-roja-hombre-1-e70268b2b0af6b76b917955609145785-1024-1024.webp"
+        },
+        {
+          "variant_id": 1645757627,
+          "sku": null,
+          "talle": "M",
+          "color": null,
+          "opciones": "M",
+          "precio": 80000,
+          "precio_tachado": null,
+          "stock": 30,
+          "disponible": true,
+          "imagen": "//acdn-us.mitiendanube.com/stores/001/708/518/products/remera-waffle-cruda-roja-hombre-1-e70268b2b0af6b76b917955609145785-1024-1024.webp"
+        },
+        {
+          "variant_id": 1645757630,
+          "sku": null,
+          "talle": "L",
+          "color": null,
+          "opciones": "L",
+          "precio": 80000,
+          "precio_tachado": null,
+          "stock": 29,
+          "disponible": true,
+          "imagen": "//acdn-us.mitiendanube.com/stores/001/708/518/products/remera-waffle-cruda-roja-hombre-1-e70268b2b0af6b76b917955609145785-1024-1024.webp"
+        },
+        {
+          "variant_id": 1645757634,
+          "sku": null,
+          "talle": "XL",
+          "color": null,
+          "opciones": "XL",
+          "precio": 80000,
+          "precio_tachado": null,
+          "stock": 13,
+          "disponible": true,
+          "imagen": "//acdn-us.mitiendanube.com/stores/001/708/518/products/remera-waffle-cruda-roja-hombre-1-e70268b2b0af6b76b917955609145785-1024-1024.webp"
+        }
+      ]
+    },
+    {
       "product_id": 304874965,
       "url": "https://sh-aka.com.ar/productos/red-stripes-shirt-hwubw/",
       "nombre": "RED STRIPES SHIRT",
@@ -15482,6 +16257,135 @@
           "stock": 0,
           "disponible": false,
           "imagen": "//acdn-us.mitiendanube.com/stores/001/708/518/products/camisa-rosa-2-d9ec4afc5d36a6d28e17621986668948-1024-1024.webp"
+        }
+      ]
+    },
+    {
+      "product_id": 383160424,
+      "url": "https://sh-aka.com.ar/productos/retro-tee-azul-1rjlp/",
+      "nombre": "RETRO TEE (azul) - PRE-VENTA (entrega a partir del 07/12)",
+      "marca": "Shaka Cmmnty",
+      "descripcion": "- PRE-VENTA (entrega a partir del 07/12) Remera de 100% algodón. Vivos naranja en frente y espalda. Estampa en serigrafía al frente. Doble aguja en cuello y sisas. Terminaciones con collareta tapa costura. Proceso de suavizado. Jersey 20/1. Corte: oversize fit. Hecho en Argentina x argentinos. El mide 1,84 y usa talle M Ella mide 1,62 y usa talle S",
+      "imagenes": [
+        "//acdn-us.mitiendanube.com/stores/001/708/518/products/remera-azul-panel-gris-mujer-1-0185efaf1b76c7212317955618518827-1024-1024.webp",
+        "//acdn-us.mitiendanube.com/stores/001/708/518/products/remera-azul-panel-gris-hombre-1-be9a8b43a9f29834f517955610347155-1024-1024.webp",
+        "//acdn-us.mitiendanube.com/stores/001/708/518/products/remera-azul-panel-gris-hombre-detalle-d2351eff19bce88cfc17955610345695-1024-1024.webp",
+        "//acdn-us.mitiendanube.com/stores/001/708/518/products/remera-azul-panel-gris-mujer-detalle-71eefc7386018d714617955610348854-1024-1024.webp",
+        "//acdn-us.mitiendanube.com/stores/001/708/518/products/remera-azul-panel-gris-hombre-2-eebf258b50602937a817955610350987-1024-1024.webp",
+        "//acdn-us.mitiendanube.com/stores/001/708/518/products/remera-azul-panel-gris-mujer-2-b55c317c98d1927b3317955618101417-1024-1024.webp"
+      ],
+      "variantes": [
+        {
+          "variant_id": 1645757411,
+          "sku": null,
+          "talle": "S",
+          "color": null,
+          "opciones": "S",
+          "precio": 70000,
+          "precio_tachado": null,
+          "stock": 25,
+          "disponible": true,
+          "imagen": "//acdn-us.mitiendanube.com/stores/001/708/518/products/remera-azul-panel-gris-mujer-1-0185efaf1b76c7212317955618518827-1024-1024.webp"
+        },
+        {
+          "variant_id": 1645757415,
+          "sku": null,
+          "talle": "M",
+          "color": null,
+          "opciones": "M",
+          "precio": 70000,
+          "precio_tachado": null,
+          "stock": 50,
+          "disponible": true,
+          "imagen": "//acdn-us.mitiendanube.com/stores/001/708/518/products/remera-azul-panel-gris-mujer-1-0185efaf1b76c7212317955618518827-1024-1024.webp"
+        },
+        {
+          "variant_id": 1645757423,
+          "sku": null,
+          "talle": "L",
+          "color": null,
+          "opciones": "L",
+          "precio": 70000,
+          "precio_tachado": null,
+          "stock": 49,
+          "disponible": true,
+          "imagen": "//acdn-us.mitiendanube.com/stores/001/708/518/products/remera-azul-panel-gris-mujer-1-0185efaf1b76c7212317955618518827-1024-1024.webp"
+        },
+        {
+          "variant_id": 1645757430,
+          "sku": null,
+          "talle": "XL",
+          "color": null,
+          "opciones": "XL",
+          "precio": 70000,
+          "precio_tachado": null,
+          "stock": 25,
+          "disponible": true,
+          "imagen": "//acdn-us.mitiendanube.com/stores/001/708/518/products/remera-azul-panel-gris-mujer-1-0185efaf1b76c7212317955618518827-1024-1024.webp"
+        }
+      ]
+    },
+    {
+      "product_id": 383160440,
+      "url": "https://sh-aka.com.ar/productos/retro-tee-blanco-v3742/",
+      "nombre": "RETRO TEE (blanco) - PRE-VENTA (entrega a partir del 07/12)",
+      "marca": "Shaka Cmmnty",
+      "descripcion": "- PRE-VENTA (entrega a partir del 07/12) Remera de 100% algodón. Vivos naranja en frente y espalda. Estampa en serigrafía al frente. Doble aguja en cuello y sisas. Terminaciones con collareta tapa costura. Proceso de suavizado. Jersey 20/1. Corte: oversize fit. Hecho en Argentina x argentinos. El mide 1,84 y usa talle M Ella mide 1,62 y usa talle S",
+      "imagenes": [
+        "//acdn-us.mitiendanube.com/stores/001/708/518/products/remera-blanca-panel-gris-hombre-1-455d09333400ce4bc917955610011106-1024-1024.webp",
+        "//acdn-us.mitiendanube.com/stores/001/708/518/products/remera-blanca-panel-gris-hombre-detalle-76528b43ae8494c0b217955610010151-1024-1024.webp",
+        "//acdn-us.mitiendanube.com/stores/001/708/518/products/remera-blanca-panel-gris-mujer-2-3fd7904b08154d54cd17955618889893-1024-1024.webp",
+        "//acdn-us.mitiendanube.com/stores/001/708/518/products/remera-blanca-panel-gris-mujer-detalle-461eaa6c849af7a1a017955610013003-1024-1024.webp",
+        "//acdn-us.mitiendanube.com/stores/001/708/518/products/remera-blanca-panel-gris-hombre-2-340cf33b52d61a594217955610012404-1024-1024.webp"
+      ],
+      "variantes": [
+        {
+          "variant_id": 1645757492,
+          "sku": null,
+          "talle": "S",
+          "color": null,
+          "opciones": "S",
+          "precio": 70000,
+          "precio_tachado": null,
+          "stock": 8,
+          "disponible": true,
+          "imagen": "//acdn-us.mitiendanube.com/stores/001/708/518/products/remera-blanca-panel-gris-hombre-1-455d09333400ce4bc917955610011106-1024-1024.webp"
+        },
+        {
+          "variant_id": 1645757531,
+          "sku": null,
+          "talle": "M",
+          "color": null,
+          "opciones": "M",
+          "precio": 70000,
+          "precio_tachado": null,
+          "stock": 17,
+          "disponible": true,
+          "imagen": "//acdn-us.mitiendanube.com/stores/001/708/518/products/remera-blanca-panel-gris-hombre-1-455d09333400ce4bc917955610011106-1024-1024.webp"
+        },
+        {
+          "variant_id": 1645757536,
+          "sku": null,
+          "talle": "L",
+          "color": null,
+          "opciones": "L",
+          "precio": 70000,
+          "precio_tachado": null,
+          "stock": 17,
+          "disponible": true,
+          "imagen": "//acdn-us.mitiendanube.com/stores/001/708/518/products/remera-blanca-panel-gris-hombre-1-455d09333400ce4bc917955610011106-1024-1024.webp"
+        },
+        {
+          "variant_id": 1645757538,
+          "sku": null,
+          "talle": "XL",
+          "color": null,
+          "opciones": "XL",
+          "precio": 70000,
+          "precio_tachado": null,
+          "stock": 8,
+          "disponible": true,
+          "imagen": "//acdn-us.mitiendanube.com/stores/001/708/518/products/remera-blanca-panel-gris-hombre-1-455d09333400ce4bc917955610011106-1024-1024.webp"
         }
       ]
     },
@@ -19687,6 +20591,71 @@
       ]
     },
     {
+      "product_id": 383160463,
+      "url": "https://sh-aka.com.ar/productos/sk8-waffle-tee-1p6am/",
+      "nombre": "SK8 WAFFLE TEE - PRE-VENTA (entrega a partir del 30/11)",
+      "marca": "Shaka Cmmnty",
+      "descripcion": "- PRE-VENTA (entrega a partir del 30/11) Remera de 100% algodón. Tela de waffle corte ranglan. Proceso de suavizado. Diseño sublimado. Corte: boxy fit. Hecho en Argentina x argentinos. El mide 1,84 y usa talle M Ella mide 1,62 y usa talle S",
+      "imagenes": [
+        "//acdn-us.mitiendanube.com/stores/001/708/518/products/remera-raglan-foto-skate-mujer-1-2f4d73970c186e5ec717955609784206-1024-1024.webp",
+        "//acdn-us.mitiendanube.com/stores/001/708/518/products/remera-raglan-foto-skate-hombre-detalle-cef691313cd7a9b9da17955609788910-1024-1024.webp",
+        "//acdn-us.mitiendanube.com/stores/001/708/518/products/remera-raglan-foto-skate-hombre-3-56e0a6856e771989e517955609791414-1024-1024.webp",
+        "//acdn-us.mitiendanube.com/stores/001/708/518/products/remera-raglan-foto-skate-mujer-2-2a5dcb65ac3423a53917955609786544-1024-1024.webp",
+        "//acdn-us.mitiendanube.com/stores/001/708/518/products/remera-raglan-foto-skate-hombre-2-bb156cba06725bf54517955609789875-1024-1024.webp",
+        "//acdn-us.mitiendanube.com/stores/001/708/518/products/remera-raglan-foto-skate-hombre-1-23345e14461dd1f60c17955609786967-1024-1024.webp"
+      ],
+      "variantes": [
+        {
+          "variant_id": 1645757562,
+          "sku": null,
+          "talle": "S",
+          "color": null,
+          "opciones": "S",
+          "precio": 80000,
+          "precio_tachado": null,
+          "stock": 9,
+          "disponible": true,
+          "imagen": "//acdn-us.mitiendanube.com/stores/001/708/518/products/remera-raglan-foto-skate-mujer-1-2f4d73970c186e5ec717955609784206-1024-1024.webp"
+        },
+        {
+          "variant_id": 1645757581,
+          "sku": null,
+          "talle": "M",
+          "color": null,
+          "opciones": "M",
+          "precio": 80000,
+          "precio_tachado": null,
+          "stock": 20,
+          "disponible": true,
+          "imagen": "//acdn-us.mitiendanube.com/stores/001/708/518/products/remera-raglan-foto-skate-mujer-1-2f4d73970c186e5ec717955609784206-1024-1024.webp"
+        },
+        {
+          "variant_id": 1645757584,
+          "sku": null,
+          "talle": "L",
+          "color": null,
+          "opciones": "L",
+          "precio": 80000,
+          "precio_tachado": null,
+          "stock": 20,
+          "disponible": true,
+          "imagen": "//acdn-us.mitiendanube.com/stores/001/708/518/products/remera-raglan-foto-skate-mujer-1-2f4d73970c186e5ec717955609784206-1024-1024.webp"
+        },
+        {
+          "variant_id": 1645757592,
+          "sku": null,
+          "talle": "XL",
+          "color": null,
+          "opciones": "XL",
+          "precio": 80000,
+          "precio_tachado": null,
+          "stock": 7,
+          "disponible": true,
+          "imagen": "//acdn-us.mitiendanube.com/stores/001/708/518/products/remera-raglan-foto-skate-mujer-1-2f4d73970c186e5ec717955609784206-1024-1024.webp"
+        }
+      ]
+    },
+    {
       "product_id": 346858527,
       "url": "https://sh-aka.com.ar/productos/sk8-windbreaker-jacket-t80b9/",
       "nombre": "SK8 WINDBREAKER JACKET",
@@ -20631,6 +21600,71 @@
           "stock": 0,
           "disponible": false,
           "imagen": "//acdn-us.mitiendanube.com/stores/001/708/518/products/artboard-34-6343ef36d3ab0e8e9c17810442637273-1024-1024.webp"
+        }
+      ]
+    },
+    {
+      "product_id": 383160626,
+      "url": "https://sh-aka.com.ar/productos/squared-boardshort-1q5h0/",
+      "nombre": "SQUARED BOARDSHORT - PRE-VENTA (entrega a partir del 20/12)",
+      "marca": "Shaka Cmmnty",
+      "descripcion": "- PRE-VENTA (entrega a partir del 20/12) Boardshort de microfibra con spandex pesada. Estampa cuadrillé. Bolsillo con tapa. Corte: 3/4 surfer fit. Secado rapido. Hecho en Argentina x argentinos. El mide 1,84 y usa talle L Ella mide 1,62 y usa talle S",
+      "imagenes": [
+        "//acdn-us.mitiendanube.com/stores/001/708/518/products/boardshort-cuadros-rosa-hombre-1-1da18943a645063dd817955607275865-1024-1024.webp",
+        "//acdn-us.mitiendanube.com/stores/001/708/518/products/boardshort-cuadros-rosa-hombre-detalle-972a5e299baa05d56b17955607275862-1024-1024.webp",
+        "//acdn-us.mitiendanube.com/stores/001/708/518/products/boardshort-cuadros-rosa-detalle-espalda-jpg-792bf7e0f80be8fb9417955628153792-1024-1024.webp",
+        "//acdn-us.mitiendanube.com/stores/001/708/518/products/boardshort-cuadros-rosa-mujer-2-f93e02cb98ebdfa22317955627989773-1024-1024.webp",
+        "//acdn-us.mitiendanube.com/stores/001/708/518/products/boardshort-cuadros-rosa-mujer-1-d8ee5fc0296fc61f8b17955607275995-1024-1024.webp",
+        "//acdn-us.mitiendanube.com/stores/001/708/518/products/boardshort-cuadros-rosa-hombre-2-jpg-e36ca8d3bbe0143f7c17955628537862-1024-1024.webp"
+      ],
+      "variantes": [
+        {
+          "variant_id": 1645758140,
+          "sku": null,
+          "talle": "S",
+          "color": null,
+          "opciones": "S",
+          "precio": 100000,
+          "precio_tachado": null,
+          "stock": 41,
+          "disponible": true,
+          "imagen": "//acdn-us.mitiendanube.com/stores/001/708/518/products/boardshort-cuadros-rosa-hombre-1-1da18943a645063dd817955607275865-1024-1024.webp"
+        },
+        {
+          "variant_id": 1645758143,
+          "sku": null,
+          "talle": "M",
+          "color": null,
+          "opciones": "M",
+          "precio": 100000,
+          "precio_tachado": null,
+          "stock": 84,
+          "disponible": true,
+          "imagen": "//acdn-us.mitiendanube.com/stores/001/708/518/products/boardshort-cuadros-rosa-hombre-1-1da18943a645063dd817955607275865-1024-1024.webp"
+        },
+        {
+          "variant_id": 1645758144,
+          "sku": null,
+          "talle": "L",
+          "color": null,
+          "opciones": "L",
+          "precio": 100000,
+          "precio_tachado": null,
+          "stock": 83,
+          "disponible": true,
+          "imagen": "//acdn-us.mitiendanube.com/stores/001/708/518/products/boardshort-cuadros-rosa-hombre-1-1da18943a645063dd817955607275865-1024-1024.webp"
+        },
+        {
+          "variant_id": 1645758145,
+          "sku": null,
+          "talle": "XL",
+          "color": null,
+          "opciones": "XL",
+          "precio": 100000,
+          "precio_tachado": null,
+          "stock": 41,
+          "disponible": true,
+          "imagen": "//acdn-us.mitiendanube.com/stores/001/708/518/products/boardshort-cuadros-rosa-hombre-1-1da18943a645063dd817955607275865-1024-1024.webp"
         }
       ]
     },
@@ -23472,6 +24506,71 @@
           "stock": 0,
           "disponible": false,
           "imagen": "//acdn-us.mitiendanube.com/stores/001/708/518/products/ngsrd-dd56e8cedf3bf3039117132130127089-1024-1024.webp"
+        }
+      ]
+    },
+    {
+      "product_id": 383160645,
+      "url": "https://sh-aka.com.ar/productos/surfer-boardshort-1sacb/",
+      "nombre": "SURFER BOARDSHORT - PRE-VENTA (entrega a partir del 20/12)",
+      "marca": "Shaka Cmmnty",
+      "descripcion": "- PRE-VENTA (entrega a partir del 20/12) Boardshort de microfibra con spandex pesada. Sublimado. Atraques con velcro y tirantes para atar. Bolsillo con diseño. Corte: 3/4 surfer fit. Secado rapido. Hecho en Argentina x argentinos. El mide 1,84 y usa talle L Ella mide 1,62 y usa talle S",
+      "imagenes": [
+        "//acdn-us.mitiendanube.com/stores/001/708/518/products/boardshort-sunset-hombre-1-5fea7cc99e0fb6f76917955606863470-1024-1024.webp",
+        "//acdn-us.mitiendanube.com/stores/001/708/518/products/boardshort-sunset-mujer-detalle-a9f5f1d3ea364cf55517955606860651-1024-1024.webp",
+        "//acdn-us.mitiendanube.com/stores/001/708/518/products/boardshort-sunset-mujer-2-55ac8b32271e0823df17955606866317-1024-1024.webp",
+        "//acdn-us.mitiendanube.com/stores/001/708/518/products/boardshort-sunset-mujer-1-e6b66a151bad29098e17955606858050-1024-1024.webp",
+        "//acdn-us.mitiendanube.com/stores/001/708/518/products/boardshort-sunset-hombre-3-58ebb325063209bba717955606864621-1024-1024.webp",
+        "//acdn-us.mitiendanube.com/stores/001/708/518/products/boardshort-sunset-hombre-2-4ce85cf707c616640717955606864515-1024-1024.webp"
+      ],
+      "variantes": [
+        {
+          "variant_id": 1645758171,
+          "sku": null,
+          "talle": "S",
+          "color": null,
+          "opciones": "S",
+          "precio": 100000,
+          "precio_tachado": null,
+          "stock": 50,
+          "disponible": true,
+          "imagen": "//acdn-us.mitiendanube.com/stores/001/708/518/products/boardshort-sunset-hombre-1-5fea7cc99e0fb6f76917955606863470-1024-1024.webp"
+        },
+        {
+          "variant_id": 1645758175,
+          "sku": null,
+          "talle": "M",
+          "color": null,
+          "opciones": "M",
+          "precio": 100000,
+          "precio_tachado": null,
+          "stock": 100,
+          "disponible": true,
+          "imagen": "//acdn-us.mitiendanube.com/stores/001/708/518/products/boardshort-sunset-hombre-1-5fea7cc99e0fb6f76917955606863470-1024-1024.webp"
+        },
+        {
+          "variant_id": 1645758179,
+          "sku": null,
+          "talle": "L",
+          "color": null,
+          "opciones": "L",
+          "precio": 100000,
+          "precio_tachado": null,
+          "stock": 100,
+          "disponible": true,
+          "imagen": "//acdn-us.mitiendanube.com/stores/001/708/518/products/boardshort-sunset-hombre-1-5fea7cc99e0fb6f76917955606863470-1024-1024.webp"
+        },
+        {
+          "variant_id": 1645758181,
+          "sku": null,
+          "talle": "XL",
+          "color": null,
+          "opciones": "XL",
+          "precio": 100000,
+          "precio_tachado": null,
+          "stock": 49,
+          "disponible": true,
+          "imagen": "//acdn-us.mitiendanube.com/stores/001/708/518/products/boardshort-sunset-hombre-1-5fea7cc99e0fb6f76917955606863470-1024-1024.webp"
         }
       ]
     },
