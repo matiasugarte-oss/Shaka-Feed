@@ -1,0 +1,88 @@
+name: Agregar tienda
+
+on:
+  workflow_dispatch:
+    inputs:
+      url:
+        description: "Link de la tienda (cualquier página sirve)"
+        required: true
+        type: string
+      accion:
+        description: "Qué hacer"
+        required: true
+        default: "agregar"
+        type: choice
+        options: [agregar, pausar, reactivar, eliminar]
+      moneda:
+        description: "Moneda (opcional: UYU, ARS, CLP, COP, USD...). Si la dejás vacía se deduce del dominio"
+        required: false
+        type: string
+      nombre:
+        description: "Nombre de la tienda (opcional)"
+        required: false
+        type: string
+      marca:
+        description: "Marca de los productos (opcional)"
+        required: false
+        type: string
+      feed_nativo:
+        description: "Link del feed nativo de la tienda, para comparar (opcional)"
+        required: false
+        type: string
+
+permissions:
+  contents: write
+
+concurrency:
+  group: feeds            # el mismo grupo que la actualización horaria: nunca corren a la vez
+  cancel-in-progress: false
+
+jobs:
+  tienda:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v5
+
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+
+      - run: pip install requests beautifulsoup4
+
+      - name: Actualizar la lista de tiendas
+        id: tienda
+        env:
+          ACCION: ${{ inputs.accion }}
+          URL_TIENDA: ${{ inputs.url }}
+          MONEDA: ${{ inputs.moneda }}
+          NOMBRE: ${{ inputs.nombre }}
+          MARCA: ${{ inputs.marca }}
+          FEED_NATIVO: ${{ inputs.feed_nativo }}
+        run: python agregar_tienda.py
+
+      - name: Generar el feed
+        if: steps.tienda.outputs.generar == 'si'
+        run: python -u feeds.py "${{ steps.tienda.outputs.slug }}"
+
+      - name: Resultado
+        if: steps.tienda.outputs.generar == 'si'
+        run: python agregar_tienda.py --resumen "${{ steps.tienda.outputs.slug }}"
+
+      - name: Guardar cambios
+        run: |
+          git config user.name "feed-bot"
+          git config user.email "feed-bot@users.noreply.github.com"
+          git add -A tiendas.json feeds datos index.html
+          git diff --cached --quiet && exit 0
+          git commit -m "tienda: ${{ inputs.accion }} ${{ steps.tienda.outputs.slug }}"
+          git pull --rebase -X ours || true
+          git push
+
+      - name: Avisar si hay errores graves nuevos
+        run: |
+          if [ -s feeds/alertas.txt ]; then
+            echo "::error::Errores graves nuevos en los feeds (detalle en el resumen de esta corrida):"
+            cat feeds/alertas.txt
+            exit 1
+          fi

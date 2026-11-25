@@ -1,0 +1,46 @@
+name: Actualizar feeds
+
+on:
+  schedule:
+    - cron: "17 * * * *"   # una vez por hora, al minuto :17 (UTC)
+  workflow_dispatch:        # permite correrlo a mano desde la pestaña Actions
+
+permissions:
+  contents: write
+
+concurrency:
+  group: feeds
+  cancel-in-progress: false
+
+jobs:
+  feeds:
+    runs-on: ubuntu-latest
+    timeout-minutes: 50
+    steps:
+      - uses: actions/checkout@v5
+
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+
+      - run: pip install requests beautifulsoup4
+
+      - run: python -u feeds.py
+
+      - name: Guardar feeds si cambiaron
+        run: |
+          git config user.name "feed-bot"
+          git config user.email "feed-bot@users.noreply.github.com"
+          git add feeds datos index.html
+          git diff --cached --quiet && exit 0
+          git commit -m "feeds: $(date -u +'%Y-%m-%d %H:%M')"
+          git pull --rebase -X ours || true
+          git push
+
+      - name: Avisar si hay errores graves nuevos
+        run: |
+          if [ -s feeds/alertas.txt ]; then
+            echo "::error::Errores graves nuevos en los feeds (detalle en el resumen de esta corrida):"
+            cat feeds/alertas.txt
+            exit 1
+          fi
